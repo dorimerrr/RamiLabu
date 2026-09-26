@@ -1,0 +1,237 @@
+﻿log=108 covered=91 pending=0 missing=17
+--- PENDING ---
+--- MISSING ---
+MISSING  <line-height=2.000em>ふらっと屋上に来てみると――
+MISSING  <line-height=2.000em>はぁー……風が気持ちいい……
+これなら、ぐっすり寝れそう……
+MISSING  <line-height=2.000em>こんなところで昼寝か？
+MISSING  <line-height=2.000em>んー？　昨日は遅くまで牛丼屋のバイトが入っててさ……
+普段よりも睡眠時間足りないんだよね。
+MISSING  <line-height=2.000em>さすがに授業中やばくて……
+教室で居眠りするくらいなら、ここで昼寝するかなって。
+MISSING  <line-height=2.000em>んじゃ、俺も一緒に寝るか！
+適度な昼寝は健康にもいいらしいからな。
+MISSING  <line-height=2.000em>は？　なんでラミの隣に……
+MISSING  <line-height=2.000em>まあいいじゃないか。
+一緒に寝るのに、離れてるのも変だろ？
+MISSING  <line-height=2.000em>てか、まず一緒に寝ていいとか別に言ってないし。
+せめて１００メートルは離れろ。
+MISSING  <line-height=2.000em>それだと俺ここから落ちて永眠するんだけど？
+MISSING  <line-height=2.000em>いいじゃん、熟睡できて――って、無理やり隣くんな！
+他の人の見られたら、誤解されるでしょ！？
+MISSING  <line-height=2.000em>ぐがー……ぐぉー……
+MISSING  <line-height=2.000em>……って、えぇ……もう寝てる……早すぎでしょ。
+MISSING  <line-height=2.000em>……まあ、ちょっとくらいなら、いいか。
+こいつ枕にしてやろ。
+MISSING  <line-height=2.000em>そうして、俺たち二人で屋上でぐっすりと眠るのだった。
+MISSING  <size=40>親愛度 Lv.</size> <size=75>1</size>    <sprite name="right_arrow" color=#ff701a><sprite name="right_arrow" color=#ff701a><sprite name="right_arrow" color=…
+MISSING  月ヶ瀬ちゆる「紙一重なメイズオタク」 <size=30><color=#6a8181>@Chiyuru_T</color><space=1.5em>月ヶ瀬ちゆる「紙一重なメイズオタク」 <size=30><color=#6a8181>@Chiyuru_T</color><space=1.5em>月ヶ瀬ちゆる「紙一重なメ…
+--- RESOLVED ---
+1st ANIV.7DAYSミッションポイントを15獲得する
+    => Earn 15 1st ANIV.7DAYS Mission Points
+いずれかの学園レベルの強化を1回行う
+    => Enhance any Academy Level 1 time(s)
+トレーニングレポート
+    => Training Report
+<sprite name=wing_pink_left> 総合シミュレートSTAGE12クリアで解放 <sprite name=wing_pink_right>
+    => <sprite name=wing_pink_left> Unlocked by clearing Total Simulate STAGE 12 <sprite name=wing_pink_right>
+<line-height=2.000em>学園内の生徒たちと共に挑む一大作戦。\n全ワールドの指揮官たちと協力して数々のボスを制圧しよう！
+    => <line-height=2.000em>Take on a grand operation alongside your Academy students.\nTeam up with commanders from every world to bring down boss after boss!
+<line-height=2.000em>編成を最適化して、高スコアを狙おう。\n戦術演習記録を集めて交換所でモジュール強化素材を獲得しよう。
+    => <line-height=2.000em>Optimize your formation and aim for a high score.\nCollect Tactical Drill Records and trade them at the exchange for module enhancement materials.
+<line-height=2.000em>潜る度にランダムな構成の戦闘とイベントで進行します。\nキャラクターのスキルレベル成長アイテムを獲得できます。
+    => <line-height=2.000em>Each dive runs through randomly generated battles and events.\nYou can earn items that raise character skill levels.
+<line-height=2.000em>メインクエストを進行する事でメインシナリオが進行されます。\nクエストクリアによって指揮官ランク・採掘レベルが上がります。
+    => <line-height=2.000em>Advancing the Main Quest progresses the Main Scenario.\nClearing quests raises your Commander Rank and Mining Level.
+<line-height=2.000em>指揮官たちと強さを競い合おう！\nランクに応じて報酬を獲得できます。
+    => <line-height=2.000em>Compete with your fellow commanders!\nYou can earn rewards based on your rank.
+<line-height=2.000em>隙間時間を使って様々なアイテムを獲得しよう。\n毎日活動する事を忘れずに！
+    => <line-height=2.000em>Use your spare time to earn all kinds of items.\nDon't forget to stay active every day!
+学園スポット
+    => Academy Spot
+更新まで<size=36>19時間</size>
+    => Updates in <size=36>19h</size>
+今日の残り回数 <color=#0096ff>5</color>/5
+    => Attempts left today <color=#0096ff>5</color>/5
+設定済み <color=#3c4346>3</color>/3
+    => Configured <color=#3c4346>3</color>/3
+柊校区
+    => Hiiragi Campus
+所属が「Hiiragi School Building」のキャラ所持で解放
+    => Unlocked by owning a character affiliated with “Hiiragi School Building”
+スカラ校区
+    => Scalar Campus
+所属が「Scalar School Building」のキャラ所持で解放
+    => Unlocked by owning a character affiliated with “Scalar School Building”
+ユーロ・タワー校区
+    => Euro Tower Campus
+所属が「Euro Tower」のキャラ所持で解放
+    => Unlocked by owning a character affiliated with “Euro Tower”
+特別養成校舎
+    => Special Training School Building
+所属が「Special Training School Building」のキャラ所持で解放
+    => Unlocked by owning a character affiliated with “Special Training School Building”
+ＬＯＣ校区
+    => LOC Campus
+所属が「ＬＯＣ」のキャラ所持で解放
+    => Unlocked by owning a character affiliated with “LOC”
+ゾリャー校区
+    => Zorya Campus
+所属が「Zorya School Building」のキャラ所持で解放
+    => Unlocked by owning a character affiliated with “Zorya School Building”
+アマツ地区の文化を基盤とした校区。主となるエリアには柊校舎の他、飲食店や商店、住宅もまとまっていて過ごしやすい。柊校舎は様々な設備が用意されていて、不便を感じない文化的な生活を送ることができる。
+    => A campus built on the culture of the Amatsu district. Its main area gathers the Hiiragi School Building together with restaurants, shops and housing, making it a comfortable place to live. The Hiiragi School Building is fitted with all kinds of facilities, so students can lead a cultured life without ever feeling inconvenienced.
+<sprite name=wing_blue_left>デート<sprite name=wing_blue_right>
+    => <sprite name=wing_blue_left>Date<sprite name=wing_blue_right>
+エピソードスキップ
+    => Skip Episode
+選択した生徒とデートしますか？
+    => Go on a date with the selected student?
+UNRESOLVED  <line-height=2.000em>ふらっと屋上に来てみると――
+<color=#ffbcd6>シリウスシュガー</material></color>
+    => <color=#ffbcd6>Sirius Sugar</material></color>
+UNRESOLVED  <line-height=2.000em>はぁー……風が気持ちいい……
+これなら、ぐっすり寝れそう……
+ラミ
+    => Rami
+<color=#ff5858>生徒会</material></color>
+    => <color=#ff5858>Student Council</material></color>
+UNRESOLVED  <line-height=2.000em>こんなところで昼寝か？
+UNRESOLVED  <line-height=2.000em>んー？　昨日は遅くまで牛丼屋のバイトが入っててさ……
+普段よりも睡眠時間足りないんだよね。
+UNRESOLVED  <line-height=2.000em>さすがに授業中やばくて……
+教室で居眠りするくらいなら、ここで昼寝するかなって。
+UNRESOLVED  <line-height=2.000em>んじゃ、俺も一緒に寝るか！
+適度な昼寝は健康にもいいらしいからな。
+UNRESOLVED  <line-height=2.000em>は？　なんでラミの隣に……
+UNRESOLVED  <line-height=2.000em>まあいいじゃないか。
+一緒に寝るのに、離れてるのも変だろ？
+UNRESOLVED  <line-height=2.000em>てか、まず一緒に寝ていいとか別に言ってないし。
+せめて１００メートルは離れろ。
+UNRESOLVED  <line-height=2.000em>それだと俺ここから落ちて永眠するんだけど？
+UNRESOLVED  <line-height=2.000em>いいじゃん、熟睡できて――って、無理やり隣くんな！
+他の人の見られたら、誤解されるでしょ！？
+UNRESOLVED  <line-height=2.000em>ぐがー……ぐぉー……
+UNRESOLVED  <line-height=2.000em>……って、えぇ……もう寝てる……早すぎでしょ。
+UNRESOLVED  <line-height=2.000em>……まあ、ちょっとくらいなら、いいか。
+こいつ枕にしてやろ。
+今日の残り回数 <color=#0096ff>4</color>/5
+    => Attempts left today <color=#0096ff>4</color>/5
+UNRESOLVED  <line-height=2.000em>そうして、俺たち二人で屋上でぐっすりと眠るのだった。
+<sprite name=wing_pink_left>親愛度 +10<sprite name=wing_pink_right>
+    => <sprite name=wing_pink_left>Affection +10<sprite name=wing_pink_right>
+UNRESOLVED  <size=40>親愛度 Lv.</size> <size=75>1</size>    <sprite name="right_arrow" color=#ff701a><sprite name="right_arrow" color=#ff701a><sprite name="right_arrow" color=…
+学園
+    => Academy
+個別
+    => Individual
+＠Rami_K\n说起来，之前看到拉米酱在图书馆呢。\n你经常去吗？
+    => ＠Rami_K\nSpeaking of which, I saw Rami-chan in the library the other day.\nDo you go there often?
+＠Chiyuru_T\n不用花钱就能看书，\n所以我经常借来打发时间。\n图书馆里也有些只有纸质版的书。
+    => ＠Chiyuru_T\nYou can read without spending money,\nso I borrow books to pass the time.\nThe library even has some titles that only exist in print.
+拉米原来是爱读书的人吗
+    => So Rami has always been a book lover, huh
+不是去漫画咖啡店啊
+    => So it isn't the manga café, after all
+朽葉ラミ「お金大好きな生意気娘」 <size=30><color=#6a8181>@Rami_K</color>
+    => Kuchiba Rami “Money-Loving Cheeky Girl” <size=30><color=#6a8181>@Rami_K</color>
+月ヶ瀬ちゆる「紙一重なメイズオタク」 <size=30><color=#6a8181>@Chiyuru_T</color><space=1.5em>月ヶ瀬ちゆる「紙一重なメイズオタク」 <size=30><color=#6a8181>@Chiyuru_T</color>
+    => Tsukigase Chiyuru “A Hair's-Breadth Maze Otaku” <size=30><color=#6a8181>@Chiyuru_T</color><space=1.5em>Tsukigase Chiyuru “A Hair's-Breadth Maze Otaku” <size=30><color=#6a8181>@Chiyuru_T</color>
+<sprite name=wing_pink_left> コメントを選択してください <sprite name=wing_pink_right>
+    => <sprite name=wing_pink_left> Select a comment <sprite name=wing_pink_right>
+UNRESOLVED  月ヶ瀬ちゆる「紙一重なメイズオタク」 <size=30><color=#6a8181>@Chiyuru_T</color><space=1.5em>月ヶ瀬ちゆる「紙一重なメイズオタク」 <size=30><color=#6a8181>@Chiyuru_T</color><space=1.5em>月ヶ瀬ちゆる「紙一重なメ…
+＠T_Commander\n也没到爱读书那种程度啦。虽然读的数量确实不少。
+    => ＠T_Commander\nIt's not like I love reading that much. Though I do get through a fair number of books.
+＠Rami_K\n不过，拉米同学会读书这一点，\n我确实也觉得有些意外呢。
+    => ＠Rami_K\nStill, the fact that Rami-san reads\nhonestly surprised me a little.
+鳴滝七彩「器用貧乏なお嬢様リーダー」 <size=30><color=#6a8181>@Nanairo_N</color><space=1.5em>鳴滝七彩「器用貧乏なお嬢様リーダー」 <size=30><color=#6a8181>@Nanairo_N</color>
+    => Narutaki Nanairo “Jack-of-All-Trades Young Lady Leader” <size=30><color=#6a8181>@Nanairo_N</color><space=1.5em>Narutaki Nanairo “Jack-of-All-Trades Young Lady Leader” <size=30><color=#6a8181>@Nanairo_N</color>
+＠Nanairo_N\n连七彩都这么说吗！？
+    => ＠Nanairo_N\nEven Nanairo says that!?
+不过仔细想想，我确实没见过\n拉米同学读书的样子……
+    => Now that I think about it, I really have never seen\nRami-san reading...
+桃園める「ドジで純粋な未来のエース」 <size=30><color=#6a8181>@Meru_M</color><space=1.5em>桃園める「ドジで純粋な未来のエース」 <size=30><color=#6a8181>@Meru_M</color>
+    => Momozono Meru “Clumsy, Pure Future Ace” <size=30><color=#6a8181>@Meru_M</color><space=1.5em>Momozono Meru “Clumsy, Pure Future Ace” <size=30><color=#6a8181>@Meru_M</color>
+嗯，没见过。
+    => Right, never seen it.
+……まあ，我不喜欢被人看到。\n基本都是在房间或没人注意的地方看。
+    => ...Well, I don't like being watched.\nI mostly read in my room or somewhere nobody notices.
+一条白奈「ミステリアスガール」 <size=30><color=#6a8181>@Shirona_I</color>
+    => Ichijo Shirona “Mysterious Girl” <size=30><color=#6a8181>@Shirona_I</color>
+＠Rami_K\n然而成绩却不太看得出成果，\n这就是拉米酱。
+    => ＠Rami_K\nAnd yet it never really shows in her grades.\nThat's Rami-chan for you.
+＠Chiyuru_T\n说好不提这个的！！
+    => ＠Chiyuru_T\nWe agreed not to bring that up!!
+メモリー詳細
+    => Memory Details
+戦闘開始時に発動。朽葉ラミのHPを1500上昇させる
+    => Triggers at battle start. Raises Kuchiba Rami's HP by 1500
+戦闘開始時に発動。敵後衛の行動速度を7下降させる
+    => Triggers at battle start. Back-row enemies lose 7 Action Speed
+<color=#a0a9c9>攻撃 </color><color=#a0a9c9>補助 </color><color=#a0a9c9>回復 </color><color=#ffffff>妨害</color>
+    => <color=#a0a9c9>Offense </color><color=#a0a9c9>Support </color><color=#a0a9c9>Heal </color><color=#ffffff>Debuff</color>
+シリウスシュガー生徒たちの親愛度を合計で45上げる<space=1.5em>シリウスシュガー生徒たちの親愛度を合計で45上げる
+    => Raise the Sirius Sugar students' total Affection by 45<space=1.5em>Raise the Sirius Sugar students' total Affection by 45
+カラフルブーケ生徒たちの親愛度を合計で45上げる<space=1.5em>カラフルブーケ生徒たちの親愛度を合計で45上げる
+    => Raise the Colorful Bouquet students' total Affection by 45<space=1.5em>Raise the Colorful Bouquet students' total Affection by 45
+カオスメイデン生徒たちの親愛度を合計で45上げる<space=1.5em>カオスメイデン生徒たちの親愛度を合計で45上げる
+    => Raise the Chaos Maiden students' total Affection by 45<space=1.5em>Raise the Chaos Maiden students' total Affection by 45
+ピクシス・マスール生徒たちの親愛度を合計で45上げる<space=1.5em>ピクシス・マスール生徒たちの親愛度を合計で45上げる
+    => Raise the Pyxis Ma Soeur students' total Affection by 45<space=1.5em>Raise the Pyxis Ma Soeur students' total Affection by 45
+トレブルクインテット生徒たちの親愛度を合計で45上げる<space=1.5em>トレブルクインテット生徒たちの親愛度を合計で45上げる
+    => Raise the Treble Quintet students' total Affection by 45<space=1.5em>Raise the Treble Quintet students' total Affection by 45
+アグレッシブバトルシミュレートSTAGE1をクリアする<space=1.5em>アグレッシブバトルシミュレートSTAGE1をクリアする
+    => Clear the Aggressive Battle Simulate STAGE 1<space=1.5em>Clear the Aggressive Battle Simulate STAGE 1
+キュートバトルシミュレートSTAGE1をクリアする<space=1.5em>キュートバトルシミュレートSTAGE1をクリアする
+    => Clear the Cute Battle Simulate STAGE 1<space=1.5em>Clear the Cute Battle Simulate STAGE 1
+スマートバトルシミュレートSTAGE1をクリアする<space=1.5em>スマートバトルシミュレートSTAGE1をクリアする
+    => Clear the Smart Battle Simulate STAGE 1<space=1.5em>Clear the Smart Battle Simulate STAGE 1
+シャイバトルシミュレートSTAGE1をクリアする
+    => Clear the Shy Battle Simulate STAGE 1
+いずれかの学園レベルの強化を3回行う
+    => Enhance any Academy Level 3 time(s)
+イベント「ザルトゥーム総力戦」に3回挑戦する
+    => Take on the “Zartum All-Out War” event 3 times
+イベント「ザルトゥーム総力戦」に5回挑戦する
+    => Take on the “Zartum All-Out War” event 5 times
+いずれかのモジュールのランクアップを1回行う
+    => Rank up any module 1 time(s)
+イベント「ザルトゥーム総力戦」に8回挑戦する
+    => Take on the “Zartum All-Out War” event 8 times
+イベント「ザルトゥーム総力戦」に10回挑戦する
+    => Take on the “Zartum All-Out War” event 10 times
+いずれかのモジュールのランクアップを3回行う
+    => Rank up any module 3 time(s)
+いずれかのキャラクターのレベルを20にする
+    => Raise any character to level 20
+プロフィールアイコンを設定する
+    => Set a profile icon
+お気に入りキャラクターを設定する
+    => Set a favorite character
+いずれかのキャラクターのレベルを40にする
+    => Raise any character to level 40
+いずれかのキャラクターのスキルレベルを3にする
+    => Raise any character's skill level to 3
+いずれかのキャラクターのスキルレベルを5にする
+    => Raise any character's skill level to 5
+いずれかのキャラクターのレベルを60にする
+    => Raise any character to level 60
+レベルリンクにキャラクターをセットする
+    => Set a character in the Level Link
+いずれかのキャラクターのレベルを80にする
+    => Raise any character to level 80
+サークルに所属する
+    => Join a Circle
+サークルメンバーにフレンド申請を送る
+    => Send a friend request to a Circle member
+サポートキャラクターを設定する
+    => Set a support character
+いずれかの戦術演習に3回挑戦する
+    => Take on any Tactical Drill 3 time(s)
+いずれかの属性シミュレート10をクリアする
+    => Clear any Element Simulate 10
+いずれかのキャラクターのレベルを90にする
+    => Raise any character to level 90
+ホーム設定
+    => Home Settings
+scene file entries=22 empty=0

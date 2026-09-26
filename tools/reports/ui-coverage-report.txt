@@ -1,0 +1,174 @@
+COVERED  【1回限定】ウェルカムSSRガチャチケットパック => [One-Time] Welcome SSR Gacha Ticket Pack
+COVERED  【学園スポット】が解放されました！ => [Academy Spot] unlocked!
+COVERED  <color=#a0a9c9>攻撃 </color><color=#ffffff>補助 </color><color=#a0a9c9>回復 </color><color=#a0a9c9>妨害</color> => <color=#a0a9c9>Offense </color><color=#ffffff>Support </color><color=#a0a9c9>Heal </color><color=#a0a9c9>Debuff</color>
+COVERED  <line-height=2.000em>ステージクリアで獲得するライセンスを使ってキャラをゲット。\nさらにクリアで指揮官ランク・採掘レベルが上がります。 => <line-height=2.000em>Spend the licenses earned by clearing stages to get characters.\nClearing stages also raises your Commander Rank and Mining Level.
+COVERED  <line-height=2.000em>メインクエストを進行する事でメインシナリオが進行されます。\nクエストクリアによって指揮官ランク・採掘レベルが上がります。 => <line-height=2.000em>Advancing the Main Quest progresses the Main Scenario.\nClearing quests raises your Commander Rank and Mining Level.
+MISSING  <line-height=2.000em>学園内の生徒たちと共に挑む一大作戦。\n全ワールドの指揮官たちと協力して数々のボスを制圧しよう！
+MISSING  <line-height=2.000em>潜る度にランダムな構成の戦闘とイベントで進行します。\nキャラクターのスキルレベル成長アイテムを獲得できます。
+COVERED  <size=100>前衛</size> => <size=100>Vanguard</size>
+COVERED  <size=26>戦闘力</size><LF>3,773 => <size=26>Battle Power</size><LF>3,773
+COVERED  <size=26>戦闘力</size><LF>4,035 => <size=26>Battle Power</size><LF>4,035
+COVERED  <size=26>戦闘力</size><LF>4,407 => <size=26>Battle Power</size><LF>4,407
+COVERED  <size=26>戦闘力</size><LF>4,783 => <size=26>Battle Power</size><LF>4,783
+COVERED  <size=26>戦闘力</size><LF>5,088 => <size=26>Battle Power</size><LF>5,088
+COVERED  <size=26>戦闘力</size><LF>5,372 => <size=26>Battle Power</size><LF>5,372
+COVERED  <size=26>戦闘力</size><LF>5,442 => <size=26>Battle Power</size><LF>5,442
+COVERED  <size=26>戦闘力</size><LF>5,450 => <size=26>Battle Power</size><LF>5,450
+COVERED  <size=26>戦闘力</size><LF>5,598 => <size=26>Battle Power</size><LF>5,598
+COVERED  <size=26>戦闘力</size><LF>5,678 => <size=26>Battle Power</size><LF>5,678
+COVERED  <size=26>戦闘力</size><LF>6,110 => <size=26>Battle Power</size><LF>6,110
+COVERED  <size=26>戦闘力</size><LF>6,238 => <size=26>Battle Power</size><LF>6,238
+COVERED  <size=26>戦闘力</size><LF>6,307 => <size=26>Battle Power</size><LF>6,307
+COVERED  <size=26>戦闘力</size><LF>8,806 => <size=26>Battle Power</size><LF>8,806
+COVERED  <size=26>戦闘力</size><LF>8,885 => <size=26>Battle Power</size><LF>8,885
+COVERED  <size=26>戦闘力</size><LF>8,974 => <size=26>Battle Power</size><LF>8,974
+COVERED  <size=26>戦闘力</size><LF>9,362 => <size=26>Battle Power</size><LF>9,362
+COVERED  <size=26>戦闘力</size><LF>9,497 => <size=26>Battle Power</size><LF>9,497
+COVERED  <sprite name=wing_blue_left>Achievement Missionsを達成しました！ => <sprite name=wing_blue_left>Achievement Missions completed!
+COVERED  <sprite name=wing_blue_left>Campaign Missionsを達成しました！ => <sprite name=wing_blue_left>Campaign Missions completed!
+COVERED  <sprite name=wing_blue_left>Weekly Missionsを達成しました！ => <sprite name=wing_blue_left>Weekly Missions completed!
+COVERED  <sprite name=wing_blue_left>お知らせ<sprite name=wing_blue_right> => <sprite name=wing_blue_left>Notices<sprite name=wing_blue_right>
+COVERED  <sprite name=wing_blue_left>機能解放<sprite name=wing_blue_right> => <sprite name=wing_blue_left>Feature Unlocked<sprite name=wing_blue_right>
+COVERED  <sprite name=wing_pink_left> ミッションが解放されていません <sprite name=wing_pink_right> => <sprite name=wing_pink_left> No missions unlocked <sprite name=wing_pink_right>
+COVERED  <sprite name=wing_pink_left> 戦術演習のNORMALクリアで解放 <sprite name=wing_pink_right> => <sprite name=wing_pink_left> Unlocked by clearing Tactical Drills on NORMAL <sprite name=wing_pink_right>
+COVERED  21人入ってます => 21 people inside
+COVERED  3日 => 3 days
+COVERED  9月マンスリーログインボーナス => September Monthly Login Bonus
+COVERED  EXTRA CHARACTERピックアップガチャ【オルガ＆ナージャ】開催！ => EXTRA CHARACTER Pickup Gacha [Olga & Nadja] Now On!
+COVERED  VIPランク3に到達する => Reach VIP Rank 3
+COVERED  アーマー・ジャム => Armor Jam
+COVERED  アーマークラッシュ => Armor Crush
+COVERED  アイテム一覧へ => To the Item List
+MISSING  アグレッシブバトルシミュレートSTAGE1をクリアする<space=1.5em>アグレッシブバトルシミュレートSTAGE1をクリアする
+COVERED  アナライズチェイス => Analyze Chase
+COVERED  イグナイト => Ignite
+COVERED  いずれかのキャラクターのスキルを5回強化する => Enhance any character's skills 5 times
+COVERED  いずれかのモジュールの強化を1回行う => Enhance any module 1 time(s)
+COVERED  いずれかの交換所でアイテムを1回交換する => Exchange items at any exchange 1 time(s)
+COVERED  いずれかの交換所でアイテムを5回交換する => Exchange items at any exchange 5 time(s)
+COVERED  いずれかの生徒のレアリティをLR+1にする => Raise any student to LR+1
+COVERED  いずれかの生徒のレアリティをLR+2にする => Raise any student to LR+2
+COVERED  いずれかの生徒のレアリティをLR+3にする => Raise any student to LR+3
+COVERED  いずれかの生徒のレアリティをLR+4にする => Raise any student to LR+4
+COVERED  いずれかの生徒のレアリティをLR+5にする => Raise any student to LR+5
+COVERED  いずれかの生徒のレアリティをSSR+にする => Raise any student to SSR+
+COVERED  いずれかの生徒のレアリティをUR+にする => Raise any student to UR+
+COVERED  いずれかの生徒のレアリティをURにする => Raise any student to UR
+COVERED  いずれかの生徒を1人レアリティをLRにする => Raise one student to LR
+COVERED  イベント「自由への意志」に5回挑戦する => Take on the “Will to Freedom” event 5 times
+COVERED  イベント期間中にゲームに3日ログインする => Log in for 3 days during the event
+COVERED  インフォメーション => Information
+COVERED  ウィークリーミッションポイントを60獲得する => Earn 60 Weekly Mission Points
+COVERED  カオスキャノン => Chaos Cannon
+COVERED  カオスメイデン生徒たちの親愛度を合計で45上げる<space=1.5em>カオスメイデン生徒たちの親愛度を合計で45上げる => Raise the Chaos Maiden students' total Affection by 45<space=1.5em>Raise the Chaos Maiden students' total Affection by 45
+COVERED  カラフルブーケ生徒たちの親愛度を合計で45上げる<space=1.5em>カラフルブーケ生徒たちの親愛度を合計で45上げる => Raise the Colorful Bouquet students' total Affection by 45<space=1.5em>Raise the Colorful Bouquet students' total Affection by 45
+COVERED  ギアカスタムを3回行う => Do 3 Gear Customs
+COVERED  キャプチャスラッシュ => Capture Slash
+MISSING  キュートバトルシミュレートSTAGE1をクリアする<space=1.5em>キュートバトルシミュレートSTAGE1をクリアする
+COVERED  クアッドエッジ => Quad Edge
+COVERED  クエスト準備 => Quest Prep
+COVERED  クラスナ生徒たちの親愛度を合計で45上げる => Raise the Krasna students total Affection by 45
+COVERED  クロス・クラッシュ => Cross Crash
+COVERED  ゲームに3日ログインする => Log in for 3 days
+COVERED  コンテナを使用して強化アイテムを獲得しよう！ => Use containers to earn enhancement items!
+COVERED  サイケビーム => Psyche Beam
+COVERED  シナリオ再生 => Replay Scenario
+MISSING  シャイバトルシミュレートSTAGE1をクリアする
+COVERED  シリウスシュガー生徒たちの親愛度を合計で45上げる<space=1.5em>シリウスシュガー生徒たちの親愛度を合計で45上げる => Raise the Sirius Sugar students' total Affection by 45<space=1.5em>Raise the Sirius Sugar students' total Affection by 45
+COVERED  スキルレポートⅠ選択ボックス => Skill Report I Selection Box
+COVERED  スキルレポートⅡ詰め合わせセット => Skill Report II Assortment Set
+COVERED  スタンサプレッション => Stun Suppression
+MISSING  スマートバトルシミュレートSTAGE1をクリアする<space=1.5em>スマートバトルシミュレートSTAGE1をクリアする
+COVERED  セントリストア => Saint Restore
+COVERED  デイリーミッションポイントを20獲得する => Earn 20 Daily Mission Points
+COVERED  デイリーミッションポイントを40獲得する => Earn 40 Daily Mission Points
+COVERED  デイリーミッションポイントを60獲得する => Earn 60 Daily Mission Points
+COVERED  デイリーミッションポイントを80獲得する => Earn 80 Daily Mission Points
+COVERED  トゲキャノン => Thorn Cannon
+COVERED  トライパルスショット => Tri-Pulse Shot
+COVERED  トリニティ・ジュエル生徒たちの親愛度を合計で27上げる<space=1.5em>トリニティ・ジュエル生徒たちの親愛度を合計で27上げる => Raise the Trinity Jewel students total Affection by 27<space=1.5em>Raise the Trinity Jewel students total Affection by 27
+COVERED  トレーニングレポート（1時間） => Training Report (1h)
+COVERED  トレブルクインテット生徒たちの親愛度を合計で45上げる<space=1.5em>トレブルクインテット生徒たちの親愛度を合計で45上げる => Raise the Treble Quintet students' total Affection by 45<space=1.5em>Raise the Treble Quintet students' total Affection by 45
+COVERED  ピクシス・マスール生徒たちの親愛度を合計で45上げる<space=1.5em>ピクシス・マスール生徒たちの親愛度を合計で45上げる => Raise the Pyxis Ma Soeur students' total Affection by 45<space=1.5em>Raise the Pyxis Ma Soeur students' total Affection by 45
+COVERED  ピコピコーン！<LF>学園スポットでは、生徒たちと学園都市の様々なエリアで<LF>会話を通して、親愛度を上げることができます！ => Ding-dong!<LF>At Academy Spots, chatting with students across the academy city<LF>raises their Affection!
+COVERED  ひっかく => Scratch
+COVERED  ブーストトリガー => Boost Trigger
+COVERED  プレゼンスリザルト => Presence Result
+COVERED  ヘドロボール => Sludge Ball
+COVERED  マッドブレイドオーバーロード => Mad Blade Overload
+EXCLUDED メイズ探索
+COVERED  メイズ探索エリア1をクリアする => Clear Maze Exploration Area 1
+COVERED  メインクエスト【NORMAL】 1-11 => Main Quest [NORMAL] 1-11
+COVERED  メインクエスト【NORMAL】 1-12 => Main Quest [NORMAL] 1-12
+COVERED  メインクエストHARD1章1-5をクリアする => Clear Main Quest HARD 1 (1-5)
+COVERED  メインクエストクリアやバトルシミュレートを<color=#fa3c8c>1回</color>クリアでLVアップ！ => Clear Main Quests or Battle Simulates <color=#fa3c8c>once</color> to level up!
+COVERED  メインクエストクリアやバトルシミュレートを<color=#fa3c8c>5回</color>クリアでLVアップ！ => Clear Main Quests or Battle Simulates <color=#fa3c8c>5 times</color> to level up!
+COVERED  モジュール => Modules
+COVERED  よわよわすぎ～♪ => Too weak, way too weak~
+COVERED  ランダムプレゼントボックス => Random Present Box
+COVERED  リベンジシュート => Revenge Shoot
+COVERED  レベルリンクがレベル200到達する => Level Link reaches level 200
+COVERED  不具合 => Issues
+COVERED  与ダメージアップ => DMG Dealt Up
+COVERED  与ダメージダウン => DMG Dealt Down
+COVERED  何してんのよ！ => What are you doing?!
+COVERED  公式MG競技のランク「ルーラー」でスコア500,000を達成する<space=1.5em>公式MG競技のランク「ルーラー」でスコア500,000を達成する => Score 500,000 in the Official MG Tournament at rank Ruler<space=1.5em>Score 500,000 in the Official MG Tournament at rank Ruler
+COVERED  出撃 => Sortie
+COVERED  前列：ステータス変動なし<LF>後列に配置すると<color=#00AAB9>HP/攻撃力/防御力-5%</color> => Front row: no stat changes<LF>Deploying in the back row: <color=#00AAB9>HP/ATK/DEF -5%</color>
+COVERED  前衛 => Vanguard
+COVERED  助けてあげよっか？ => Want me to help you?
+COVERED  回避 => Evasion
+COVERED  基本能力 => Base Stats
+COVERED  外殻強化 => Outer Shell Enhancement
+COVERED  失勢 => Falter
+COVERED  威力アップ => Potency Up
+COVERED  威力ダウン => Potency Down
+COVERED  学園スポットで10回デートを行う => Go on 10 dates at academy spots
+COVERED  学園スポットで1回デートを行う => Go on 1 dates at academy spots
+COVERED  学園スポットの解放条件を満たしました！ => Academy Spot unlock conditions met!
+COVERED  属性 => Element
+COVERED  復活効果 => Revival Effect
+COVERED  戦力 => Combat Power
+COVERED  戦闘開始時に発動。味方全体の物理攻撃で与えるダメージを1.75%上昇させる => Triggers at battle start. Physical DMG dealt by all allies rises by 1.75%
+EXCLUDED 指揮官
+COVERED  指揮官ランク => Commander Rank
+COVERED  採掘 => Mining
+COVERED  推測通り……だね♪ => Just as I predicted~
+COVERED  攻撃力アップ => ATK Up
+COVERED  攻撃力ダウン => ATK Down
+COVERED  新メインクエストイベント「自由への意志」開催！ => New Main Quest Event: “Will to Freedom” Now On!
+COVERED  暗闇 => Darkness
+COVERED  更新情報 => Updates
+COVERED  有償 <color=#ff1c0b>150</color> => Paid <color=#ff1c0b>150</color>
+COVERED  毒 => Poison
+COVERED  炎上 => Burn
+COVERED  獰猛化 => Ferocious State
+COVERED  生徒をレベルアップさせよう！ => Level up your students!
+COVERED  生徒を限界突破させよう！ => Limit Break your students!
+COVERED  生徒情報 => Student Info
+COVERED  生徒詳細へ => To Student Details
+COVERED  移動 => Move
+COVERED  行動速度アップ => Action Speed Up
+COVERED  課外活動を10回実施する => Do 10 extracurricular activities
+COVERED  課外活動を実施する => Do an extracurricular activity
+COVERED  通常 => Normal
+MISSING  那家伙丢下菈米大人在做什么啊？　到底跑哪儿去了……真是的……能不能快点回来啊……
+COVERED  配布日：2026/09/23 => Distributed: 2026/09/23
+COVERED  重要 => Important
+COVERED  防御力アップ => DEF Up
+COVERED  防御力ダウン => DEF Down
+COVERED  風紀委員会生徒たちの親愛度を合計で36上げる => Raise the Morals Committee students total Affection by 36
+
+PROBE    ワールド07-12 => World 07-12
+PROBE    33時間26分 => 33h 26m
+PROBE    あと1日2時間 => In 1d 2h
+PROBE    親愛度 Lv25 で解放 => Unlocked at Affection Lv25
+PROBE    有償 1500 => Paid 1500
+PROBE    メインクエストNORMAL2章3-14をクリアする => Clear Main Quest NORMAL Chapter 2 (3-14)
+PROBE    【解放条件】<LF>メインクエスト7-05をクリア => Unlock Requirement<LF>Clear Main Quest 7-05
+PROBE    あと１３日５時間 => In 13d 5h
+PROBE    第<color=#0096ff>2</color>エリア => Area <color=#0096ff>2</color>
+
+table: strings=344 templates=110
+filtered: skippedIdentity=0 skippedEmpty=0
+harvest=160 covered=151 missing=7 excluded=2

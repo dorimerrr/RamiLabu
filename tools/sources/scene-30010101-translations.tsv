@@ -1,0 +1,19 @@
+# Scenario lines for scene 30010101 (Maze 'Portal' tutorial episode)
+# Format: <index in scene-dump/30010101.json> <TAB> translation
+# '<LF>' becomes a real line break; the source lines use real line breaks, so they are mirrored here.
+# Index 003 keeps the %usernameusernameuserna% placeholder the master data uses for the player name.
+00	The Maze entrance――the “Portal”.<LF>Seeing it like this again, it's a huge place.
+01	Ding-dong!
+02	Of course it is! After all, an MG passes through here～!
+03	What are you doing in a place like this,<LF>%usernameusernameuserna%-san.
+04	Student Council President?
+05	You can't enter the Maze in the flesh, you know.
+06	I know. I still barely know anything about this academy,<LF>so I'm looking around the place.
+07	Everyone heads into Maze Exploration from here, right...<LF>to get Tatsumiya Ore.
+08	The more you dig, the more the students rake in～!<LF>The more you hand over to the academy, the bigger your rewards!
+09	That said, the assigned areas are fixed, so it's not as if<LF>you can dig as much as you like.
+10	Ah...
+11	And even inside your assigned area, how far you can go ties directly to the team's――<LF>especially to the skill of whoever commands it.
+12	From commanding battles to choosing exploration routes,<LF>every single decision affects the whole team.
+13	That's a heavy responsibility...
+14	I will take my leave here, then. I look forward to you continuing<LF>to fulfill your role as an instructing commander.

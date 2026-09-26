@@ -1,0 +1,82 @@
+# UI string/template additions harvested from LogOutput.log
+# Format: <log index> <TAB> S (exact string) | T (template, digit runs become '#') <TAB> translation
+# '<LF>' becomes a real line break; a literal backslash-n is written as \n and stays literal.
+000	S	Earn 15 1st ANIV.7DAYS Mission Points
+001	T	Enhance any Academy Level # time(s)
+002	S	Training Report
+003	T	<sprite name=wing_pink_left> Unlocked by clearing Total Simulate STAGE # <sprite name=wing_pink_right>
+004	S	<line-height=2.000em>Take on a grand operation alongside your Academy students.\nTeam up with commanders from every world to bring down boss after boss!
+005	S	<line-height=2.000em>Optimize your formation and aim for a high score.\nCollect Tactical Drill Records and trade them at the exchange for module enhancement materials.
+006	S	<line-height=2.000em>Each dive runs through randomly generated battles and events.\nYou can earn items that raise character skill levels.
+008	S	<line-height=2.000em>Compete with your fellow commanders!\nYou can earn rewards based on your rank.
+009	S	<line-height=2.000em>Use your spare time to earn all kinds of items.\nDon't forget to stay active every day!
+010	S	Academy Spot
+011	T	Updates in <size=36>#h</size>
+012	T	Attempts left today <color=#0096ff>#</color>/#
+013	T	Configured <color=#3c4346>#</color>/#
+014	S	Hiiragi Campus
+015	S	Unlocked by owning a character affiliated with “Hiiragi School Building”
+016	S	Scalar Campus
+017	S	Unlocked by owning a character affiliated with “Scalar School Building”
+018	S	Euro Tower Campus
+019	S	Unlocked by owning a character affiliated with “Euro Tower”
+020	S	Special Training School Building
+021	S	Unlocked by owning a character affiliated with “Special Training School Building”
+022	S	LOC Campus
+023	S	Unlocked by owning a character affiliated with “LOC”
+024	S	Zorya Campus
+025	S	Unlocked by owning a character affiliated with “Zorya School Building”
+026	S	A campus built on the culture of the Amatsu district. Its main area gathers the Hiiragi School Building together with restaurants, shops and housing, making it a comfortable place to live. The Hiiragi School Building is fitted with all kinds of facilities, so students can lead a cultured life without ever feeling inconvenienced.
+027	S	<sprite name=wing_blue_left>Date<sprite name=wing_blue_right>
+028	S	Skip Episode
+029	S	Go on a date with the selected student?
+031	S	<color=#ffbcd6>Sirius Sugar</material></color>
+033	S	Rami
+034	S	<color=#ff5858>Student Council</material></color>
+049	T	<sprite name=wing_pink_left>Affection +#<sprite name=wing_pink_right>
+051	S	Academy
+052	S	Individual
+053	S	＠Rami_K\nSpeaking of which, I saw Rami-chan in the library the other day.\nDo you go there often?
+054	S	＠Chiyuru_T\nYou can read without spending money,\nso I borrow books to pass the time.\nThe library even has some titles that only exist in print.
+055	S	So Rami has always been a book lover, huh
+056	S	So it isn't the manga café, after all
+057	S	Kuchiba Rami “Money-Loving Cheeky Girl” <size=30><color=#6a8181>@Rami_K</color>
+058	S	Tsukigase Chiyuru “A Hair's-Breadth Maze Otaku” <size=30><color=#6a8181>@Chiyuru_T</color><space=1.5em>Tsukigase Chiyuru “A Hair's-Breadth Maze Otaku” <size=30><color=#6a8181>@Chiyuru_T</color>
+059	S	<sprite name=wing_pink_left> Select a comment <sprite name=wing_pink_right>
+061	S	＠T_Commander\nIt's not like I love reading that much. Though I do get through a fair number of books.
+062	S	＠Rami_K\nStill, the fact that Rami-san reads\nhonestly surprised me a little.
+063	S	Narutaki Nanairo “Jack-of-All-Trades Young Lady Leader” <size=30><color=#6a8181>@Nanairo_N</color><space=1.5em>Narutaki Nanairo “Jack-of-All-Trades Young Lady Leader” <size=30><color=#6a8181>@Nanairo_N</color>
+064	S	＠Nanairo_N\nEven Nanairo says that!?
+065	S	Now that I think about it, I really have never seen\nRami-san reading...
+066	S	Momozono Meru “Clumsy, Pure Future Ace” <size=30><color=#6a8181>@Meru_M</color><space=1.5em>Momozono Meru “Clumsy, Pure Future Ace” <size=30><color=#6a8181>@Meru_M</color>
+067	S	Right, never seen it.
+068	S	...Well, I don't like being watched.\nI mostly read in my room or somewhere nobody notices.
+069	S	Ichijo Shirona “Mysterious Girl” <size=30><color=#6a8181>@Shirona_I</color>
+070	S	＠Rami_K\nAnd yet it never really shows in her grades.\nThat's Rami-chan for you.
+071	S	＠Chiyuru_T\nWe agreed not to bring that up!!
+072	S	Memory Details
+073	T	Triggers at battle start. Raises Kuchiba Rami's HP by #
+074	T	Triggers at battle start. Back-row enemies lose # Action Speed
+075	S	<color=#a0a9c9>Offense </color><color=#a0a9c9>Support </color><color=#a0a9c9>Heal </color><color=#ffffff>Debuff</color>
+081	T	Clear the Aggressive Battle Simulate STAGE #<space=1.5em>Clear the Aggressive Battle Simulate STAGE #
+082	T	Clear the Cute Battle Simulate STAGE #<space=1.5em>Clear the Cute Battle Simulate STAGE #
+083	T	Clear the Smart Battle Simulate STAGE #<space=1.5em>Clear the Smart Battle Simulate STAGE #
+084	T	Clear the Shy Battle Simulate STAGE #
+086	T	Take on the “Zartum All-Out War” event # times
+088	T	Rank up any module # time(s)
+092	T	Raise any character to level #
+093	S	Set a profile icon
+094	S	Set a favorite character
+096	T	Raise any character's skill level to #
+099	S	Set a character in the Level Link
+101	S	Join a Circle
+102	S	Send a friend request to a Circle member
+103	S	Set a support character
+104	T	Take on any Tactical Drill # time(s)
+105	T	Clear any Element Simulate #
+107	S	Home Settings
+
+# Deliberately not translated: the harvest truncates a rendered string at 160 characters, so these
+# two keys cannot be reproduced from it. Raise UiTextSeenLog.MaxDisplayLength and re-harvest to cover
+# the affection level-up display (<size=40>親愛度 Lv.</size> <size=75>#</size> + right_arrow sprites)
+# and the scrolling name plate that repeats a student label with <space=1.5em> separators.

@@ -1,0 +1,222 @@
+# UI string/template additions harvested from LogOutput.log (round 5)
+# Format: <log index> <TAB> S (exact string) | T (template, digit runs become '#') <TAB> translation
+# '<LF>' becomes a real line break; a literal backslash-n is written as \n and stays literal.
+# Indices refer to artifacts/ui-round5-sources.txt. Indices 016, 017 and 026-030 are already covered
+# by the cached table, and 219-226 resolve through its existing templates, so they are not repeated.
+000	S	＠T_Commander\nWell then, allow me to introduce myself again. I'm Ikoma Aoi of Colorful Bouquet.\nI'll be counting on you.
+001	S	＠T_Commander\n<noparse>Dreamer</noparse>!\nSo you've started a Tweety account!
+002	S	Ikoma Aoi “Guardian of Strict Discipline” <size=30><color=#6a8181>@Aoi_I</color>
+003	S	Narutaki Nanairo “Jack-of-All-Trades Young Lady Leader” <size=30><color=#6a8181></color>
+004	S	Kuchiba Rami “Money-Loving Cheeky Girl” <size=30><color=#6a8181></color>
+005	S	...This might not be the right moment for it, but I wonder if Amatsu is all right?
+006	S	Still, having every famous team in the academy gathered in one place is quite a sight.
+007	S	I heard the temporary base would be tents... but it's far more put together than I expected.
+008	S	Haah... This is bad... I think I'm only just now starting to get antsy...
+009	S	Momozono Meru “Flat Spin Dancing in the Azure Sky” <size=30><color=#6a8181>@Meru_M</color><space=1.5em>Momozono Meru “Flat Spin Dancing in the Azure Sky” <size=30><color=#6a8181>@Meru_M</color>
+010	S	＠Rami_K\n...True. We still haven't confirmed anything about the world outside the academy, and here we are already setting off for Serenosia Island.
+011	S	I want to believe that it will be all right...
+012	S	I don't think we need to be so pessimistic, do we? Going by what I see on SNS, it doesn't look like much damage was done, and the uproar was centered on the academy.
+013	S	...Yeah. I'm sure it will be fine.
+014	S	Of course, we won't know until we actually see it.
+015	S	Ichijo Shirona “Radiance That Lives Up to Expectations” <size=30><color=#6a8181>@Shirona_I</color>
+018	S	Ranking
+019	S	<line-height=2.000em>You can check the various rankings related to commanders.\nWhen someone reaches a certain threshold, rewards are handed out to everyone.
+020	S	<noparse>Aru</noparse>
+021	S	<noparse>Gorioshi</noparse>
+022	S	Overall
+023	S	Clever
+024	S	<noparse>Masashi</noparse>
+025	S	<noparse>Sefimyon</noparse>
+031	S	When there's a student you absolutely want to meet, make use of Meet-Ups!
+032	S	Scheduled
+033	S	Meet-Ups make the student you booked show up in the area the very next day!<LF>You can book Meet-Ups with up to 3 students!
+034	T	Start date: #/#/#
+# 035-064 share the same template as 034, so one entry covers all 31 dates.
+035	T	Start date: #/#/#
+036	T	Start date: #/#/#
+037	T	Start date: #/#/#
+038	T	Start date: #/#/#
+039	T	Start date: #/#/#
+040	T	Start date: #/#/#
+041	T	Start date: #/#/#
+042	T	Start date: #/#/#
+043	T	Start date: #/#/#
+044	T	Start date: #/#/#
+045	T	Start date: #/#/#
+046	T	Start date: #/#/#
+047	T	Start date: #/#/#
+048	T	Start date: #/#/#
+049	T	Start date: #/#/#
+050	T	Start date: #/#/#
+051	T	Start date: #/#/#
+052	T	Start date: #/#/#
+053	T	Start date: #/#/#
+054	T	Start date: #/#/#
+055	T	Start date: #/#/#
+056	T	Start date: #/#/#
+057	T	Start date: #/#/#
+058	T	Start date: #/#/#
+059	T	Start date: #/#/#
+060	T	Start date: #/#/#
+061	T	Start date: #/#/#
+062	T	Start date: #/#/#
+063	T	Start date: #/#/#
+064	T	Start date: #/#/#
+065	S	Student Details
+066	S	Could it be that you still haven't done a Limit Break!?
+067	S	Limit Breaks use “Style Cards”.<LF>You can get Style Cards by obtaining students you already own from the gacha and elsewhere!
+068	S	To make the students one step stronger, a Limit Break is required!<LF>Let's try a Limit Break right away!
+069	S	<sprite name=wing_blue_left>Limit Break<sprite name=wing_blue_right>
+070	S	Limit Break
+071	S	The Limit Break will be performed using the items below
+072	S	A Limit Break raises rarity and stats!<LF>It also raises the level cap by 4 tiers, so when growth feels capped, go for a Limit Break!
+073	S	Ding! She grew a whole lot!<LF>Take your newly polished comrade out on a quest♪
+074	S	Special License
+075	S	Standard Gacha Ticket
+076	S	Ding! This is where Pico explains!<LF>No, please let Pico do the explaining!!!!
+077	T	Level Limit: #
+078	S	Out of Range
+079	T	<align=left><size=36>#</size><LF><size=28>Areas Cleared</size>
+080	S	<sprite name=wing_blue_left>Achievement Unlocked<sprite name=wing_blue_right>
+081	S	The vast Maze still holds plenty of unexplored areas!<LF>That's why the route is never the same twice!!
+082	S	You'll battle Maze Shifters while exploring,<LF>and if you wipe them out safely you can obtain <color=#b500f8>Tatsumiya Ore</color>!!
+083	S	There is still so much unsolved inside the Maze,<LF>so here's mystery item number one! A Relic that shows its true worth only inside the Maze!!
+084	S	When you find a Relic along the way, the super-high-performance AI identifies its effect!<LF>There are all kinds of effects, so choose ones that give you an edge as you advance!
+085	S	Once you've reached a certain depth, collect your Tatsumiya Ore and come back, all right?<LF>Staying inside the Maze for a long time is dangerous!!
+086	S	By trading Tatsumiya Ore you can <color=#ff1c0b>obtain items that enhance student skills</color> or <color=#ff1c0b>upgrade MG parts</color>, pushing your stats even higher!
+087	S	Oh, right! Starting tomorrow, the Student Council will hand out daily rewards<LF>based on the deepest area you've reached, just for visiting Maze Exploration every day♪
+088	S	Rewards get more lavish as you advance through areas,<LF>so keep exploring and aim for deeper areas!
+089	S	Lastly! I have something important to tell you!
+090	S	It is your will that carves open the abyss. All units, begin your dive!
+091	S	As the Student Council President said earlier,<LF>inside the Maze the students' levels are limited by your Commander Rank!
+092	S	The Maze is a special environment, so please don't forget that the Master's command<LF>is extremely important!!
+093	S	That said, you won't be going deep right from the start,<LF>so begin by testing yourself in the shallow areas♪
+094	S	<line-height=2.000em>The Maze entrance――the “Portal”.<LF>Seeing it like this again, it's a huge place.
+095	S	Challenging the deepest part of your unlocked areas from the start is<LF>extremely dangerous, so please start from Area 1!
+096	S	<line-height=2.000em>Ding-dong!
+097	S	Pico
+098	S	<line-height=2.000em>Of course it is! After all, an MG passes through here～!
+099	S	<line-height=2.000em>What are you doing in a place like this,<LF><noparse>Dreamer</noparse>-san.
+100	S	Kagura
+101	S	<line-height=2.000em>Student Council President?
+102	S	<line-height=2.000em>You can't enter the Maze in the flesh, you know.
+103	S	<line-height=2.000em>I know. I still barely know anything about this academy,<LF>so I'm looking around the place.
+104	S	<line-height=2.000em>Everyone heads into Maze Exploration from here, right...<LF>to get Tatsumiya Ore.
+105	S	<line-height=2.000em>The more you dig, the more the students rake in～!<LF>The more you hand over to the academy, the bigger your rewards!
+106	S	<line-height=2.000em>That said, the assigned areas are fixed, so it's not as if<LF>you can dig as much as you like.
+107	S	<line-height=2.000em>Ah...
+108	S	<line-height=2.000em>And even inside your assigned area, how far you can go ties directly to the team's――<LF>especially to the skill of whoever commands it.
+109	S	<line-height=2.000em>From commanding battles to choosing exploration routes,<LF>every single decision affects the whole team.
+110	S	<line-height=2.000em>That's a heavy responsibility...
+111	S	<line-height=2.000em>I will take my leave here, then. I look forward to you continuing<LF>to fulfill your role as an instructing commander.
+112	S	Exploration
+113	T	Area #
+114	S	Level Cap
+115	S	Life Force
+116	S	Activated cells fill the body with life. When obtained, Max HP <color=#ff701a>+20%</color>.
+117	S	Vital Core
+118	S	A vein of light born on the battlefield heals everyone. At battle start, restores <color=#27D327>4% HP</color> to all allies.
+119	S	Double Strike
+120	S	Gathered blades bide their time; every 3 AS the user performs, the power of their next attack rises <color=#ff701a>50%</color> (PP cost: 1).
+121	T	MAZE#: Too many requests. Please wait a while and send the request again.
+122	S	Skipping Maze Exploration is only possible for areas you have cleared before!<LF>All sorts of things happen along the way, so be careful in new areas, all right?
+123	S	Speed Thrust
+124	S	Physics Shield
+125	S	Action Speed Down
+126	S	High-Low Bet
+127	S	A Maze Shifter trace was found in the direction of travel. The wavelength of a caution-class Maze Shifter has been detected...
+128	S	Worm Crash
+129	S	A wave of corrosion eats into the enemy formation; at battle start all enemies' Attack drops <color=#ff701a>10%</color>.
+130	S	Absolute
+131	S	A force field coursing through the whole body urges awakening. During exploration, all members' skill levels rise <color=#ff701a>1</color> (stackable).
+132	S	Odd/Even
+133	S	A boss Maze Shifter awaits in the direction of travel. It looks like you can't proceed without defeating it... Battle is unavoidable.<LF>
+134	T	<size=50>Area</size> # #/<size=50>#</size>
+135	T	#<size=50> enemies</size>
+136	S	Jackpot
+137	S	Crit Rate Up
+138	S	You're all soaked～!
+139	S	Acid Ball
+140	S	Seriously, what a loser♡
+141	S	Anarchy Shield
+142	S	Verborgene Gefühle
+143	S	Bunny & Bet
+144	S	Good Luck
+145	S	Ding-ding-ding!!<LF>I, the super-high-performance AI, will explain your first Tune-Up!
+146	S	Here is the Tatsumiya Ore you obtained on this Master's exploration!
+147	S	Tatsumiya Ore is basically all managed by the Student Council,<LF>so please use every last bit of it♪
+148	S	The daily skill enhancement items are precious!<LF>There is also a daily purchase limit, so trade for them every day♪
+149	S	Type Equipment
+150	S	Tune-Up
+151	S	Artifact
+152	S	Other
+153	S	Purchase Multiplier
+154	T	Today's purchases: #/#
+155	T	Purchase limit breakdown - Normal Areas: #
+156	S	Aggressive Skill Report I
+157	S	An item needed to enhance students' skills.\nA tablet recording the basic training content needed to raise their abilities.
+158	S	Unit
+159	S	Disc
+160	S	Skill Report II
+161	S	Skill Report I
+162	S	Clever Skill Report I
+163	T	Owned: #
+164	S	Comical Skill Report I
+165	S	Cute Skill Report I
+166	S	Shy Skill Report I
+167	S	Smart Skill Report I
+168	S	Next, please open Type Equipment!
+169	S	Enhancing Type Equipment raises the abilities of<LF>every character that belongs to that type!
+170	S	Each part boosts a different parameter,<LF>so raise the parameters you want your characters to grow!
+171	S	Enhancement Multiplier
+172	T	Today's purchases: #/#
+173	S	Agility Type
+174	S	EN Type
+175	S	Next, please open Mining!
+176	S	Raising Mining Efficiency here increases<LF>the amount of each reward you get from the regular Mining feature!
+177	S	It builds up day after day,<LF>so even a tiny increase matters!
+178	S	Mining Efficiency (Funds)
+179	T	Each level gained raises Mining item acquisition efficiency by #.#% UP
+180	S	And finally, Artifacts!
+181	S	Mystery item number two: the Artifact!<LF>It mysteriously grants effects only inside the Maze,<LF>and the principle behind it is shrouded in mystery...
+182	S	You've hit a wall in Maze Exploration!<LF>Your Type Equipment and skills are upgraded as far as they go...
+183	S	Mining Efficiency (Technical Report)
+184	S	Mining Efficiency (Training Report)
+185	S	That's where Artifacts come in!<LF>Think of them as a kind of charm!
+186	S	That's everything for Tune-Ups!<LF>Once you've used up your Tatsumiya Ore, press the Complete button at the bottom right!
+187	S	Ding-ding-ding!!<LF>I, the super-high-performance AI, will explain Tune-Ups once again!
+188	S	Artifact [HP]
+189	T	[Maze Only] Physical-type allies start with Max HP raised by level ×#%.
+190	S	Artifact [Crit Rate]
+191	S	Artifact [Action Speed]
+192	S	Artifact [Defense]
+193	S	Artifact [Attack]
+194	S	You still have Tatsumiya Ore left. Are you sure you want to finish?<LF><LF><size=30><color=#ff1c0b>All Tatsumiya Ore is collected and cannot be carried over to the next exploration</color></size>
+195	T	Top #%
+196	T	<align=left><size=36>#</size><LF><size=28>Areas Cleared</size>
+197	T	Area #
+198	T	<sprite name=wing_pink_left> Up to # students can be in the formation <sprite name=wing_pink_right>
+199	S	Power Force
+200	S	Internal pressure rises; raises Attack <color=#ff701a>5%</color> at battle start.
+201	S	Thunder Ball
+202	S	Energy Cell
+203	S	A sleeping rhythm brims and overflows; restores an extra <color=#27D327>30% HP</color> when resting.
+204	T	Turns elapsed:<size=36>#</size>
+205	S	Victory
+206	S	Defeat
+207	S	<sprite name=wing_blue_left>Battle Report<sprite name=wing_blue_right>
+208	T	<size=50>Area</size> # #/<size=50>#</size>
+209	T	Top #%
+210	T	Area #
+211	T	<size=50>Area</size> # #/<size=50>#</size>
+212	T	#<size=50> enemies</size>
+213	S	Let's deepen the students' Affection!
+214	S	Body Slam
+215	S	Frenzy Cannon
+216	S	Straight Up
+217	S	Skill Report I Assortment Set
+218	T	Earn # Hearty Boot Camp Mission Points
+# 219-226 already resolve through the cached table (mission and simulate templates), so they are not
+# repeated here. 227 carries a comma-grouped price, so its two placeholders sit on either side of it.
+227	T	Paid Gems x#,#<LF>Bonus<LF>SSR Guaranteed Gacha Ticket x#<LF>Style Card Selection Box [# Attributes] x#
+228	T	<line-height=108%>Paid<LF>#,#

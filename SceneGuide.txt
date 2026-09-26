@@ -1,0 +1,26 @@
+translation/scenes/
+
+10xxxxxx - Main Story
+
+20xxxxxx - Event Stories
+
+3000xxxx - Maze/Other Tutorials?
+
+4000xxxx - Character Episodes
+    - 4000xxx1 - Story
+    - 4000xxx2 - HScene
+
+5000xxxx - Memory Episodes
+    - 5000xxx1 - Story
+    - 5000xxx2 - HScene
+
+translation/static/*.json
+
+HomeSpeechMaster - Dialogue on home screen
+TalkMaster - Phone call Label
+TalkMessageMaster - Phone Call Dialogue
+SceneBranchSelectionMaster - Choices
+SnsAccountMaster - Tweety Account Name
+SnsPostBranchSelectionMaster - Tweety Replies
+SnsPostMaster - Tweety Posts
+
