@@ -1,37 +1,62 @@
 # tools — English translation working material
 
-Private working copy: `C:\Users\Andrew\desktop\RamiLabu` (fork of `ansen-test/muvluvgg-translation`).
+Repository: `C:\Users\Andrew\Desktop\RamiLabu`, published as `dorimerrr/RamiLabu` (branch `main`) and
+served to the game through `CdnURL`.
 Live game cache: `C:\Users\Andrew\muv_luv_girlsgardenx_cl\BepInEx\plugins\MuvluvMod\translation`.
+
+> **Current state (2026-09-27).** Sections [1](#1-how-the-working-copy-and-the-game-are-wired),
+> [2](#2-what-the-working-copy-adds-and-what-it-only-mirrors) and [7](#7-publishing) describe the
+> pre-publish setup and are kept here as history. Today:
+>
+> * the repository has a single remote, `origin` = `https://github.com/dorimerrr/RamiLabu.git`, and one
+>   branch, `main` (no `ansen`, no `upstream`, no branch `en`);
+> * `CdnURL` points at that repository and `PreferLocalFiles = false`, so the published manifest governs
+>   what the client loads;
+> * the cache categories are plain directories, **not junctions**;
+> * `ui` **is** published in `translation/manifest/en.json`;
+> * pushing to `main` is the deployment — it is live, not pending permission.
+>
+> For paths, schemas, commands and the publish checklist use [`../AGENTS.md`](../AGENTS.md) (English,
+> agent-facing); the sections below keep the round-by-round history and the reasoning behind the setup.
 
 This directory is **not** part of the published translation data: it holds the build scripts, the
 translation sources of record (TSV/JSON as authored, before they are merged into a table) and the
-coverage reports. Neither this repository nor `anosu/muvluvgg-translation` has a `LICENSE` file, so the
-working copy stays private and nothing here is published — see [Publishing](#7-publishing).
+coverage reports. Neither this fork nor `anosu/muvluvgg-translation` carries a `LICENSE` file — worth
+settling before the repository is opened up any further.
 
 ## 1. How the working copy and the game are wired
 
-Remotes:
+Remotes (then, and now):
 
 ```text
+anson-era setup
 ansen     https://github.com/ansen-test/muvluvgg-translation.git   (the fork; push target)
 upstream  https://github.com/anosu/muvluvgg-translation.git        (read-only; push URL disabled)
+
+today
+origin    https://github.com/dorimerrr/RamiLabu.git                (published; branch main)
 ```
 
-Branch `en` holds the English work. `main` stays a pristine mirror of `ansen/main`, so everything the
-working copy adds is `git diff ansen/main..en`.
+Branch `en` held the English work, and `main` stayed a pristine mirror of `ansen/main`, so everything
+the working copy added was `git diff ansen/main..en`. The published repository replaced that: it has one
+branch, `main`, and its history is the whole contribution.
 
-| path under `plugins\MuvluvMod\translation\` | kind | target |
+| path under `plugins\MuvluvMod\translation\` | kind then → now | target |
 | --- | --- | --- |
-| `names` | junction | `RamiLabu\translation\names` |
-| `static` | junction | `RamiLabu\translation\static` |
-| `scenes` | junction | `RamiLabu\translation\scenes` |
-| `ui` | junction | `RamiLabu\translation\ui` |
+| `names` | junction → plain directory | `RamiLabu\translation\names` |
+| `static` | junction → plain directory | `RamiLabu\translation\static` |
+| `scenes` | junction → plain directory (only when a scene is fetched) | `RamiLabu\translation\scenes` |
+| `ui` | junction → plain directory | `RamiLabu\translation\ui` |
 | `manifest` | real directory | runtime copy, refreshed from the CDN on every launch |
 | `scene-dump` | real directory | runtime output of `[Translation.Scenario] LogSeenText` |
 
-Because the four authored categories are junctions, a file the game writes *is* the repository file:
-editing `…\plugins\MuvluvMod\translation\ui\en.json` edits `RamiLabu\translation\ui\en.json`, and the
-build scripts that write scene files write straight into the worktree.
+While the four authored categories were junctions, a file the game wrote *is* the repository file:
+editing `…\plugins\MuvluvMod\translation\ui\en.json` edited `RamiLabu\translation\ui\en.json`, and the
+build scripts that write scene files wrote straight into the worktree. With plain directories that no
+longer holds — the repository is the source of truth, the cache is a download — so translation data is
+edited in `RamiLabu\translation\**` and republished (`node manifest.js en`, commit, push). The scripts
+in `tools\scripts\` follow that rule: their defaults read and write the repository and take only
+`BepInEx\LogOutput.log` and `scene-dump\` from the game.
 
 `manifest` deliberately stays a plain directory. `TranslationCache.LoadManifestAsync` refreshes the
 manifest from the CDN on every launch (it is never `PreferLocal`), so a junction there would let the
@@ -43,25 +68,28 @@ game overwrite the generated `translation\manifest\en.json` and dirty the worktr
 | section | key | value | why |
 | --- | --- | --- | --- |
 | `Translation` | `Enable` | `true` | translation on |
-| `Translation` | `CdnURL` | `…/ansen-test/muvluvgg-translation/refs/heads/main` | the fork that already serves `en` |
+| `Translation` | `CdnURL` | `…/dorimerrr/RamiLabu/refs/heads/main` | the published repository that serves `en` |
 | `Translation` | `Language` | `en` | English tables |
-| `Translation.Cache` | `Directory` | `MuvluvMod/translation` | cache root = the junctioned directory |
-| `Translation.Cache` | `PreferLocalFiles` | `true` | local files win over the manifest hash |
+| `Translation.Cache` | `Directory` | `MuvluvMod/translation` | cache root, relative to `BepInEx\plugins` |
+| `Translation.Cache` | `PreferLocalFiles` | `false` | the published manifest governs; cache edits are re-downloaded |
 | `Translation.Ui` | `Enable` | `true` | interface translation |
 | `Translation.Ui` | `LogSeenText` | `true` | harvest untranslated interface text into `LogOutput.log` |
 | `Translation.Scenario` | `LogSeenText` | `true` | dump untranslated scenario lines into `scene-dump\` |
 
-Why `PreferLocalFiles = true` (`TranslationCache.LoadResourceAsync`, `Utility.Caching.JsonCachePolicy`):
+Why `PreferLocalFiles = false` (`TranslationCache.LoadResourceAsync`, `Utility.Caching.JsonCachePolicy`):
 
 | policy | when it is chosen | effect |
 | --- | --- | --- |
 | `Refresh` | manifest hash known, `PreferLocalFiles` off | verified local copy, otherwise download |
 | `PreferLocal` | manifest hash known, `PreferLocalFiles` on | **any readable local copy wins; no download** |
-| `LocalOnly` | category/file absent from the manifest (e.g. `ui`) | read local, never touch the network |
+| `LocalOnly` | category/file absent from the manifest | read local, never touch the network |
 
-So `PreferLocalFiles = true` is what keeps local edits in use: the CDN manifest only matters for files
-that are missing locally, and a category the manifest does not know (`ui`) is always local. Files the
-manifest does not cover are also never reported or overwritten.
+With `PreferLocalFiles = false` the client verifies a cached file against the manifest hash and
+re-downloads it whenever they differ, so the cache is disposable and the repository is authoritative: an
+edit that has not been published disappears on the next launch. That is the historical
+"`JSON resource validation failed`" trap — a local edit to the cache with a stale manifest. To work on
+unpublished data, set `PreferLocalFiles = true` or point `CdnURL` at the local server (`npm start` →
+`http://localhost:5000`); both are documented in `../AGENTS.md`.
 
 ## 2. What the working copy adds, and what it only mirrors
 
@@ -76,6 +104,11 @@ Upstream, `translation/scenes/30010101/` and `translation/scenes/61001401/` exis
 `zh_Hans.json`, and `translation/ui/` does not exist at all. So the English contribution is exactly
 those three files, plus the regenerated `translation/manifest/en.json`; every other file is ansen's
 data, byte for byte.
+
+The snapshot above predates publishing: it was taken while the fork still mirrored `ansen/main`, which is
+why `ui/en.json` had no manifest entry at all. In the published repository `translation/ui/` is part of
+the manifest, and the same audit reports `ui/en.json` as `UPSTREAM` whenever it matches the published
+hash. Re-run the command for current verdicts instead of trusting the table.
 
 The import is commit `3c3935d` ("Add English interface table and two translated scenes") on `en`:
 3 new files + the manifest, `716 insertions(+), 3 deletions(-)`.
@@ -100,6 +133,7 @@ Sizes and counts at import: `ui\en.json` 89,291 B (556 strings + 146 templates =
 | 1–3 | ≤ 2026-09-23 | first interface table, built from `[UI] untranslated text:` log lines | `sources\ui-harvest.json`, `ui-harvest.txt`, `ui-harvest-escaped.txt`, `ui-round3a.json`, `ui-round3b.json`, `ui-additions.json` | `scripts\merge-ui-translations.ps1` | `snapshots\ui-en-backup-before-round4.json` (49,026 B) |
 | 4 | 2026-09-25 | interface batch 4 + scene `61001401` | `sources\ui-round4-translations.tsv`, `sources\scene-61001401-translations.tsv` | `scripts\build-round4.ps1` → `sources\ui-round4.json` + merge | `snapshots\ui-en-after-round4.json` (60,695 B), `reports\ui-round4-report.txt` |
 | 5 | 2026-09-26 | interface batch 5 + scene `30010101` | `sources\ui-round5-translations.tsv`, `sources\ui-round5-sources.txt`, `sources\scene-30010101-translations.tsv` | `scripts\build-round5.ps1` → `sources\ui-round5.json` + merge | `snapshots\ui-en-pre-round5.json` (60,695 B), `translation\ui\en.json` 89,291 B |
+| 6 | 2026-09-27 | interface batch 6: 38 harvested strings plus the two navigation labels the harvest never logged (`生徒`, `サークル`) | `sources\ui-round6-harvest.json` (frozen keys), `sources\ui-round6-sources.txt`, `sources\ui-round6-translations.tsv`, `sources\ui-round6-extras.json` | `scripts\build-round6.ps1` → `sources\ui-round6.json` + merge | `reports\ui-round6-report.txt`, `translation\ui\en.json` 585 strings + 157 templates |
 
 Both scene files were built dump-first: the keys are the phrases the game itself rendered
 (`<scene-id>.json` in `scene-dump\`), and the TSV only supplies values, so a table entry cannot drift
@@ -136,17 +170,21 @@ node tools\audit-local-vs-upstream.js
 node tools\audit-local-vs-upstream.js --language en
 
 powershell -File tools\scripts\check-coverage.ps1 -Resolve   # or -ShowEscapes
+powershell -File tools\scripts\check-coverage.ps1 -Harvest tools\sources\ui-round6-harvest.json -Resolve
+powershell -File tools\scripts\build-round6.ps1        # interface-only round: keys from the frozen harvest
 powershell -File tools\scripts\dump-log.ps1                  # index the harvest, [SCENE] markers
 powershell -File tools\scripts\lookup-jp.ps1 -Snippet '親愛度' -Max 3
 powershell -File tools\scripts\merge-ui-translations.ps1     # merges sources\ui-additions.json (-Prune honours "remove")
 ```
 
-The scripts default to the junctioned cache paths, so `build-*.ps1` writes `ui\en.json` and
-`scenes\<id>\en.json` straight into the worktree.
+The scripts default to the repository paths, so `build-*.ps1` writes `ui\en.json` and
+`scenes\<id>\en.json` straight into the worktree; only `LogOutput.log` and `scene-dump\` are read from
+the game.
 
-Taking an upstream update: `git fetch ansen; git merge ansen/main`, resolve, then `node manifest.js en`
-and commit. `en` has no upstream tracking branch, so `git pull` alone does nothing useful. `upstream`
-(anosu) is fetched for reference only; its push URL is disabled to make an accidental push impossible.
+Taking an upstream update (`zh_Hans` fixes, new `zh_Hans` scene files): the published repository has a
+single remote, so add `ansen` / `upstream` as remotes if you need them, merge, then `node manifest.js en`
+and commit the data and the manifest together. `main` has no upstream tracking branch, so `git pull`
+alone does nothing useful.
 
 ## 5. Round 6 — static MasterData
 
@@ -175,14 +213,16 @@ before and after) so the next round can be reproduced from the repository alone.
   hook runs — the `en` manifest is generated by hand.
 - `core.autocrlf=true`: the worktree holds CRLF, the repository stores LF. The generator writes CRLF,
   so a warning can appear on `git add` even when the content is unchanged.
+- The client **rewrites `LogOutput.log` at every launch** and holds it open while it runs, so a harvest must be frozen into `sources\ui-roundN-harvest.json` before a round is authored, and the round scripts read the file with `FileShare.ReadWrite` instead of `File.ReadAllText`.
 - `translation/scene-dump/` is listed in `.git/info/exclude` (not the shared `.gitignore`) so runtime
   dumps can never be committed.
 - `[Translation.Debug] SubmitMissingScenes = true` still reports scenes without a translation to the
   mod's debug endpoint. Scenes `30010101` and `61001401` no longer qualify: their files exist locally.
-- Since `PreferLocalFiles = true` wins over the manifest hash, an upstream file that is also present
-  locally is *not* updated by the game. Merge `ansen/main` in git to take those updates.
-- A file ansen adds upstream has no local copy yet, so the game downloads it and, through the
-  junctions, the new file appears in the worktree. `git status` will show it; it belongs to `ansen/main`.
+- `PreferLocalFiles = false` means the published manifest decides: a file that is present locally but
+  does not match its published hash is replaced by the download. Publish through the repository instead.
+- A file the CDN serves but that has no local copy is simply downloaded into the cache, and it no longer
+  appears in the worktree (the categories are plain directories now). Copy it into
+  `RamiLabu\translation\**` only if it belongs to this fork.
 - The pre-junction cache is preserved at `plugins\MuvluvMod\translation.orig` (with
   `MuvluvMod.cfg.bak-20260926` as the config backup). Delete both once the game has been started and
   the tables have been verified in game.
@@ -191,11 +231,16 @@ before and after) so the next round can be reproduced from the repository alone.
 
 ## 7. Publishing
 
-Not yet, and deliberately so: neither this fork nor `anosu/muvluvgg-translation` carries a `LICENSE`
-file, so the working copy stays private until permission is settled. When it is, everything to
-contribute is on `en` (`git diff ansen/main..en`), and the natural split is one PR per category: the
-interface table plus manifest, the two scene files, and later the static additions as added entries
-rather than a whole-file replacement of ansen's table.
+Published. The English tables, `translation/manifest/en.json` and this `tools/` tree are on `main` of
+`dorimerrr/RamiLabu`, which is what `CdnURL` points at, so a push is the deployment: regenerate the
+manifest with `node manifest.js en`, commit the data and the manifest together, push.
+
+Neither this fork nor `anosu/muvluvgg-translation` carries a `LICENSE` file — worth settling before the
+repository is opened up any further.
+
+If the work is ever offered upstream, the natural split is still one PR per category: the interface table
+plus manifest, the scene files, and later the static additions as added entries rather than a whole-file
+replacement of ansen's table.
 
 ## 8. Fallback: a cache without junctions
 
@@ -208,8 +253,9 @@ powershell -File tools\sync-to-cache.ps1 -Repository C:\Users\Andrew\desktop\Ram
     -Cache C:\Users\Andrew\muv_luv_girlsgardenx_cl\BepInEx\plugins\MuvluvMod\translation -Language en
 ```
 
-With the junctions in place nothing needs to be synced; the script is only the way back if they are
-ever removed.
+The junctions are gone, so this is now the way to (re)seed the cache with published files. It cannot make
+unpublished edits stick: the client verifies a copied file against the manifest and re-downloads it when
+the hash differs (`PreferLocalFiles = false`).
 
 ## Layout
 

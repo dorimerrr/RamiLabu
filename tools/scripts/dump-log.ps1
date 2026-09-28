@@ -1,5 +1,5 @@
 ﻿param(
-    [string]$UiTable = 'C:\Users\Andrew\muv_luv_girlsgardenx_cl\BepInEx\plugins\MuvluvMod\translation\ui\en.json',
+    [string]$UiTable = 'C:\Users\Andrew\Desktop\RamiLabu\translation\ui\en.json',
     [string]$Log = 'C:\Users\Andrew\muv_luv_girlsgardenx_cl\BepInEx\LogOutput.log',
     [string]$SceneDump = 'C:\Users\Andrew\muv_luv_girlsgardenx_cl\BepInEx\plugins\MuvluvMod\translation\scene-dump\61001401.json'
 )
@@ -35,7 +35,35 @@ function Get-TemplateKey([string]$Text) {
 }
 
 $table = Read-Table $UiTable
-$raw = [System.IO.File]::ReadAllText($Log)
+
+# A running client keeps LogOutput.log open, so request permissive sharing instead of File.ReadAllText,
+# which fails with a sharing violation while the game is playing.
+function Read-LogText([string]$Path) {
+    $lastError = $null
+    for ($attempt = 0; $attempt -lt 10; $attempt++) {
+        $stream = $null
+        try {
+            $stream = [System.IO.File]::Open(
+                $Path,
+                [System.IO.FileMode]::Open,
+                [System.IO.FileAccess]::Read,
+                [System.IO.FileShare]::ReadWrite
+            )
+            $reader = New-Object System.IO.StreamReader($stream, [System.Text.Encoding]::UTF8)
+            try { return $reader.ReadToEnd() } finally { $reader.Dispose() }
+        }
+        catch {
+            $lastError = $_
+            Start-Sleep -Milliseconds 250
+        }
+        finally {
+            if ($stream) { $stream.Dispose() }
+        }
+    }
+    throw "cannot read $Path : $($lastError.Exception.Message)"
+}
+
+$raw = Read-LogText $Log
 $seen = [regex]::Matches(
     $raw,
     '\[UI\] untranslated text: "(.*?)"\r?\n',

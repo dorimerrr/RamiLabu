@@ -1,10 +1,11 @@
 param(
-    [string]$Target = 'C:\Users\Andrew\muv_luv_girlsgardenx_cl\BepInEx\plugins\MuvluvMod\translation\ui\en.json',
-    [string]$Additions = 'C:\Users\Andrew\desktop\Airi\artifacts\ui-additions.json',
+    [string]$Target = 'C:\Users\Andrew\Desktop\RamiLabu\translation\ui\en.json',
+    [string]$Additions = 'C:\Users\Andrew\Desktop\RamiLabu\tools\sources\ui-additions.json',
     [switch]$Prune
 )
 
-# Merges new interface translations into the cached table without retyping the existing entries.
+# Merges new interface translations into the repository table without retyping the existing entries.
+# The defaults point inside the repository; only the harvest log and scene-dump are read from the game.
 # -Prune also drops the keys listed under "remove", which is how a superseded entry is retired.
 $existing = ([System.IO.File]::ReadAllText($Target)) | ConvertFrom-Json
 $extra = ([System.IO.File]::ReadAllText($Additions)) | ConvertFrom-Json

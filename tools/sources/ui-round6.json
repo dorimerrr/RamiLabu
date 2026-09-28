@@ -1,0 +1,51 @@
+{
+    "strings":  {
+                    "通信中にエラーが発生しました":  "A communication error occurred",
+                    "<size=36>タイトルに戻る</size>":  "<size=36>Return to Title</size>",
+                    "タンク":  "Tank",
+                    "ピックアップガチャチケットから先に消費されます":  "Pickup Gacha Tickets are consumed first",
+                    "後衛":  "Rearguard",
+                    "サポート":  "Support",
+                    "物理アタッカー":  "Physical Attacker",
+                    "<sprite name=wing_pink_left> これ以上購入できません <sprite name=wing_pink_right>":  "<sprite name=wing_pink_left> You cannot purchase any more <sprite name=wing_pink_right>",
+                    "有償":  "Paid",
+                    "無償":  "Free",
+                    "無償ジェムから先に消費されます":  "Free Gems are consumed first",
+                    "以下のアイテムを使用して\n消失した報酬を回収することが出来ます":  "Use the following items to\nrecover rewards that were lost",
+                    "回収":  "Recover",
+                    "援護射撃":  "Supporting Fire",
+                    "ディクライン・カヴァー":  "Decline Cover",
+                    "致命の閃き":  "Fatal Flash",
+                    "休息をとる":  "Take a Rest",
+                    "辺りにメイズシフターはいないようだ…\n数時間の間、休憩しよう。":  "It looks like there are no Maze Shifters around…\nLet's take a rest for a few hours.",
+                    "一時の休息":  "A Moment's Rest",
+                    "受け入れる":  "Accept",
+                    "突如として潜進機に囲まれてしまった。\n違法ダイバーの様だ・・・\n違法ダイバーの様だ・・・":  "We were suddenly surrounded by diving craft.\nThey look like illegal divers...\nThey look like illegal divers...",
+                    "うごめく壁":  "Writhing Wall",
+                    "メイズシフターの反応がないルートを発見した。この先に進めば安全に休憩をとる事が出来るかもしれない。":  "Found a route with no Maze Shifter readings. Going further might let us rest in safety.",
+                    "進行方向にメイズシフターの巨大な痕跡が見つかった。異変級メイズシフターの波長も検知されている…\n":  "A huge Maze Shifter trace was found in the direction of travel. The wavelength of an anomaly-class Maze Shifter has also been detected…\n",
+                    "エクスプロード":  "Explode",
+                    "なめまわし":  "Lick-Down",
+                    "最大HPアップ":  "Max HP Up",
+                    "生徒":  "Students",
+                    "サークル":  "Circle"
+                },
+    "templates":  {
+                      "以下のアイテムを使用して\nNEW CHARACTERピックアップガチャ【ニーナ／ジーナ・ミーシナ】を#回募集しますか？":  "Use the following items to\nRecruit # times on the NEW CHARACTER Pickup Gacha [Nina / Gina Mishina]?",
+                      "採掘効率＋#.#％":  "Mining Efficiency +#.#%",
+                      "【メイズ内限定】ENタイプの味方の最大HPがレベル×#%上昇した状態でスタートする。":  "[Maze Only] EN-type allies start with Max HP raised by level ×#%.",
+                      "【メイズ内限定】敏捷タイプの味方の最大HPがレベル×#%上昇した状態でスタートする。":  "[Maze Only] Agile-type allies start with Max HP raised by level ×#%.",
+                      "レベル#上がる毎に採掘のアイテム獲得効率が#.#％ＵＰ":  "Level # gained raises Mining item acquisition efficiency by #.#% UP",
+                      "#<size=50>体</size>":  "#<size=50> enemies</size>",
+                      "属性を合わせて編成ボーナスを発動させよう！\n同じ属性の生徒を#名以上編成することで発動する！":  "Match attributes to activate a Formation Bonus!\nActivates when # or more students of the same attribute are deployed!",
+                      "探索メンバーはぐっすり眠れた様子だ。HPが<color=#27D327>#％回復</color>した。":  "The exploration party seems to have slept soundly. HP recovered by <color=#27D327>#%</color>.",
+                      "開放粒子が暴れ弾ける、戦闘中最初の攻撃スキル威力を<color=#ff701a>#%アップ</color>する。":  "Unleashed particles burst forth, raising the power of the first attack skill used in battle by <color=#ff701a>#%</color>.",
+                      "初心者ミッションポイントを#獲得する":  "Earn # Beginner Mission Points",
+                      "残り#時間":  "#h left"
+                  },
+    "remove":  {
+                   "strings":  [
+
+                               ]
+               }
+}

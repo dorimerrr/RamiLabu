@@ -1,0 +1,55 @@
+# UI string/template additions for round 6, harvested from LogOutput.log.
+# Format: <harvest index> <TAB> S (exact string) | T (template, digit runs become '#') <TAB> translation
+# '<LF>' becomes a real line break, mirroring the source text: the rendered strings for indices 009, 012,
+# 015, 020, 024 and 036 contain real line breaks and 009 also ends with one. A literal backslash-n
+# (as in some other harvested strings) is written as \n and stays literal.
+# Indices refer to tools/sources/ui-round6-sources.txt (the human-readable listing of this harvest) and are
+# resolved against tools/sources/ui-round6-harvest.json, which holds the exact key text. Freeze that file
+# before translating: the client rewrites BepInEx\LogOutput.log on every launch, so the live log cannot
+# reproduce the keys a round was authored against.
+# Indices 002, 003 and 004 are already covered by the existing table and are therefore not repeated.
+#
+# Skill and role names reuse the wording already published in the static table, so the same Japanese
+# term reads the same everywhere:
+#   なめまわし = Lick-Down, エクスプロード = Explode, 援護射撃 = Supporting Fire,
+#   致命の閃き = Fatal Flash, ディクライン・カヴァー = Decline Cover, 一時の休息 = A Moment's Rest,
+#   物理アタッカー = Physical Attacker, サポート = Support, 後衛 = Rearguard, タンク = Tank,
+#   採掘効率 = Mining Efficiency, メイズシフター = Maze Shifter, ニーナ／ジーナ・ミーシナ = Nina / Gina Mishina.
+000	T	#h left
+001	T	Earn # Beginner Mission Points
+005	S	Max HP Up
+006	S	Lick-Down
+007	S	Explode
+008	T	Unleashed particles burst forth, raising the power of the first attack skill used in battle by <color=#ff701a>#%</color>.
+009	S	A huge Maze Shifter trace was found in the direction of travel. The wavelength of an anomaly-class Maze Shifter has also been detected…<LF>
+010	S	Found a route with no Maze Shifter readings. Going further might let us rest in safety.
+011	S	Writhing Wall
+012	S	We were suddenly surrounded by diving craft.<LF>They look like illegal divers...<LF>They look like illegal divers...
+013	S	Accept
+014	S	A Moment's Rest
+015	S	It looks like there are no Maze Shifters around…<LF>Let's take a rest for a few hours.
+016	S	Take a Rest
+017	T	The exploration party seems to have slept soundly. HP recovered by <color=#27D327>#%</color>.
+018	S	Fatal Flash
+019	S	Decline Cover
+020	T	Match attributes to activate a Formation Bonus!<LF>Activates when # or more students of the same attribute are deployed!
+021	S	Supporting Fire
+022	T	#<size=50> enemies</size>
+023	S	Recover
+024	S	Use the following items to<LF>recover rewards that were lost
+025	S	Free Gems are consumed first
+026	S	Free
+027	S	Paid
+028	T	Level # gained raises Mining item acquisition efficiency by #.#% UP
+029	T	[Maze Only] Agile-type allies start with Max HP raised by level ×#%.
+030	T	[Maze Only] EN-type allies start with Max HP raised by level ×#%.
+031	S	<sprite name=wing_pink_left> You cannot purchase any more <sprite name=wing_pink_right>
+032	T	Mining Efficiency +#.#%
+033	S	Physical Attacker
+034	S	Support
+035	S	Rearguard
+036	T	Use the following items to<LF>Recruit # times on the NEW CHARACTER Pickup Gacha [Nina / Gina Mishina]?
+037	S	Pickup Gacha Tickets are consumed first
+038	S	Tank
+039	S	<size=36>Return to Title</size>
+040	S	A communication error occurred

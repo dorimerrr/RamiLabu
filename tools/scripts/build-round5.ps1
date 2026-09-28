@@ -1,24 +1,53 @@
 ﻿param(
     [string]$Log = 'C:\Users\Andrew\muv_luv_girlsgardenx_cl\BepInEx\LogOutput.log',
-    [string]$UiTable = 'C:\Users\Andrew\muv_luv_girlsgardenx_cl\BepInEx\plugins\MuvluvMod\translation\ui\en.json',
-    [string]$UiTranslations = 'C:\Users\Andrew\desktop\Airi\artifacts\ui-round5-translations.tsv',
-    [string]$UiOutput = 'C:\Users\Andrew\desktop\Airi\artifacts\ui-round5.json',
+    [string]$UiTable = 'C:\Users\Andrew\Desktop\RamiLabu\translation\ui\en.json',
+    [string]$UiTranslations = 'C:\Users\Andrew\Desktop\RamiLabu\tools\sources\ui-round5-translations.tsv',
+    [string]$UiOutput = 'C:\Users\Andrew\Desktop\RamiLabu\tools\sources\ui-round5.json',
     [string]$SceneDump = 'C:\Users\Andrew\muv_luv_girlsgardenx_cl\BepInEx\plugins\MuvluvMod\translation\scene-dump\30010101.json',
-    [string]$SceneTranslations = 'C:\Users\Andrew\desktop\Airi\artifacts\scene-30010101-translations.tsv',
-    [string]$SceneOutput = 'C:\Users\Andrew\muv_luv_girlsgardenx_cl\BepInEx\plugins\MuvluvMod\translation\scenes\30010101\en.json',
-    [string]$SceneArchive = 'C:\Users\Andrew\desktop\Airi\artifacts\scenes\30010101\en.json'
+    [string]$SceneTranslations = 'C:\Users\Andrew\Desktop\RamiLabu\tools\sources\scene-30010101-translations.tsv',
+    [string]$SceneOutput = 'C:\Users\Andrew\Desktop\RamiLabu\translation\scenes\30010101\en.json',
+    [string]$SceneArchive = 'C:\Users\Andrew\Desktop\RamiLabu\tools\snapshots\scenes\30010101\en.json'
 )
 
 # Builds the interface additions and the scene file from the harvested log. Keys are taken from the
 # harvest itself instead of being retyped, so a table entry can never drift from what the game
 # renders: the digit-run rule and the quoting are the ones the plugin uses at lookup time.
+# The defaults point inside this repository (translation\, tools\sources\); only the harvest log and
+# scene-dump are read from the game.
 
 # Round 5 retired no key: the two doubled-backslash entries retired in round 4 are already gone from
 # the cached table, and every source in this harvest carries at most one backslash per escape.
 $retiredKeys = @()
 
+# The client keeps LogOutput.log open while it runs, so share the file instead of using ReadAllText.
+function Read-LogText([string]$Path) {
+    $lastError = $null
+    for ($attempt = 0; $attempt -lt 10; $attempt++) {
+        $stream = $null
+        try {
+            $stream = [System.IO.File]::Open(
+                $Path,
+                [System.IO.FileMode]::Open,
+                [System.IO.FileAccess]::Read,
+                [System.IO.FileShare]::ReadWrite
+            )
+            $reader = New-Object System.IO.StreamReader($stream, [System.Text.Encoding]::UTF8)
+            try { return $reader.ReadToEnd() } finally { $reader.Dispose() }
+        }
+        catch {
+            $lastError = $_
+            Start-Sleep -Milliseconds 250
+        }
+        finally {
+            if ($stream) { $stream.Dispose() }
+        }
+    }
+    throw "cannot read $Path : $($lastError.Exception.Message)"
+}
+
 function Read-LogEntries([string]$Path) {
-    $raw = [System.IO.File]::ReadAllText($Path)
+    # The client keeps LogOutput.log open while it runs: Read-LogText shares instead of ReadAllText.
+    $raw = Read-LogText $Path
     return @(
         [regex]::Matches(
             $raw,

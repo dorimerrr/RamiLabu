@@ -1,0 +1,9 @@
+{
+    "_comment": "Round 6 additions that are NOT harvest-derived. Both are navigation labels of the main bottom bar: the harvest never logged them, so they were identified from the game's own string literals in muv_luv_girlsgardenx_cl_Data\\il2cpp_data\\Metadata\\global-metadata.dat (a 'サークル' literal sits next to the other tab labels; 'サンルーム' does not exist in the game at all). They are exact-match strings with no digit runs.",
+    "_evidence": "MuvluvMod.cfg CdnURL=https://raw.githubusercontent.com/dorimerrr/RamiLabu/refs/heads/main, and the client renders tab labels through TMP_Text, which the UI resolver covers.",
+    "strings": {
+        "生徒": "Students",
+        "サークル": "Circle"
+    },
+    "templates": {}
+}

@@ -3,7 +3,7 @@ param(
     [int]$Max = 2
 )
 $ErrorActionPreference = 'Stop'
-$base = 'C:\Users\Andrew\muv_luv_girlsgardenx_cl\BepInEx\plugins\MuvluvMod\translation'
+$base = 'C:\Users\Andrew\Desktop\RamiLabu\translation'
 
 function Flatten($obj, [string]$prefix, $ht) {
     foreach ($p in $obj.PSObject.Properties) {

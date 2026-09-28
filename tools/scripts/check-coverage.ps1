@@ -1,8 +1,9 @@
 ﻿param(
-    [string]$UiTable = 'C:\Users\Andrew\muv_luv_girlsgardenx_cl\BepInEx\plugins\MuvluvMod\translation\ui\en.json',
-    [string]$Additions = 'C:\Users\Andrew\desktop\Airi\artifacts\ui-round4.json',
+    [string]$UiTable = 'C:\Users\Andrew\Desktop\RamiLabu\translation\ui\en.json',
+    [string]$Additions = 'C:\Users\Andrew\Desktop\RamiLabu\tools\sources\ui-round4.json',
     [string]$Log = 'C:\Users\Andrew\muv_luv_girlsgardenx_cl\BepInEx\LogOutput.log',
-    [string]$SceneFile = 'C:\Users\Andrew\muv_luv_girlsgardenx_cl\BepInEx\plugins\MuvluvMod\translation\scenes\61001401\en.json',
+    [string]$Harvest = '',
+    [string]$SceneFile = 'C:\Users\Andrew\Desktop\RamiLabu\translation\scenes\61001401\en.json',
     [switch]$ShowEscapes,
     [switch]$Resolve
 )
@@ -104,14 +105,52 @@ function Resolve-Text([string]$Text) {
 $table = Read-Table $UiTable
 $extra = Read-Table $Additions
 
-$raw = [System.IO.File]::ReadAllText($Log)
-# A rendered string may contain literal newlines, so an entry is delimited by the closing quote
-# that ends a line rather than by the end of the physical line.
-$seen = [regex]::Matches(
-    $raw,
-    '\[UI\] untranslated text: "(.*?)"\r?\n',
-    [System.Text.RegularExpressions.RegexOptions]::Singleline
-) | ForEach-Object { $_.Groups[1].Value }
+# The client rewrites LogOutput.log on every launch, so -Harvest can point at a frozen harvest JSON from
+# tools\sources (the shape the round builders write). Otherwise the live log is read; a running client
+# keeps it open, so request permissive sharing instead of a plain File.ReadAllText.
+function Read-LogText([string]$Path) {
+    $lastError = $null
+    for ($attempt = 0; $attempt -lt 10; $attempt++) {
+        $stream = $null
+        try {
+            $stream = [System.IO.File]::Open(
+                $Path,
+                [System.IO.FileMode]::Open,
+                [System.IO.FileAccess]::Read,
+                [System.IO.FileShare]::ReadWrite
+            )
+            $reader = New-Object System.IO.StreamReader($stream, [System.Text.Encoding]::UTF8)
+            try { return $reader.ReadToEnd() } finally { $reader.Dispose() }
+        }
+        catch {
+            $lastError = $_
+            Start-Sleep -Milliseconds 250
+        }
+        finally {
+            if ($stream) { $stream.Dispose() }
+        }
+    }
+    throw "cannot read $Path : $($lastError.Exception.Message)"
+}
+
+if ($Harvest -and (Test-Path -LiteralPath $Harvest)) {
+    # Assigned first: wrapping the pipeline itself in @() produces a one-element array holding the array.
+    $harvestEntries = [System.IO.File]::ReadAllText($Harvest) | ConvertFrom-Json
+    $seen = @($harvestEntries)
+    Write-Host "harvest loaded from $Harvest"
+}
+else {
+    $raw = Read-LogText $Log
+    # A rendered string may contain literal newlines, so an entry is delimited by the closing quote
+    # that ends a line rather than by the end of the physical line.
+    $seen = @(
+        [regex]::Matches(
+            $raw,
+            '\[UI\] untranslated text: "(.*?)"\r?\n',
+            [System.Text.RegularExpressions.RegexOptions]::Singleline
+        ) | ForEach-Object { $_.Groups[1].Value }
+    )
+}
 
 $missing = @()
 $pending = @()
