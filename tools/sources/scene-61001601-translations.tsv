@@ -1,0 +1,27 @@
+# Scenario lines for scene 61001601 (Shirona after-school meetup episode)
+# Format: <index in scene-dump/61001601.json> <TAB> translation
+# '<LF>' becomes a real line break; the source lines use real line breaks.
+# The trailing block holds the two choice labels, which the dump never records but the scene renders
+# (the zh_Hans.json next to it carries the same two keys).
+00	After school, I had arranged to meet Shirona today.<LF>Peeking into the classroom, she was already there waiting alone.
+01	Sorry, did you wait? Class ran long...<LF>Yours finished on time, I see.
+02	Yeah. But I haven't been waiting that long, so it's fine.
+03	...So, what's the reason you wanted to meet up with me?
+04	Is it not okay to call you over<LF>unless I have a reason, %usernameusernameuserna%?
+05	Shirona...<LF>No, it's not a problem at all.
+06	I see, that's a relief.
+07	Then shall we stop somewhere on the way?
+08	Is there anywhere you want to go?
+09	You can pick wherever you'd like to go, Shirona.
+10	...Then, a macadamia nut specialty shop.
+11	What kind of specialty shop is that...
+12	Cookies, muffins, chocolate, tarts...<LF>It's packed with sweets made from macadamia nuts.
+13	Super recommended.
+14	Haha, then let's head there. Tell me your recommended picks too.
+15	Of course. Leave it to me.
+16	It's not that there's anything in particular I want to see, though.
+17	...Then we can choose after we get there.<LF>That's sure to be fun too.
+18	Yeah, true.
+19	And so we headed for the movie theater in the City.
+@@choice	白奈は？	What about you, Shirona?
+@@choice	映画でもどう？	How about a movie?

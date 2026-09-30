@@ -1,0 +1,43 @@
+round 8 template reachability
+  unreachable templates : 31
+  retired as duplicates : 9
+  over the client cap   : 2
+  awaiting capture      : 19
+  needs an author       : 3 (+0 placeholder gap(s))
+
+retired (unreachable, and identical to a live entry):
+  "21人入ってます"  <- strings
+  "いずれかの生徒のレアリティをSSR+にする"  <- strings
+  "いずれかの生徒のレアリティをUR+にする"  <- strings
+  "いずれかの生徒のレアリティをURにする"  <- strings
+  "いずれかの生徒を1人レアリティをLRにする"  <- strings
+  "カオスメイデン生徒たちの親愛度を合計で45上げる<space=1.5em>カオスメイデン生徒たちの親愛度を合計で45上げる"  <- strings
+  "トレブルクインテット生徒たちの親愛度を合計で45上げる<space=1.5em>トレブルクインテット生徒たちの親愛度を合計で45上げる"  <- strings
+  "ピクシス・マスール生徒たちの親愛度を合計で45上げる<space=1.5em>ピクシス・マスール生徒たちの親愛度を合計で45上げる"  <- strings
+  "有償 <color=#ff1c0b>150</color>"  <- strings
+
+left in place, an author has to decide:
+  "3日" => "# days"  (the live entry in templates says "#d")
+  "<size=40>#DAYジェムパス</size>\n<size=30><size=24>購入時に有償ジェム×#,#と#日間、毎日無償ジェム×#（おまけ）が獲得できるパス\\n※#DAYジェムパスの有効期間中の重複購入はできません。購入から#日後の#:#以降に再度購入可能になります\\n※法令で定めがある場…" => "<size=40>#DAY Gem Pass</size>\n<size=30><size=24>A pass that grants #,# paid gems and, for # days, # free gems daily (bonus) upon purchase\\n*Duplicate purchase during the #DAY Gem Pass validity period is not possible. Repurchase becomes possible from #:# on the #th day after purchase\\n*If there are statutory provisions…"  (value needs 9 substitutions, already covered exactly by templates)
+  "<size=40>#DAY生徒成長パス</size>\n<size=30><size=24>購入時に有償ジェム×#,#と#日間、毎日補給物資×#（おまけ）が獲得できるパス\\n※#DAY生徒成長パスの有効期間中の重複購入はできません。購入から#日後の#:#以降に再度購入可能になります\\n※法令で定めがある場合…" => "<size=40>#DAY Student Growth Pass</size>\n<size=30><size=24>A pass that grants #,# paid gems and, for # days, # supply item daily (bonus) upon purchase\\n*Duplicate purchase during the #DAY Student Growth Pass validity period is not possible. Repurchase becomes possible from #:# on the #th day after purchase\\n*If there are statutory provisions…"  (value needs 9 substitutions, already covered exactly by templates)
+
+awaiting a capture session (the raw string has not been seen yet, so no fix is provable):
+  "<size=40>30DAYジェムパス</size>\n<size=30>"
+  "<size=40>30DAY生徒成長パス</size>\n<size=30>"
+  "<size=40>メイズ攻略記念パック</size>\n<size=30>購入時に有償ジェム×3,000と（おまけ）ミッションをクリアすることで\nスペシャルライセンスが最大60獲得できるパック</size>"
+  "<size=40>メインクエスト攻略記念パック</size>\n<size=30>購入時に有償ジェム×3,000と（おまけ）ミッションをクリアすることで\nスタンダードガチャチケットが最大30獲得できるパック</size>"
+  "<size=50>体</size>"
+  "<sprite name=sentence_blue> 個別の提供割合は、小数点第4位以上を表示しているためレアリティ別の合計値または全体の合計値が100％にならない場合があります。"
+  "<sprite name=wing_blue_left>Daily Missionsを達成しました！"
+  "<sprite name=wing_blue_left>ウィッシュリスト<sprite name=wing_blue_right>"
+  "<sprite name=wing_blue_left>ガチャ確率<sprite name=wing_blue_right>"
+  "<sprite name=wing_blue_left>クレバーウィッシュリスト<sprite name=wing_blue_right>"
+  "<sprite name=wing_blue_left>ミッション一覧<sprite name=wing_blue_right>"
+  "<sprite name=wing_blue_left>購入完了<sprite name=wing_blue_right>"
+  "10回<size=30>募集</size>"
+  "1回<size=30>募集</size>"
+  "1回限定"
+  "1日1回"
+  "30DAYジェムパス"
+  "30DAY生徒成長パス"
+  "有償 <color=#ff1c0b>1,500</color>"

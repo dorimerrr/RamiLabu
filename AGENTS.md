@@ -46,14 +46,14 @@ client never reads this folder: it downloads `translation/**` from a CDN, verifi
 | `BepInEx\LogOutput.log`, `…\translation\scene-dump\` *(outside the repo)* | harvest output of the running game |
 | `C:\Users\Andrew\Desktop\Airi` *(outside the repo)* | clone of the mod's source (`anosu/MuvluvMod`): **read-only reference** — `src\MuvluvMod\Services\UiTextResolver.cs`, `TranslationHash.cs`, `TranslationCache.cs`, and `artifacts\ui-coverage\` (a `net8.0` harness that runs the real resolver). `artifacts\` is gitignored scratch. **Never translate there.** |
 
-Live counts at the time of writing (`hash=4bf84bceb9cd54994a57681f15188369`):
+Live counts at the time of writing (`hash=e36d5fb03fe178e2cb69b601be95d2db`):
 
 | category | file | contents |
 | --- | --- | --- |
-| `ui` | `ui/en.json` | 585 strings + 157 templates |
+| `ui` | `ui/en.json` | 1,093 strings + 296 templates |
 | `names` | `names/en.json` | 655 speaker names + 41 team names |
 | `static` | `static/en.json` | 67 MasterData classes, 101 property paths, 21,092 entries (many still identity) |
-| `scenes` | `scenes/<id>/en.json` | 623 English scene files out of 1,120 scene directories |
+| `scenes` | `scenes/<id>/en.json` | 627 English scene files out of 1,120 scene directories |
 
 ## 2. What the client does with the data (the rules your entries must satisfy)
 
@@ -101,6 +101,11 @@ A flat object: key = the exact line the game rendered, value = the translation.
 * Lines may carry markup and prefixes — `<line-height=2.000em>`, real line breaks (`\n`), sprite tags
   such as `<sprite name=wing_blue_left>` — and the player-name placeholder `%usernameusernameuserna%`.
   Keep every marker, translate around it.
+* **Choice labels are part of the same file but not part of the dump.** `ScenarioChoiceElementComponent.Apply`
+  and `ScenarioHistoryCell.ApplyText` look the label up in the current scene's table, yet the harvest only
+  records `Phrase.Text`, so a scene with choices needs those two keys added by hand. Compare against the
+  sibling `zh_Hans.json`: the Chinese file carries every key the game looks up, and a key the dump has but
+  `zh_Hans.json` does not is a sign the dump is the incomplete one.
 * An untranslated line falls back to the Japanese text; nothing breaks.
 * A scene is only downloaded when the manifest lists it. A file that is absent from the manifest is
   read locally only (`JsonCachePolicy.LocalOnly`), i.e. it is never fetched from the CDN.
@@ -239,22 +244,29 @@ reproduced and reviewed later.
 3. **Author.** Write the round's sources of record under `tools\sources\`:
    * `ui-roundN-translations.tsv` — `<harvest index><TAB>S|T<TAB>translation`
      (`S` = exact string, `T` = template, digit runs become `#`)
-   * `scene-<id>-translations.tsv` — `<dump index><TAB>translation`
+   * `scene-<id>-translations.tsv` — `<dump index><TAB>translation`, plus one
+     `@@choice<TAB><japanese label><TAB>translation` row per choice the scene renders (the dump never
+     records those, so they are keyed by their source text)
    * Escapes: `<LF>` → real line break, `<CRLF>` → `\r\n`, and a literal backslash-n is written `\\n`
      and stays literal. A key written with a doubled backslash can never match a rendered string.
-4. **Build.** Start from the newest builder: `tools\scripts\build-round6.ps1` for an interface-only round
-   (`-Harvest`, the TSV, optional `-UiExtras`, no scene file), or `tools\scripts\build-round5.ps1` when the
-   round also builds a scene file. The builder takes the **keys from the harvest**, so a key can never
-   differ from what the game rendered, and emits an additions JSON (`strings`, `templates`, optional
-   `remove`). It also rejects the failure modes the client ignores silently — an empty value, a value
-   equal to its key, a Japanese character in a Latin value, a template whose `#` count does not match the
-   digit runs — and prints how many harvested strings are still unresolved, which must be 0 when the
+4. **Build.** Start from the newest builder: `node tools\scripts\build-round7.js` for an interface-only
+   round (the harvest JSON, the TSV), or `node tools\scripts\build-scenes-round7.js` for the scenario
+   files. The equivalent PowerShell builders (`build-round6.ps1`, `build-round5.ps1`) are the earlier
+   rounds and stay in place for reproducibility. The builder takes the **keys from the harvest**, so a key
+   can never differ from what the game rendered, and emits an additions JSON (`strings`, `templates`,
+   optional `remove`). It also rejects the failure modes the client ignores silently — an empty value, a
+   value equal to its key, a Japanese character in a Latin value, a template whose `#` count does not match
+   the digit runs — and prints how many harvested strings are still unresolved, which must be 0 when the
    round is done. Retire superseded keys through `remove`, not by editing history.
 5. **Merge.** `powershell -File tools\scripts\merge-ui-translations.ps1 -Additions tools\sources\ui-roundN.json -Prune`
    — merges the additions into `translation/ui/en.json` (sorted keys, literal `<`, `>`, `&`, `'`) and
    drops the keys listed under `remove`.
-6. **Verify.** `powershell -File tools\scripts\check-coverage.ps1 -Resolve` must show every harvested
-   string resolving; then `node manifest.js en` and `git diff --stat`.
+6. **Verify.** `powershell -File tools\scripts\check-coverage.ps1 -Harvest tools\sources\ui-roundN-harvest.json -Resolve`
+   must show every harvested string resolving (a run without `-Harvest` reads whatever the current log
+   holds, which is the *next* round's backlog); then `node manifest.js en` and `git diff --stat`.
+   `tools\\scripts\\check-coverage.ps1` mirrors `UiTextResolver` (the same leading digit-run collapsing
+   via an `inDigits` flag, tag-aware substitution, the substitution cap `MaxSubstitutions = 8`) — see
+   §2.1.
 7. **Record.** Copy the round's artifacts into `tools\sources\`, `tools\snapshots\` (table before/after)
    and `tools\reports\`, then commit data, manifest and tooling together.
 
@@ -309,6 +321,14 @@ checkout is the real thing. When the two disagree, the harness wins.
   placeholder does nothing at all.
 * Template entries are all-or-nothing. If a value has the wrong number of `#`, the entry is ignored and
   the game keeps showing Japanese — no error, no partial translation.
+* CR-bearing keys can never match (audit: `node tools/scripts/audit-scene-newlines.js` and
+  `node tools/scripts/repair-newlines.js`). The game renders a line break as a bare LF: the scene dump
+  holds 268 lookup keys with no CR at all, and round 8's live harvest re-captured five strings round 7
+  had recorded with CRLF as bare LF, so the CRs came from the snapshot tooling, not the engine. Round 7
+  swept the UI table the same way (LF twins in, CRLF keys retired through `remove`); repair remaining
+  `translation/scenes/<id>/en.json` CRs with `node tools/scripts/repair-newlines.js --write` (never touch
+  `zh_Hans.json`, per rule 2). CRs also sit in `translation/static/en.json` (3 `ShopProductMaster`
+  value-equals-key placeholders) and in the upstream `zh_Hans` scene files — reported, not repaired.
 * Rich-text markup is never digit-substituted, and `#` inside a tag is not a placeholder. Check a
   template against `<color=#…>` and `<size=…>` values before assuming an off-by-one.
 * Full-width punctuation in an *English* value flips the full-width-digit conversion (see 2.1). Prefer

@@ -1,0 +1,38 @@
+# Scenario lines for scene 61000301 (Meru grounds training episode)
+# Format: <index in scene-dump/61000301.json> <TAB> translation
+# '<LF>' becomes a real line break; the source lines use real line breaks.
+# The trailing block holds the two choice labels, which the dump never records but the scene renders
+# (the zh_Hans.json next to it carries the same two keys).
+00	Phew... maybe I'll push a little longer...
+01	While wandering idly through the school building,<LF>I found a girl giving it her all on the grounds alone――Meru.
+02	Solo practice? You're really working hard, Meru.
+03	I can't afford to hold everyone back,<LF>so I make sure never to skip physical training either.
+04	Your physical ability was already high to begin with,<LF>and I don't think you'd ever hold anyone back...
+05	Even so, when I think I might be able to help someone,<LF>I don't want to cut corners.
+06	I see. But if you keep repeating the same routine,<LF>won't you get bored?
+07	How about trying some different training too?
+08	I see... that does sound good!<LF>What kind of training do you think would be good?
+09	Since I'm here anyway, how about training that you can't do<LF>without a machine? I'll help you out.
+10	Like shoulder presses or lying leg curls,<LF>those become possible with two people.
+11	B-But that means... we'd be pressed right up against each other, right!?
+12	Ah, that's true... sorry, I hadn't thought that far.<LF>Let's not after a――
+13	No, let's do it!!!!
+14	Huh, ah... sure?
+15	That one, it's the "strike while the iron is hot" thing! Let's train a lot!
+16	And so, with Meru suddenly far more motivated,<LF>I ended up keeping her company until dusk.
+17	For example, how about picturing a one-on-one close-quarters<LF>fight with me focused on hand-to-hand combat?
+18	Close-quarters combat with %usernameusernameuserna%-san... just the two of us!?
+19	Hm...?
+20	What was that, we should have used the same words,<LF>but it felt like she took it in a whole different sense... oh well.
+21	…………
+22	……………………!!
+23	(Just what kind of image training is she running...?<LF>As expected of Meru... such incredible focus...)
+24	%usernameusernameuserna%-san...!<LF>Targeting a spot like that so relentlessly is...!
+25	!? Just what am I doing inside her imagination!?
+26	Ah...! What kind of image training was I running...!
+27	No, seriously!? What kind of image training was it!?
+28	Eh...!? %usernameusernameuserna%-san so persistently...<LF>I-I can't say any more than thiiiiis!!
+29	Huh...
+30	Her face bright red, Meru went running off...
+@@choice	ペアトレーニングなんてどう？	How about pair training?
+@@choice	イメージトレーニングだ	Image training, then

@@ -1,0 +1,647 @@
+36	Enemy
+5	Execute
+10	Funds
+39	Single
+41	Self
+47	Ally
+50	Potency
+53	All
+56	# enemies
+59	Sure Hit
+140	Invest
+338	#d
+388	Huh?
+432	Individual
+476	Freeze
+561	Activity
+659	Left:
+676	Use
+753	Background
+767	Nanairo
+795	Meru
+836	Shirona
+952	Flash
+1050	Stun
+55	# actions
+62	Row
+98	Worldview
+176	Exchange
+254	Role
+555	#min
+563	Active
+725	Shining Light
+749	Character
+750	Portrait
+752	Still
+757	Not Owned
+817	Chiyuru
+876	LOC
+3	# left
+40	AP Cost
+45	PP Cost
+58	Defense Pierce
+94	Buy ×#
+95	Max Buy
+107	Tactical Exercise
+113	Idle Feature
+163	Periodic Exchange
+209	Frame
+277	Commander
+406	Formation #
+421	End Exploration
+423	Pause
+445	Chapter #, Section #
+462	Kinta
+466	Haruki
+468	Shikikan
+552	Claim All
+553	Bulk Activity
+554	Duration
+559	Time Left
+562	Auto-Place All
+572	Total Rewards
+715	Fight
+727	Accept the Invitation
+755	Unavailable
+846	Claimable
+847	---min
+951	Stun Immunity
+1019	HP + #
+1049	Comeback
+1	Rhythm Heaven
+24	Giant Venom Wing
+79	Formations: #
+109	Academy Total War
+155	To Shop
+161	Recruit #x
+207	Monthly
+214	No Staring
+231	Prologue
+262	Grit
+276	# actions left
+321	Ahaha...
+477	Nocturne
+652	Funds Gained
+754	EX Skill
+873	Kuchiba Rami
+882	Shiun Saya
+942	Heaven-Sent Rain
+947	Harvest
+1022	Defense + #
+9	Commander EXP
+17	Boost Gear
+26	Take the Risk
+35	Points Cost
+49	Max #x uses
+67	Cooldown
+91	It's the summer's fault
+108	Official MG Tournament
+111	Combined Tactical Exercise
+165	Left: #/#
+191	No Exchange Limit
+275	# hits left
+312	Different from my impression
+324	To Episode
+387	That's not it...
+426	Life Seed
+429	Not Enough Materials
+441	Friend Request
+475	Freezing Roar
+655	Time-Reduction Claims
+861	Acidic Swamp<CRLF>
+875	Ikoma Aoi
+921	#h left
+932	Armor Break
+935	Life Ex
+940	Heal Up
+1020	Attack + #
+1052	Level Link
+1061	Handheld Console
+44	Passive Skill
+89	Damage Link
+153	EN Attacker
+192	Custom Gear I
+193	Custom Gear II
+194	Custom Gear III
+272	Bleh♡
+311	That's amazing
+424	Energy Barrier
+716	Flee Quickly
+751	Animation
+864	Escape Immediately
+877	Shiena Clark
+880	Yuria Burns
+881	Ryusui Ran
+883	Fiedrese
+884	Anis Bennett
+946	Hiiragi Campus Honor Student
+950	Spirit of Discipline
+954	Brave Lift
+1060	Cute Handkerchief
+27	Leave This Place
+34	Extra Skill
+38	Active Skill
+114	Smart Device
+166	#d #h left
+202	P-# Grand Prix
+232	I'm coming now...!
+418	Chain Relief
+481	Flash Sale
+938	Tension Up
+939	Ignis Fang
+106	Battle Simulate
+110	P-# Grand Prix
+112	Zaltoum Total War
+143	Technical Report
+160	Standard Gacha
+164	Subscription
+264	Crisis Drive
+335	What should I make for the bento?
+364	#h #m left
+394	Ah, that makes me so mad!
+425	Reboot Wrapping
+485	Act on Specified Commercial Transactions / Payment Services Act
+631	Up to VIP Rank #
+683	Use Character Container
+863	Pick Up Tatsumiya Ore
+953	First Fang
+90	That's the part I'm bad at!
+186	Boost Cartridge
+261	I'm not done yet, you know?
+390	Hey, no allies?!
+420	Radiant Shift
+660	Rookie Commander Support Pack
+678	Use Item Container
+782	...A study session for everyone.
+852	Double Ice Cream
+853	Tapioca Milk Tea
+872	Character Portal
+878	Lidia Eldridge
+142	Energy Cartridge
+144	Obtain # Memories
+190	Circle Gacha Ticket
+215	Nice to meet you
+297	Understand what...!?
+395	Sigh... this is bad, I'm broke.
+470	Abnormal Point
+665	#h #m #s left
+735	Flash Relay Sale
+941	An Army Marches on Its Stomach
+987	Shy Skill Report II
+203	Guaranteed SSR Gacha Ticket
+346	Pre-Registration: Global Gacha Reward
+654	Technical Reports Gained
+684	Cost: # / #
+713	Trampled Maze Shifter
+934	Exchange period #d #h left
+988	Smart Skill Report II
+145	Set any title
+148	Pull the Circle Gacha # times
+179	Shy Upgrade Kit
+343	Physical-Type Module Blueprint
+345	Pre-Registration: Registered User Reward
+347	Pre-Registration: X Follower Reward
+419	Scapegoat Slash
+653	Training Reports Gained
+913	Let's enhance a student's skill!
+991	Please select an item
+80	Tatsumiya Ore gain + #%
+147	Technical Report (#h)
+162	Until stock refresh: #d #h left
+178	Smart Upgrade Kit
+307	＠Rami_K\nHehehe...
+320	＠Rami_K\nThat's mean!?
+334	Then, I'll look forward to tomorrow noon too.
+677	You will obtain the following items
+718	I believe that was an intentional effect
+732	Time left: #d #h #m
+986	Aggressive Skill Report II
+199	Until stock refresh: #h #m left
+234	I'll launch the attack from here!
+377	＠Chiyuru_T\nCompanion.
+547	[Extracurricular Activities] unlocked!
+177	Aggressive Upgrade Kit
+399	[Maze Exploration] unlocked!
+478	Time left: #h #m #s
+587	Next, press the Type button!
+615	Same-Attribute Cards Needed<CRLF>#+#
+670	Limited-Time Memory "The Greatest Fortune Is"
+1030	Comprehensive Simulate STAGE#
+82	AP of deployed characters +#
+86	PP of deployed characters +#
+293	Student detail unlock requirement met!
+543	Extracurricular activity unlock requirement met!
+548	Memory unlock requirement met!
+550	Event unlock requirement met!
+697	[Memory Formation] unlocked!
+780	＠Meru_M\nHow about I come help?
+250	I'm the rear guard!? O-okay!
+150	Buy items # times at the Circle Exchange
+582	First, try pressing the Attribute button!
+657	Valid until #/#/# #:#
+687	You will randomly obtain the following items
+708	Well then, let's give it our all♪
+288	#x <size=30>Recruit</size>
+310	I still train now,<CRLF>so I'm confident in my stamina!
+616	Please select a same-attribute Style Card
+627	Also, the amount of Training Reports gained!
+149	Enhance any attribute Academy Level # times
+237	Meru-san! It's dangerous to get out of the MG...!
+304	Momozono Meru's scenario unlocked!
+316	Ah—I get that.<CRLF>Meru sometimes doesn't react at all.
+351	Wishlist unlock requirement met!
+362	Please select a Shy-attribute character
+379	＠Chiyuru_T\nI have to do extra assignments.
+386	＠Shirona_I\nDon't you think that's too harsh!?
+482	We've prepared a great deal you can only buy now!
+596	Next, press the Role button!
+609	And finally, about position aptitude!
+1029	Unlocked by clearing Comprehensive Simulate STAGE#
+146	Enhance any type Academy Level # times
+211	Please select a Smart-attribute character
+318	＠Chiyuru_T<CRLF>Huh, an a-assistant...?
+348	Give a gift to any character # times
+356	Please select a Comical-attribute character
+360	Please select a Cute-attribute character
+385	So the president made me write several\napology letters and applications!
+391	＠Chiyuru_T\n...That was Chiyuru's fault.
+612	<size=100>Front/Rear</size>
+924	[Main Quest HARD] unlocked!
+235	Alright... I endured it! If it falls with the next attack...!
+383	So, what's up, Chiyuru?\nI heard it's a club activity.
+443	This is the favorite character set by the user
+702	This is the power of Master's and everyone's memories...!!
+760	Ichijo Shirona [Mysterious Girl]'s Style Card
+784	Yeah, that sounds nice.\nLet's gather in Meru-san's room.
+69	Performs a #-hit EN attack with potency # on a random single enemy
+208	Why does something come up at a time like this～\nWe want to play together too.
+294	Part # "Unseen Starlight"
+298	Come on, it's fine～!! You'll definitely become friends!!
+358	Please select an Aggressive-attribute character
+483	A Standard Gacha Ticket comes as a bonus!
+546	Main Quest HARD unlock requirement met!
+698	Well then, let's set the Memories right away!
+284	The student council president is waiting. Please be on your best behavior.
+392	＠Aoi_I\nWhoa!? Jumping in like that\nscares people!
+771	<line-height=2.000em>Nanairo...
+982	Harriet Mills [Sharp-Tongued Maid]'s Style Card
+1009	Select the Style Card to use for Limit Break
+613	Placing in either the front or rear row<CRLF>causes no change in stats
+656	<color=#0096ff>+# times</color>
+685	Tsukigase Chiyuru [Hair's-Breadth Maze Otaku]'s Style Card
+781	＠Shirona_I\nOh, that sounds fun, should I come too?
+839	<line-height=2.000em>Yeah.
+967	Use the following items to enhance Active Skill
+973	Use the following items to enhance Extra Skill
+299	Giving a present here will deepen your affection!
+779	Um, um... I have an assignment to do, and I'd like help. Is anyone free to help me?
+306	Speaking of which, Meru is really athletic.<CRLF>She was quick when saving that guy, too.
+330	I want you to always...<CRLF>Um, to never get tired of my bento and keep eating it...
+380	Oh, Shirona-chan sometimes gets extra assignments.\nIs it because she's so highly regarded?
+384	＠Shirona_I\nWell, I blew up the club room again.
+658	Piko-piko-n!<CRLF>Master! You have an eye for the good stuff!
+221	<color=#0096ff>World #</color>
+303	Select MAX and raise affection as much as you can!
+319	＠Chiyuru_T<CRLF>Hey! Don't drag Meru<CRLF>down the path of weirdos!
+801	<line-height=2.000em>Eh, ah... sure?
+922	Part # "The Girls Before Dawn"
+141	#st ANIV.#DAYS mission points: earn #
+274	<size=40>Kuchiba Rami</size>A Sore Loser and Unyielding Girl
+308	That's really surprising. At first glance,<CRLF>Meru-chan doesn't seem athletic.
+336	Affiliated with Sirius Sugar<CRLF>Likes: Cooking
+762	Unset <color=#ff1c0b>#</color>/#
+833	<line-height=2.000em>I see, good.
+213	The character you set will appear on rankings and other specific screens
+226	<color=#0096ff>Created Worlds</color>
+236	Ah, that person from before has collapsed...! I'll get down and check on them!
+322	It seems a student is calling for you, so let's go right away!!
+365	# We're a brand-new circle! Everyone is welcome♪
+378	＠Shirona_I\nHuh? Shirona-chan, you're busy too?\nWhat's going on with you?
+835	<line-height=2.000em>Is there anywhere you want to go?
+273	<size=40>Momozono Meru</size>The Clumsy and Pure Future Ace
+287	Let's get right to it and go pick up everyone from Sirius Sugar!
+581	Thinking about it that way, it seems better to collect characters from the standard pool rather than limited ones
+120	<sprite name=sentence_blue>About Defeat
+309	＠Chiyuru_T<CRLF>When I used to play badminton,<CRLF>I even competed in big tournaments!
+333	Ehehe... Lately I've been hogging you during lunch,<CRLF>so I feel a bit bad for the others...
+696	Piko-piko-piin!<CRLF>Master! A Memory slot has been unlocked!
+233	Are you okay!?<CRLF>...You don't seem to hear me. I have to drive it off myself!
+352	The wishlist lets you narrow down the students that come out of the gacha!
+584	<color=#6a8181>MAIN:</color>Aggressive
+666	Please enjoy your happy shopping life!<CRLF>Piko-piko-n!!
+800	<line-height=2.000em>No, let's do it!!!!
+248	Everyone, please be careful!<CRLF>A huge swarm of Maze Shifters is approaching!!
+154	<color=#ff1c0b>Not enough paid gems</color>
+620	Does the three-choice thing in the gacha actually matter? Picking the right one feels like it gives better results more often
+100	<sprite name=sentence_blue>About Daily Rewards
+127	<sprite name=sentence_blue>About Important Choices
+339	Piko-piko-n!<CRLF>For Master's growth, Piko has set up some simple goals!
+393	...Don't come talk to me every time you see me in the library. Especially Meru and Shirona, who go out of their way to find me.
+819	<line-height=2.000em>Huh!? Are you serious!?
+834	<line-height=2.000em>Then, shall we stop somewhere on the way?
+4	You can obtain #min of rewards instantly.<CRLF>Use gems to claim early?
+102	<sprite name=sentence_blue>About Tune-Up
+305	Master! There seems to be an update on Tweety!!<CRLF>Let's check it out!!
+785	＠Nanairo_N\nDid Rami just get counted in as a matter of course?\n...Whatever, I'll go.
+815	<line-height=2.000em>Huh!? Why would it be like that!?
+104	<sprite name=sentence_blue>About Daily Exchange Limits
+184	Shy Upgrade Kit<space=1.5em>Shy Upgrade Kit
+195	Agile-Type Module Blueprint<space=1.5em>Agile-Type Module Blueprint
+196	EN-Type Module Blueprint<space=1.5em>EN-Type Module Blueprint
+198	Physical-Type Module Blueprint<space=1.5em>Physical-Type Module Blueprint
+300	Let's give everyone's favorite "Gift Card"!<CRLF>Try presenting it!
+580	Each character has an attribute,<CRLF>and attributes have advantages and disadvantages!
+783	＠Shirona_I\nAh, right! Let's all have a study session together, Sirius Sugar!
+788	<line-height=2.000em>Practicing alone? Meru sure works hard.
+809	<line-height=2.000em>Chiyuru, what are you doing here?
+566	Participation rate: <size=40>#</size><size=32>%</size>
+811	<line-height=2.000em>You looked troubled. Something on your mind?
+825	<line-height=2.000em>Ouch! Sorry! My fault...!
+830	<line-height=2.000em>...So, why did you want to meet me?
+832	<line-height=2.000em>Shirona...<CRLF>No, it's not a problem at all.
+837	<line-height=2.000em>It's not that there's anything in particular I want to see.
+122	<sprite name=sentence_blue>About Difficulty ENDLESS
+128	[Maze Only] Starts with Physical-type allies' defense increased by level × #%.
+131	[Maze Only] Starts with Physical-type allies' attack increased by level × #%.
+132	[Maze Only] Starts with EN-type allies' defense increased by level × #%.
+134	[Maze Only] Starts with EN-type allies' attack increased by level × #%.
+136	[Maze Only] Starts with Agile-type allies' defense increased by level × #%.
+139	[Maze Only] Starts with Agile-type allies' attack increased by level × #%.
+180	Cute Upgrade Kit<space=1.5em>Cute Upgrade Kit
+181	Comical Upgrade Kit<space=1.5em>Comical Upgrade Kit
+183	Smart Upgrade Kit<space=1.5em>Smart Upgrade Kit
+185	Clever Upgrade Kit<space=1.5em>Clever Upgrade Kit
+286	Nice to meet you again!!<CRLF>The ultra-high-performance AI Piko will be taking care of you!!
+703	I really felt Master's power!<CRLF>Please remember your memories with me too...!?
+770	<line-height=2.000em>There are simply too many ways in which I fall short...
+805	<size=40>Affection Lv.</size> <size=75>#</size>
+64	Attacks the nearest enemy and # adjacent units with potency #.#, reducing the target's EX gauge by #
+130	[Maze Only] Starts with Physical-type allies' action speed increased by level × #%.
+133	[Maze Only] Starts with EN-type allies' crit rate increased by level × #.#
+135	[Maze Only] Starts with EN-type allies' action speed increased by level × #%.
+137	[Maze Only] Starts with Agile-type allies' crit rate increased by level × #.#
+138	[Maze Only] Starts with Agile-type allies' action speed increased by level × #%.
+271	When the EX Gauge (Extra Gauge) fills,<CRLF>an Extra Skill activates on the next action.
+573	Now then, Master! In order to defeat Izanami...<CRLF>let's take on the "Amatsu Mikaboshi"!
+591	Type is only a tendency,<CRLF>so let's check the actual role and position aptitude!
+768	<line-height=2.000em>Of course, I believe I understand that.
+786	<line-height=2.000em>Phew... maybe I'll push a little longer...
+793	<line-height=2.000em>How about trying some different training?
+813	<line-height=2.000em>Oh, that's interesting. Show me.
+829	<line-height=2.000em>Yeah. But I haven't waited that long, so it's fine.
+129	[Maze Only] Starts with Physical-type allies' crit rate increased by level × #.#%
+171	Special License [Shy]<space=1.5em>Special License [Shy]
+173	Physical-Type Upgrade Kit<space=1.5em>Physical-Type Upgrade Kit
+174	EN-Type Upgrade Kit<space=1.5em>EN-Type Upgrade Kit
+175	Agile-Type Upgrade Kit<space=1.5em>Agile-Type Upgrade Kit
+187	Technical Report (#h)<space=1.5em>Technical Report (#h)
+332	And... if it's okay, how about eating together tomorrow noon?<CRLF>They say it'll be clear, so please come to the school courtyard...
+337	Well then, now that the two of you are closer,<CRLF>let's head home and sortie once you're ready♪
+342	If there are missions you haven't cleared,<CRLF>please proceed using the Challenge button!
+125	<sprite name=sentence_blue>About Growth from Clearing Quests
+314	＠T_Commander<CRLF>Thank you!<CRLF>It's odd to say about myself,<CRLF>but I'm good at focusing on one thing!
+350	Pi-kon!! Master!!<CRLF>The wishlist has been unlocked, so let's take a look right away!
+586	Characters are divided into # types,<CRLF>and the tendencies differ by type!
+170	Special License [Smart]<space=1.5em>Special License [Smart]
+172	Special License [Cute]<space=1.5em>Special License [Cute]
+182	Aggressive Upgrade Kit<space=1.5em>Aggressive Upgrade Kit
+290	We've regrouped with everyone from Sirius Sugar!<CRLF>Now let's go report to the student council president!
+595	Character roles are divided into # roles,<CRLF>each with its own assigned function!
+637	Raising your VIP Rank also increases<CRLF>the number of time-reduction collections for mining!
+700	Choose while checking the Memory's contents♪<CRLF>And next, please select Maze Exploration!
+706	If you have a Memory tied to a student,<CRLF>leave setting the student-linked Memories to me!!
+993	<size=36>Supply Item</size><CRLF>An item that grants student growth materials when used.
+22	Suddenly we were surrounded by submersibles.<CRLF>Looks like illegal divers...<CRLF>Looks like illegal divers...
+249	Those with shields, go to the front as tanks!<CRLF>You fall back to the rear as support and create an opening!
+258	<size=40>Support</size><CRLF>A role specialized in support, such as buffing and healing allies
+315	＠T_Commander<CRLF>＠Meru_M<CRLF>But back then, even if you called Meru,<CRLF>she wouldn't notice.
+328	Hello, hello, this is Momozono Meru!<CRLF>Um... is now a good time to talk? I'm thinking about the<CRLF>bento dishes to bring tomorrow noon...
+583	For which attributes a character is strong against,<CRLF>check this table and build your formation!
+707	If you only want Memories set automatically,<CRLF>use the Auto option on the Memory formation screen♪
+798	<line-height=2.000em>B-but that means... we'd be pressed right up against each other!?
+585	<color=#6a8181>MAIN:</color>Strong against Shy, weak against Smart.
+607	I explained it all at once, but you can check anytime,<CRLF>so come back whenever you forget!
+773	<line-height=2.000em>Eh... no, I wouldn't want to drag you into this...
+327	Your phone is ringing after going out?<CRLF>Even if you pick Later and close it, you can call again from TALK!
+353	For the # attributes Aggressive, Smart, Shy, and Cute, you can set # students each!
+588	The Physical type tends toward attacker and tank roles,<CRLF>and many of its characters excel in the front row!
+600	Supports excel at buffing and healing allies,<CRLF>so you'll want to pick the support that fits your formation!
+820	<line-height=2.000em>This is proper work, you know?<CRLF>Come on, show me quickly.
+15	A giant trace of a Maze Shifter was found ahead. Wavelengths of an anomaly-class Maze Shifter have also been detected...<CRLF>
+16	The road ahead splits in two. One route holds opportunity, the other holds disaster...
+117	Students with # attributes can be deployed in the attribute Battle Simulate matching their main and sub attributes.
+168	Special License [Aggressive]<space=1.5em>Special License [Aggressive]
+205	Style Card Selection Box [#-Attribute]<space=1.5em>Style Card Selection Box [#-Attribute]
+255	<size=40>Physical Attacker</size><CRLF>A role specialized in dealing damage with physical attacks
+256	<size=40>EN Attacker</size><CRLF>A role specialized in dealing damage with EN attacks
+259	<size=40>Control</size><CRLF>A role specialized in disruption, such as status ailments and interference
+663	There are other value packs and passes too, so when you need support,<CRLF>shop at the academy store!!
+802	<line-height=2.000em>That's right, strike while the iron is hot! Let's train a lot!
+840	<line-height=2.000em>And so, we headed to the movie theater in the city.
+217	<line-height=2.000em>Use this screen to check the text display speed and background opacity.
+257	<size=40>Tank</size><CRLF>A role specialized in taking attacks with high durability and protecting allies
+541	I got to Maze # with room to spare, but at # I was wiped out instantly... is up to # just the tutorial? (despair
+729	The light grew stronger and faded away. Obtained <color=#ff701a>#</color> Relics.
+936	The sleeping life wave awakens, increasing max HP on acquisition by <color=#ff701a>+#%</color>.
+628	Also, the amount of Technical Reports gained!<CRLF>This boosts acquisition of items essential for character growth!
+772	<line-height=2.000em>Alright. Then today I'll stick with you<CRLF>until you're satisfied, Nanairo.
+776	<line-height=2.000em><noparse>Dreamer</noparse>-san...
+25	A giant venom wing of a Maze Shifter lies fallen. The glow of Tatsumiya Ore is visible beneath the wing, but collecting it will take a risk.
+270	When everyone's AP (Active Points) runs out,<CRLF>the turn ends, AP and PP are restored, and the next turn begins
+331	Ah... right! How about omelet rice?<CRLF>Now that I think about it, I haven't made it yet. I'm pretty confident about this one.<CRLF>I'll bring the same dish too.
+680	<size=36>Funds (#h)</size><CRLF>An item that grants funds for #h of mining when used.
+72	Activates at turn start. For # turn, raises own skill potency by #.#. This skill does not activate on turn #.
+204	Style Card Selection Box [Special #-Attribute]<space=1.5em>Style Card Selection Box [Special #-Attribute]
+230	After my consciousness faded, I woke up in an unfamiliar space.<CRLF>Where is this... Nothing to be gained by staying here. For now, let's move on...
+301	If you leave it to Piko's "Auto", it will prioritize what the student likes and select to raise affection by one stage!!
+329	Is there anything you want to eat? I made pasta before,<CRLF>and hamburger steak and gyoza come up pretty often too.<CRLF>Always eating the same thing does get boring, right...
+608	Some characters have positions they aren't good at,<CRLF>so be a little careful when deciding placement in your formation!
+629	If you miss a daily login bonus!<CRLF>Don't worry—there's also an increase to your missed-compensation claim count!
+823	<line-height=2.000em>...Sorry, it was a joke.<CRLF>I didn't think you'd actually panic like that.
+18	Activation particles dance and accelerate, boosting all allies' speed by <color=#ff701a>#%</color> at battle start.
+769	<line-height=2.000em>...But even so, if I'm not moving like this,<CRLF>I end up feeling anxious.
+777	<line-height=2.000em>Hehe, then, please do.<CRLF>I'll be taking your time.
+838	<line-height=2.000em>...Then let's just pick after we get there.<CRLF>That kind of thing is surely fun too.
+389	＠Chiyuru_T\nWe've been cleaning up the damage from your explosion, too.\nGetting off with just apology letters\nmeans you should thank the president.
+589	The EN type often has EN attacker, support, and control roles,<CRLF>and many of its characters excel in the rear row!
+601	Controls, on the other hand, inflict status ailments and interference on enemies!<CRLF>Perfect for technical situations that raw firepower can't break through!
+641	May your shopping be even more comfortable, Master!<CRLF>If you ever have trouble, just call me!!
+948	Material budding takes form, granting <color=#ff701a>#</color> random Relic(s) when resting.
+296	Piko-piko-piin!!<CRLF>Piko understood everything! Let's go deepen bonds with the students Master likes! Now's the time!
+626	The amount of funds gained from mining will increase!<CRLF>It's an idle reward you get every day, so every little bit adds up!!
+810	<line-height=2.000em>Ah, <noparse>Dreamer</noparse>! Yoohoo♪
+295	We're about to sortie with everyone from Sirius Sugar,<CRLF>so let's deepen our affection with our comrades in arms first!
+638	Weekly benefits reset every Monday at #:00,<CRLF>so be sure to claim them and don't forget!
+686	<size=36>Random Present Box</size><CRLF>Using it grants a random present item.
+814	<line-height=2.000em>Ehh～? You perv, <noparse>Dreamer</noparse>～♪
+826	<line-height=2.000em>With her cheeks still puffed up,<CRLF>Chiyuru kept poking at unresisting me for a while.
+726	Suddenly light is pouring out from a side path. Feeling reassured by this warm light, we seem to be invited by something<CRLF>
+2	<sprite name=wing_blue_left>Mining<sprite name=wing_blue_right>
+597	Physical attackers excel at dealing damage with physical attacks!<CRLF>They say attack is the best defense, so deploy them actively!
+661	The academy store has all kinds of helpful items,<CRLF>and the student council is sending support to Masters who work hard as commanders!!
+664	It seems the student council introduced a VIP membership system,<CRLF>and buying it gives you various support, so give it a look♪
+699	Just by setting Memories,<CRLF><color=#0096ff>they provide various effects in battle</color>!!
+765	<line-height=2.000em>Even after class ended,<CRLF>I spotted Nanairo continuing her physical training alone.
+792	<line-height=2.000em>I see. But if you keep repeating the same routine,<CRLF>won't you get bored?
+799	<line-height=2.000em>Ah, I suppose so... sorry, I hadn't thought that far.<CRLF>Let's not, after a—
+808	<line-height=2.000em>Peeking into the classroom after school,<CRLF>I found Chiyuru in her pilot suit staring at her terminal.
+354	For the # attributes Comical and Clever, you can set # student each!<CRLF>Let's actively set the students you're aiming for!
+396	...Sigh, so bored～. I'm broke lately, and I can't even buy something to kill time, seriously a drag... why does everything in this world cost money...
+624	Piko-piko-n! Did the VIP Rank catch your eye!?<CRLF>VIP Rank gives you benefits and rewards according to your rank!
+704	Then press the confirm button!<CRLF>You can set up to 6 Memories, so savor the memories as you set them♪
+794	<line-height=2.000em>I see... that does sound good!<CRLF>What kind of training do you think would be good?
+804	<line-height=2.000em>With Meru suddenly far more motivated,<CRLF>I ended up keeping her company until dusk.
+984	<size=36>Skill Report II Assortment Set</size><CRLF>An item that grants various Skill Report IIs when used.
+985	<size=36>Skill Report I Assortment Set</size><CRLF>An item that grants various Skill Report Is when used.
+218	<sprite name=wing_blue_left>Menu<sprite name=wing_blue_right>
+263	When a character's turn comes up,<CRLF>their <color=#ff1c0b>"Active Skill"</color> activates
+367	Raise the total affection of Chaos Maiden students by #<space=1.5em>Raise the total affection of Chaos Maiden students by #
+404	<sprite name=wing_blue_left>Formation List<sprite name=wing_blue_right>
+551	<sprite name=wing_blue_left>Extracurricular Activities<sprite name=wing_blue_right>
+568	Piko-piko-n! Master! Are you ready!?<CRLF>To "defeat" Izanami, we'd like to strike the "Yatagarasu" itself, but...
+592	<size=40>Physical Type</size><CRLF>Often has physical attacker and tank roles,<CRLF>and tends toward position aptitude suited to the front row.
+790	<line-height=2.000em>I think your physical ability was already high,<CRLF>so I don't think you'd hold anyone back...
+791	<line-height=2.000em>Even so, when I think I might be able to help someone,<CRLF>I don't want to cut corners.
+156	<sprite name=wing_blue_left>Gacha Details<sprite name=wing_blue_right>
+159	<sprite name=wing_blue_left>Gacha History<sprite name=wing_blue_right>
+260	<color=#fa3c8c>—About the Flow of Battle—</color><CRLF>Action order in battle is decided by a character's action speed
+279	<sprite name=wing_blue_left>Enter Name<sprite name=wing_blue_right>
+317	＠Rami_K<CRLF>＠Meru_M<CRLF>There are researchers like that too.<CRLF>The type who can't see anything around them once they focus.<CRLF>How about it? Want to be my assistant?
+569	First, we need to stop the attacks of the "Amatsu Mikaboshi" that are raiding the Mass Driver!<CRLF>I'll leave it to you which "Amatsu Mikaboshi" to target, Master!
+636	Amount of Funds Obtained from Mining<color=#0096ff>+#%</color>
+639	Shopping makes Master's support richer permanently,<CRLF>but please think of this as just a bonus on top of your purchase!!
+649	<sprite name=wing_blue_left>Change Character<sprite name=wing_blue_right>
+968	<sprite name=wing_blue_left>Skill Enhance<sprite name=wing_blue_right>
+220	<sprite name=wing_blue_left>World Select<sprite name=wing_blue_right>
+440	<sprite name=wing_blue_left>Profile<sprite name=wing_blue_right>
+557	<sprite name=wing_blue_left>Bulk Extracurricular<sprite name=wing_blue_right>
+625	Your VIP Rank rises by shopping at the store!<CRLF>Here are the main benefits! I'll explain each of them!
+633	Login Bonus Missed Compensation Count<color=#0096ff>+# times</color>
+651	<sprite name=wing_blue_left>Bonus Effects<sprite name=wing_blue_right>
+682	You will randomly obtain the following characters　<size=30>*Characters you already own are converted into Limit Break items</size>
+787	<line-height=2.000em>While casually strolling through the school building,<CRLF>I found a girl working hard alone on the grounds—Meru.
+990	<size=36>Skill Report II Selection Box</size><CRLF>An item that lets you choose and obtain a Skill Report II of your liking.
+992	<size=36>Skill Report I Selection Box</size><CRLF>An item that lets you choose and obtain a Skill Report I of your liking.
+460	<sprite name=wing_blue_left>Cleared Formation List<sprite name=wing_blue_right>
+579	Piko-piko-piin!!<CRLF>You may already be aware, but since it's important,<CRLF>I'll explain attributes, types, roles, and aptitude!
+797	<line-height=2.000em>Shoulder presses and lying leg curls,<CRLF>those become possible with two people.
+831	<line-height=2.000em>Is it bad to call you even when I<CRLF>don't have a reason, <noparse>Dreamer</noparse>?
+33	<sprite name=wing_blue_left> Purchased <sprite name=wing_blue_right>
+216	<sprite name=wing_blue_left>My Profile<sprite name=wing_blue_right>
+368	Raise the total affection of Pixis Masur students by #<space=1.5em>Raise the total affection of Pixis Masur students by #
+480	*All items other than paid gems are included as bonuses.<CRLF>*Paid gems expire after #:# on the morning following purchase, valid for # days.
+714	Whoa, something squished underfoot... A Maze Shifter is glaring at me. Even if I run now, I should expect some damage...
+775	<line-height=2.000em>Actually, watching you work so hard pumped me up.<CRLF>Let me burn off this excess energy.
+821	<line-height=2.000em>Ah, no... even if you say that... mmm,<CRLF>having a maiden's secret like this seen is...
+101	In Maze Exploration, you can earn daily rewards according to your area progress.<CRLF>Daily rewards reset every day at #:00.<CRLF>　
+662	The value pack section has regular shops like daily and weekly,<CRLF>and there are also packs you can receive for free periodically, so be sure to claim them!
+679	<size=36>Technical Report (#h)</size><CRLF>An item that grants the technical reports for #h of mining when used.
+722	<sprite name=wing_blue_left>Select Starting Area<sprite name=wing_blue_right>
+828	<line-height=2.000em>After school today, I had arranged to meet Shirona.<CRLF>Peeking into the classroom, she was already waiting alone.
+1008	<sprite name=wing_blue_left>Select Style Card<sprite name=wing_blue_right>
+370	Raise the total affection of Treble Quintet students by #<space=1.5em>Raise the total affection of Treble Quintet students by #
+560	<sprite name=wing_blue_left> Placed all automatically <sprite name=wing_blue_right>
+1018	<sprite name=wing_blue_left>Type Equipment Results<sprite name=wing_blue_right>
+361	<sprite name=wing_blue_left>Shy Wishlist<sprite name=wing_blue_right>
+632	Time-Reduction Collection Count for Mining<color=#0096ff>+# times</color>
+675	<size=36>Training Report (#h)</size><CRLF>An item that grants the training reports for #h of mining when used.
+774	<line-height=2.000em>You must be tired as well,<CRLF>so I'd feel bad making you stay late with me.
+210	<sprite name=wing_blue_left>Smart Wishlist<sprite name=wing_blue_right>
+355	<sprite name=wing_blue_left>Comical Wishlist<sprite name=wing_blue_right>
+359	<sprite name=wing_blue_left>Cute Wishlist<sprite name=wing_blue_right>
+818	<line-height=2.000em>...As a training commander, I have to grasp all of a student's data.<CRLF>So, show me.
+558	<sprite name=wing_blue_left> Extracurricular activity started <sprite name=wing_blue_right>
+766	<line-height=2.000em>Still at it? You shouldn't push yourself too hard.<CRLF>Skill doesn't grow just from the hours or reps you practice.
+972	<sprite name=wing_pink_left> Not enough required materials <sprite name=wing_pink_right>
+70	Performs an EN attack with potency # on a random single enemy (unavoidable), reducing the target's AP and PP by # each.<CRLF>This skill does not activate when fewer than # enemies remain alive.
+96	<sprite name=wing_pink_left> Fully enhanced already <sprite name=wing_pink_right>
+103	Depending on the Tatsumiya Ore obtained inside the Maze, you can perform various upgrades such as exchanging for skill enhancement materials, enhancing type-specific equipment, and boosting mining efficiency.<CRLF> 
+357	<sprite name=wing_blue_left>Aggressive Wishlist<sprite name=wing_blue_right>
+417	<sprite name=wing_blue_left> Unit auto-formed <sprite name=wing_blue_right>
+593	<size=40>EN Type</size><CRLF>Often has EN attacker, support,<CRLF>and control roles,<CRLF>and tends toward position aptitude suited to the rear row.
+650	<sprite name=wing_blue_left> Mining character changed <sprite name=wing_blue_right>
+705	If you <color=#ff1c0b>"Save"</color> here, I can save the Memories<CRLF>along with your state, so make use of it anytime!
+302	<sprite name=wing_blue_left> Items auto-selected <sprite name=wing_blue_right>
+341	By clearing the #-day missions, amazingly!<CRLF><color=#fa3c8c>Kira Clara-chan of Colorful Bouquet joins your team</color>!
+717	I fled, but couldn't dodge all of the Maze Shifter's attacks. I took <color=#00aab9>#%</color> damage.
+789	<line-height=2.000em>I can't be a burden to everyone,<CRLF>so I make sure never to skip physical training.
+796	<line-height=2.000em>Since I'm here anyway, how about training that<CRLF>you can't do without machines? I'll help.
+957	<sprite name=wing_pink_left> Not enough Tatsumiya Ore <sprite name=wing_pink_right>
+989	<sprite name=wing_pink_left> Please select an item <sprite name=wing_pink_right>
+119	There is no penalty for losing.<CRLF>There are many situations you can clear by changing positions or formation, so experiment with different formations.
+635	Amount of Training Reports Obtained from Mining<color=#0096ff>+#%</color>
+761	<sprite name=wing_blue_left> New area unlocked <sprite name=wing_blue_right>
+812	<line-height=2.000em>Ah, you were watching? It's not a problem,<CRLF>I was just looking at my vital data from riding the unit in this suit～♪
+594	<size=40>Agile Type</size><CRLF>Often has physical attacker, support,<CRLF>and control roles,<CRLF>and tends to have position aptitude for both front and rear rows.
+634	Amount of Technical Reports Obtained from Mining<color=#0096ff>+#%</color>
+46	Activates right before being attacked by an enemy's active skill. Raises own defense by up to #% for this action. The defense buff is more effective the more HP you have
+349	<sprite name=wing_pink_left> Unlocks after # recruits <sprite name=wing_pink_right>
+363	# We're a brand-new circle! Everyone is welcome♪<space=1.5em># We're a brand-new circle! Everyone is welcome♪
+598	EN attackers excel at dealing damage with EN attacks!<CRLF>Pairing them front and back with physical attackers<CRLF>for a firepower-focused setup is one strategy too!!
+66	(Concurrent Activation Limit) Activates before the ally deployed in front of you is attacked. Reduces the attacking enemy's skill potency by #% for this action and inflicts "Disfavor" on the target
+269	<color=#fa3c8c>The EX Gauge (Extra Gauge)</color> fills as you consume AP and PP,<CRLF>accumulating in proportion to the amount consumed.
+590	Unlike the EN type, the Agile type<CRLF>often has physical attacker, support, and control roles,<CRLF>and many of its characters excel in both the front and rear rows!
+599	Next, tanks have high HP and defense,<CRLF>so they excel at being placed in the front to protect allies from enemy attacks!<CRLF>You'll want at least one in your formation.
+764	Go on a date with the selected student?<CRLF><size=30><color=#ff1c0b>*This student's affection cannot rise any further</color></size>
+1006	<sprite name=wing_pink_left> Please select a Limit Break item <sprite name=wing_pink_right>
+229	<sprite name=wing_blue_left> Selected [World #-#] <sprite name=wing_blue_right>
+577	Considering that, it seems better to collect characters from the standard pool rather than limited ones<space=1.5em>Considering that, it seems better to collect characters from the standard pool rather than limited ones
+630	<size=30>Purchasing products with DMM Points or credit payment raises your <color=#ff701a>VIP Rank</color></size>
+816	<line-height=2.000em>I mean, it's packed with raw data like my three sizes, you know?<CRLF>Wanting to see that kind of thing makes you a perv～♪
+1010	<sprite name=wing_pink_left> Not enough Limit Break items <sprite name=wing_pink_right>
+99	A roguelite content where you explore the Maze with the students.<CRLF>Inside the Maze, student levels are capped according to your commander rank, so your growth as a commander is also important.<CRLF> 
+824	<line-height=2.000em>...Hey, <noparse>Dreamer</noparse>～!<CRLF>Teasing me like that is mean!
+885	<sprite name=wing_pink_left> Unlocks by clearing Main Quest Chapter #, Section #, #-# <sprite name=wing_pink_right>
+267	Activating a <color=#0096ff>"Passive Skill"</color> consumes<CRLF><color=#0096ff>PP (Passive Points)</color>
+323	<size=36>Momozono Meru's<CRLF>[Clumsy and Pure Future Ace]<CRLF>character episode has been unlocked</size>
+570	Note that while fighting the "Amatsu Mikaboshi" you chose, you cannot fight the others!<CRLF>Once a certain period passes and the phase switches, you'll be able to fight the others!
+610	Placing them in a row they're weak at slightly lowers their stats.<CRLF>Since it's #%, it's not a huge drop,<CRLF>but everyone has strengths and weaknesses, so keep it in mind!
+71	Activates after another ally is attacked by an enemy's active skill. Counterattacks the attacking enemy with potency # EN for # action, inflicting a debuff that reduces the target's damage dealt by #% (stackable)
+124	By clearing main quests, you can raise your mining level.<CRLF>Every # quests, your mining level rises by #, and mining efficiency gradually improves.<CRLF> 
+265	Activating an <color=#ff1c0b>"Active Skill"</color> consumes<CRLF><color=#ff1c0b>AP (Active Points)</color>
+611	That's everything on attributes, types, roles, and aptitude!<CRLF>Form your characters well and aim for the strongest unit!<CRLF>Well then, leave anything else to me!
+28	Obtained <color=#ff701a>#</color> Tatsumiya Ore, but the effects of <color=#00aab9>poison</color> in the next battle seem unavoidable.
+618	Does the three-choice thing in the gacha actually matter? Picking the right one feels like it gives better results more often<space=1.5em>Does the three-choice thing in the gacha actually matter? Picking the right one feels like it gives better results more often
+227	<sprite name=wing_pink_left><color=#ffffff>World #</color><sprite name=wing_pink_right>
+911	Obtained <color=#ff701a>#</color> Tatsumiya Ore, but the effects of <color=#00aab9>burning</color> in the next battle seem unavoidable.
+756	<sprite name=wing_pink_left> Becomes available after limit breaking the character # times <sprite name=wing_pink_right>
+63	Grants self and the single ally with the lowest HP ratio a buff that evades up to # hit of attacks until self finishes # action, and reduces damage taken from the next attack by #% (stackable)
+219	<sprite name=wing_pink_left><color=#ffffff>Created Worlds</color><sprite name=wing_pink_right>
+642	Amount of Funds Obtained from Mining<color=#0096ff>+#%</color><color=#ff701a>(+#)</color>
+701	High-rarity Memories <color=#ff1c0b>have the same effects as Relics in Maze Exploration</color>!<CRLF>And amazingly, unlike Relics, you can take them along any number of times♪
+60	Inflicts Blind on all enemies for # action. The blinded state gives a #% chance for skills to miss.<CRLF>Also attacks a single enemy with potency #, prioritizing the enemy with the most "Disfavor", and reduces the target's attack by #%
+822	<line-height=2.000em>But if it's you, <noparse>Dreamer</noparse>, then... no, still no!<CRLF>These are numbers I let my guard down on and can't show...!
+827	<sprite name=wing_pink_left> Skipping becomes possible after reading all of this character's episodes <sprite name=wing_pink_right>
+268	<color=#0096ff>"Passive Skills"</color> activate under specific conditions,<CRLF>such as <color=#fa3c8c>"before you attack with an active skill"</color>
+340	The ultra-high-performance AI supports Master, so relax and leave it to me!<CRLF>By achieving daily goals, I'll <color=#fa3c8c>give you growth items and gacha tickets</color>!
+1013	Performs an EN attack on a random single enemy with potency <color=#ff701a>#.#</color> (unavoidable), reducing the target's AP and PP by # each.<CRLF>This skill does not activate when fewer than # enemies remain alive.
+865	Recovered Tatsumiya Ore and even collected an extra <color=#ff701a>#%</color> worth, but the MG took <color=#00aab9>#%</color> damage.
+252	<size=40><color=#fa3c8c>—About Attributes—</color></size><CRLF>Each attribute has advantages and disadvantages.<CRLF>Look at the enemy's attribute and deploy characters with the advantageous one.
+118	The player progresses quests as a commander leading the characters.<CRLF>The main quest represents this world's timeline, and the commander and characters advance the story through the main quest.<CRLF> 
+251	<size=40><color=#fa3c8c>—About Positions—</color></size><CRLF>Targeting during battle basically prioritizes front-row units. Place tank characters in the front row.
+253	<size=40><color=#fa3c8c>—About Roles—</color></size><CRLF>Characters are divided into # roles.<CRLF>If you get stuck, try deploying with each one's traits in mind.
+681	<size=36>Normal License</size><CRLF>An item that grants an SR-or-higher student when you collect and use # of them.\n<color=#0096ff>*Rates: SR #% / SSR #%</color>
+862	I thought it was just a swamp, but it seems to be an acidic one! At this rate the MG will break down. However, it seems I dropped Tatsumiya Ore right when I got stuck in the swamp. Besides the ore I dropped, I can see more Tatsumiya Ore in the swamp, but...
+544	I got to Maze # with room to spare, but at # I was wiped out instantly... is up to # just the tutorial? (despair<space=1.5em>I got to Maze # with room to spare, but at # I was wiped out instantly... is up to # just the tutorial? (despair
+48	Activates at turn start. Raises own max HP by #% (irremovable), grants a Damage Link to self and all allies other than self, and transfers #% of damage taken by allies other than self to self.<CRLF>This skill activates only # time per battle
+42	Removes all Damage Link buffs applied to self and raises own attack by #%. Also applies "Heat" to self (irremovable).<CRLF>This skill does not activate in either of the following cases<CRLF>・When own HP is #% or higher<CRLF>・When self has "Heat"
+61	Prioritizes the enemy with the most "Disfavor", inflicting Blind on an enemy row for # action. The blinded state gives a #.#% chance for skills to miss.<CRLF>Also, until self finishes # action, reduces the target single enemy's attack by #% and defense by #% (stackable). The attack/defense debuffs are removed when self is defeated
+105	In the Maze Result tune-up, an exchange limit for skill enhancement materials is set per # day.<CRLF>The exchange limit for skill enhancement materials expands as you advance through areas, so try challenging the deepest part.<CRLF><CRLF>If you can no longer win in other content, try powering up in Maze Exploration.
+422	<size=38><line-height=65>Select how to interrupt<CRLF><CRLF><color=#0096ff>End Exploration</color><CRLF>Claim part of the rewards obtained and end the exploration<CRLF><CRLF><color=#0096ff>Pause</color><CRLF>You can continue playing from where you left off<CRLF>by entering the Maze again
+37	Attacks the single enemy with the highest HP ratio, dealing EN damage equal to #% of the target's current HP. Damage from this attack is capped at #% of own attack.<CRLF>Additionally, if self still has AP when attacking, consumes # AP and reduces the target's AP by #.<CRLF>If self had no AP remaining, reduces, for # actions, the target's attack by #% (stackable)
+54	Attacks nearest single enemy with # potency, then strikes other enemies # times with #.# potency (cannot crit). Grants self "Good Luck" for # action and res…
+313	Momozono Meru "Clumsy and Pure Future Ace" <size=30><color=#6a8181>@Meru_M</color><space=1.5em>Momozono Meru "Clumsy and Pure Future Ace" <size=30><color=#6a8181>@Meru_M</color><space=1.5em>Momozono Meru "Clumsy and Pure Future Ace"…
+382	Tsukigase Chiyuru "Hair's-Breadth Maze Otaku" <size=30><color=#6a8181>@Chiyuru_T</color><space=1.5em>Tsukigase Chiyuru "Hair's-Breadth Maze Otaku" <size=30><color=#6a8181>@Chiyuru_T</color><space=1.5em>Tsukigase Chiyuru "Hair's-Breadth Maze…
+778	<size=40>Affection Lv.</size> <size=75>#</size>    <sprite name="right_arrow" color=#ff701a><sprite name="right_arrow" color=#ff701a><sprite name="right_arrow" color=…
+969	<size=40>Skill Level Lv.</size> <size=75>#</size>    <sprite name="right_arrow" color=#ff701a><sprite name="right_arrow" color=#ff701a><sprite name="right_arrow" col…
+43	If self does not have "Heat", grants self for # action a shield equal to #% of max HP. Also inflicts a debuff on the enemy front row for # action that reduces damage dealt by #% (stackable).<CRLF>If self has "Heat", performs an EN attack on a single enemy with potency # as # hits, recovering own HP by #% of the damage dealt. If this attack defeats the enemy…
+673	<size=40>#DAY Gem Pass</size><CRLF><size=30><size=24>A pass that grants #,# paid gems and, for # days, # free gems daily (bonus) upon purchase\n*Duplicate purchase during the #DAY Gem Pass validity period is not possible. Repurchase becomes possible from #:# on the #th day after purchase\n*If there are statutory provisions…
+674	<size=40>#DAY Student Growth Pass</size><CRLF><size=30><size=24>A pass that grants #,# paid gems and, for # days, # supply item daily (bonus) upon purchase\n*Duplicate purchase during the #DAY Student Growth Pass validity period is not possible. Repurchase becomes possible from #:# on the #th day after purchase\n*If there are statutory provisions…
+157	<sprite name=sentence_blue> A lottery is conducted based on the rates set for each character, # time per draw. Even when drawing multiple times, the lottery is based on those rates.<CRLF><CRLF>Depending on server communication status or other causes, the gacha effects may be skipped or may not display correctly, but the character…
+51	Consumes #% of own current HP and heals the single ally with the lowest HP for #% of the amount consumed.<CRLF>Also grants a Heal Link to the single enemy with the lowest HP ratio and to self until self finishes # action, transferring #% of the healing the target receives to self.<CRLF>This skill does not activate in either of the following cases<CRLF>・An ally with less than #% HP…
+116	This is a progression-type quest where clearing each quest moves you to the next upper-layer quest.<CRLF>Clearing each layer lets you obtain Upgrade Kits needed for Academy Level ups, and, like the main quest, raise your mining level every # quests.<CRLF><CRLF>In attribute Battle Simulate you can also obtain attribute-type Upgrade Kits needed for each attribute's Academy Level up…
+123	Difficulty ENDLESS is a challenge mode where you rack up score against a boss that cannot be defeated.<CRLF>When you deplete the boss's HP, the boss revives at #% HP and the battle continues.<CRLF>On revival, all buffs and debuffs on the boss at that time are removed and its stats are strengthened.<CRLF>Take on a boss that grows stronger the more you defeat it with an optimal formation and aim for a high score…
+126	As you progress the main quest you can view main episodes in between, but the main episodes have points where you are forced to choose as a commander, presented as "Important Choices".<CRLF><CRLF>Once you pick an important choice you cannot change it afterward, so when choosing, check the past log and so on as you decide.<CRLF>The choice made at an important choice scene affects the subsequent epi…
+228	<line-height=60%><size=36>Select World #-#?</size><line-height=100%><CRLF><CRLF><size=30><color=#ff1c0b>*You can create up to # accounts</color></size><CRLF><size=30><color=#ff1c0b>*A…
+121	This is a score-attack exercise through battles with the students of the academy.<CRLF>The difficulty has # stages: NORMAL / HARD / EXPERT / LEGEND / ENDLESS.<CRLF>The enemy unit has a set HP cap, and you earn rewards according to the HP ratio of the damage you deal.<CRLF>Reaching #% HP ratio lets you advance to one difficulty higher.<CRLF>The enemy…
+158	<sprite name=sentence_blue> Gacha Name<CRLF>Standard Gacha<CRLF><CRLF><sprite name=sentence_pink> Gacha Description<CRLF>A gacha usable by consuming paid/free gems or Standard Gacha Tickets. <CRLF> <CRLF>[About Gacha Points] <CRLF>In the Standard Gacha, for every # draw, standar…

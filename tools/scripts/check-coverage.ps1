@@ -18,20 +18,34 @@ function Read-Table([string]$Path) {
     return @{ Strings = $strings; Templates = $templates }
 }
 
-# Mirrors UiTextResolver: digit runs outside a rich text tag become '#'.
+# Mirrors UiTextResolver.NormalizeTemplate: every digit run outside a rich text tag becomes exactly
+# one '#'. The run state is a flag rather than the last written character, so a literal '#' in the
+# text (a source may carry one outside markup, and the template table uses them for colour codes) is
+# still emitted and the run that follows still gets its '#'.
 function Get-TemplateKey([string]$Text) {
     $builder = New-Object System.Text.StringBuilder
     $inTag = $false
+    $inDigits = $false
     foreach ($character in $Text.ToCharArray()) {
         if ($character -eq '<') { $inTag = $true }
         if (-not $inTag -and $character -ge '0' -and $character -le '9') {
-            if ($builder.Length -gt 0 -and $builder[$builder.Length - 1] -ne '#') { $builder.Append('#') | Out-Null }
+            if (-not $inDigits) { $builder.Append('#') | Out-Null }
+            $inDigits = $true
             continue
         }
+        $inDigits = $false
         if ($inTag -and $character -eq '>') { $inTag = $false }
         $builder.Append($character) | Out-Null
     }
     return $builder.ToString()
+}
+
+# UiTextResolver.TryResolve only consults the template table when the normalisation changed the
+# string, so a key without a digit run can never be reached. Returns the usable lookup key, or $null.
+function Get-LookupKey([string]$Text) {
+    $key = Get-TemplateKey $Text
+    if ($key -eq $Text) { return $null }
+    return $key
 }
 
 # Shows backslashes and newlines explicitly so escape drift stays visible.
@@ -45,6 +59,7 @@ function ConvertTo-AsciiDigits([string]$Run) {
     $builder = New-Object System.Text.StringBuilder
     foreach ($character in $Run.ToCharArray()) {
         $code = [int][char]$character
+        # Full-width digits become half-width in a Latin template (UiTextResolver.ToAsciiDigits).
         if ($code -ge 0xFF10 -and $code -le 0xFF19) {
             $builder.Append([char]($code - 0xFF10 + 0x30)) | Out-Null
         }
@@ -53,7 +68,9 @@ function ConvertTo-AsciiDigits([string]$Run) {
     return $builder.ToString()
 }
 
-# Mirrors UiTextResolver.TrySubstituteDigits: one placeholder per digit run, tags are not touched.
+# Mirrors UiTextResolver.TrySubstituteDigits: one template placeholder per digit run of the original,
+# tags are not touched, and the client refuses more than eight substitutions or a placeholder count
+# that does not match the runs.
 function Substitute-Digits([string]$Template, [string]$Original) {
     $runs = New-Object System.Collections.ArrayList
     $inTag = $false
@@ -72,7 +89,7 @@ function Substitute-Digits([string]$Template, [string]$Original) {
         }
     }
     if ($runStart -ge 0) { [void]$runs.Add($Original.Substring($runStart)) }
-    if ($runs.Count -eq 0) { return $null }
+    if ($runs.Count -eq 0 -or $runs.Count -gt 8) { return $null }
 
     $builder = New-Object System.Text.StringBuilder
     $runIndex = 0
@@ -95,10 +112,14 @@ function Substitute-Digits([string]$Template, [string]$Original) {
 # Mirrors UiTextResolver.TryResolve: exact matches first, then the template table.
 function Resolve-Text([string]$Text) {
     if ($table.Strings.ContainsKey($Text)) { return $table.Strings[$Text] }
-    $key = Get-TemplateKey $Text
-    if ($table.Templates.ContainsKey($key)) { return (Substitute-Digits $table.Templates[$key] $Text) }
+    $key = Get-LookupKey $Text
+    if ($null -ne $key -and $table.Templates.ContainsKey($key)) {
+        return (Substitute-Digits $table.Templates[$key] $Text)
+    }
     if ($extra.Strings.ContainsKey($Text)) { return $extra.Strings[$Text] }
-    if ($extra.Templates.ContainsKey($key)) { return (Substitute-Digits $extra.Templates[$key] $Text) }
+    if ($null -ne $key -and $extra.Templates.ContainsKey($key)) {
+        return (Substitute-Digits $extra.Templates[$key] $Text)
+    }
     return $null
 }
 
@@ -157,10 +178,10 @@ $pending = @()
 $covered = @()
 foreach ($text in $seen) {
     if ($table.Strings.ContainsKey($text)) { $covered += $text; continue }
-    $key = Get-TemplateKey $text
-    if ($table.Templates.ContainsKey($key)) { $covered += $text; continue }
+    $key = Get-LookupKey $text
+    if ($null -ne $key -and $table.Templates.ContainsKey($key)) { $covered += $text; continue }
     if ($extra.Strings.ContainsKey($text)) { $pending += $text; continue }
-    if ($extra.Templates.ContainsKey($key)) { $pending += $text; continue }
+    if ($null -ne $key -and $extra.Templates.ContainsKey($key)) { $pending += $text; continue }
     $missing += $text
 }
 

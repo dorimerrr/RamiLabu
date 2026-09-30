@@ -1,0 +1,24 @@
+# Scenario lines for scene 61000701 (Nanairo after-class training episode)
+# Format: <index in scene-dump/61000701.json> <TAB> translation
+# '<LF>' becomes a real line break; the source lines use real line breaks.
+# The trailing block holds the two choice labels, which the dump never records but the scene renders
+# (the zh_Hans.json next to it carries the same two keys).
+00	Even after class ended,<LF>I came across Nanairo still doing physical training on her own.
+01	Still at it? You shouldn't push yourself too hard.<LF>Strength doesn't grow from the time and reps you put in, you know.
+02	Of course, I believe I understand that.
+03	...Even so, if I'm not moving like this,<LF>I end up feeling anxious.
+04	I have far too many shortcomings, after all...
+05	Nanairo...
+06	All right. Then today I'll stick with you<LF>until you're satisfied, Nanairo.
+07	Huh...? No, I never meant to drag you into this...
+08	You must be tired as well,<LF>so I would feel awful making you stay behind with me.
+09	If anything, watching you work so hard gave me energy back.<LF>Let me burn off this surplus energy.
+10	%usernameusernameuserna%-san...
+11	Fufu, then please do.<LF>I'll be taking some of your time.
+12	Then let's do a little more.<LF>But when I say that's enough, you stop right away.
+13	Switching gears is what matters with things like this.<LF>Deciding where to stop sharpens your focus and gives better results.
+14	I see...! Understood.<LF>Then please keep me company, just a little longer.
+15	Yeah. I'll be right here watching over you.
+16	And so Nanairo and I, having wrapped up cleanly,<LF>headed home together.
+@@choice	とことん付き合う	Follow through to the end
+@@choice	ほどほどに付き合う	Keep it moderate

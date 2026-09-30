@@ -1,0 +1,290 @@
+{
+  "moveToStrings": [
+    {
+      "key": "21人入ってます",
+      "value": "21 people inside",
+      "keyPlaceholders": 0,
+      "placeholders": 0,
+      "literals": 1,
+      "observed": "ui-harvest.json",
+      "rekey": null
+    },
+    {
+      "key": "いずれかの生徒のレアリティをSSR+にする",
+      "value": "Raise any student to SSR+",
+      "keyPlaceholders": 0,
+      "placeholders": 0,
+      "literals": 0,
+      "observed": "ui-harvest.json",
+      "rekey": null
+    },
+    {
+      "key": "いずれかの生徒のレアリティをUR+にする",
+      "value": "Raise any student to UR+",
+      "keyPlaceholders": 0,
+      "placeholders": 0,
+      "literals": 0,
+      "observed": "ui-harvest.json",
+      "rekey": null
+    },
+    {
+      "key": "いずれかの生徒のレアリティをURにする",
+      "value": "Raise any student to UR",
+      "keyPlaceholders": 0,
+      "placeholders": 0,
+      "literals": 0,
+      "observed": "ui-harvest.json",
+      "rekey": null
+    },
+    {
+      "key": "いずれかの生徒を1人レアリティをLRにする",
+      "value": "Raise one student to LR",
+      "keyPlaceholders": 0,
+      "placeholders": 0,
+      "literals": 1,
+      "observed": "ui-harvest.json",
+      "rekey": null
+    },
+    {
+      "key": "カオスメイデン生徒たちの親愛度を合計で45上げる<space=1.5em>カオスメイデン生徒たちの親愛度を合計で45上げる",
+      "value": "Raise the Chaos Maiden students' total Affection by 45<space=1.5em>Raise the Chaos Maiden students' total Affection by 45",
+      "keyPlaceholders": 0,
+      "placeholders": 0,
+      "literals": 2,
+      "observed": "round7-todo.tsv",
+      "rekey": null
+    },
+    {
+      "key": "トレブルクインテット生徒たちの親愛度を合計で45上げる<space=1.5em>トレブルクインテット生徒たちの親愛度を合計で45上げる",
+      "value": "Raise the Treble Quintet students' total Affection by 45<space=1.5em>Raise the Treble Quintet students' total Affection by 45",
+      "keyPlaceholders": 0,
+      "placeholders": 0,
+      "literals": 2,
+      "observed": "round7-todo.tsv",
+      "rekey": null
+    },
+    {
+      "key": "ピクシス・マスール生徒たちの親愛度を合計で45上げる<space=1.5em>ピクシス・マスール生徒たちの親愛度を合計で45上げる",
+      "value": "Raise the Pyxis Ma Soeur students' total Affection by 45<space=1.5em>Raise the Pyxis Ma Soeur students' total Affection by 45",
+      "keyPlaceholders": 0,
+      "placeholders": 0,
+      "literals": 2,
+      "observed": "round7-todo.tsv",
+      "rekey": null
+    },
+    {
+      "key": "有償 <color=#ff1c0b>150</color>",
+      "value": "Paid <color=#ff1c0b>150</color>",
+      "keyPlaceholders": 0,
+      "placeholders": 0,
+      "literals": 1,
+      "observed": "ui-harvest.json",
+      "rekey": null
+    }
+  ],
+  "rekey": [
+    {
+      "key": "3日",
+      "value": "# days",
+      "keyPlaceholders": 0,
+      "placeholders": 1,
+      "literals": 1,
+      "observed": "ui-harvest.json",
+      "rekey": "#日"
+    }
+  ],
+  "capExceeded": [
+    {
+      "key": "<size=40>#DAYジェムパス</size>\n<size=30><size=24>購入時に有償ジェム×#,#と#日間、毎日無償ジェム×#（おまけ）が獲得できるパス\\n※#DAYジェムパスの有効期間中の重複購入はできません。購入から#日後の#:#以降に再度購入可能になります\\n※法令で定めがある場…",
+      "value": "<size=40>#DAY Gem Pass</size>\n<size=30><size=24>A pass that grants #,# paid gems and, for # days, # free gems daily (bonus) upon purchase\\n*Duplicate purchase during the #DAY Gem Pass validity period is not possible. Repurchase becomes possible from #:# on the #th day after purchase\\n*If there are statutory provisions…",
+      "keyPlaceholders": 9,
+      "placeholders": 9,
+      "literals": 0,
+      "observed": null,
+      "rekey": null
+    },
+    {
+      "key": "<size=40>#DAY生徒成長パス</size>\n<size=30><size=24>購入時に有償ジェム×#,#と#日間、毎日補給物資×#（おまけ）が獲得できるパス\\n※#DAY生徒成長パスの有効期間中の重複購入はできません。購入から#日後の#:#以降に再度購入可能になります\\n※法令で定めがある場合…",
+      "value": "<size=40>#DAY Student Growth Pass</size>\n<size=30><size=24>A pass that grants #,# paid gems and, for # days, # supply item daily (bonus) upon purchase\\n*Duplicate purchase during the #DAY Student Growth Pass validity period is not possible. Repurchase becomes possible from #:# on the #th day after purchase\\n*If there are statutory provisions…",
+      "keyPlaceholders": 9,
+      "placeholders": 9,
+      "literals": 0,
+      "observed": null,
+      "rekey": null
+    }
+  ],
+  "mismatch": [],
+  "needsCapture": [
+    {
+      "key": "<size=40>30DAYジェムパス</size>\n<size=30>",
+      "value": "<size=40>30-Day Gem Pass</size>\n<size=30>",
+      "keyPlaceholders": 0,
+      "placeholders": 0,
+      "literals": 1,
+      "observed": null,
+      "rekey": null
+    },
+    {
+      "key": "<size=40>30DAY生徒成長パス</size>\n<size=30>",
+      "value": "<size=40>30-Day Student Growth Pass</size>\n<size=30>",
+      "keyPlaceholders": 0,
+      "placeholders": 0,
+      "literals": 1,
+      "observed": null,
+      "rekey": null
+    },
+    {
+      "key": "<size=40>メイズ攻略記念パック</size>\n<size=30>購入時に有償ジェム×3,000と（おまけ）ミッションをクリアすることで\nスペシャルライセンスが最大60獲得できるパック</size>",
+      "value": "<size=40>Maze Conquest Celebration Pack</size>\n<size=30>A pack with 3,000 Paid Gems that also grants up to 60 Special Licenses (bonus) for clearing missions</size>",
+      "keyPlaceholders": 0,
+      "placeholders": 0,
+      "literals": 3,
+      "observed": null,
+      "rekey": null
+    },
+    {
+      "key": "<size=40>メインクエスト攻略記念パック</size>\n<size=30>購入時に有償ジェム×3,000と（おまけ）ミッションをクリアすることで\nスタンダードガチャチケットが最大30獲得できるパック</size>",
+      "value": "<size=40>Main Quest Conquest Celebration Pack</size>\n<size=30>A pack with 3,000 Paid Gems that also grants up to 30 Standard Gacha Tickets (bonus) for clearing missions</size>",
+      "keyPlaceholders": 0,
+      "placeholders": 0,
+      "literals": 3,
+      "observed": null,
+      "rekey": null
+    },
+    {
+      "key": "<size=50>体</size>",
+      "value": "#<size=50> enemies</size>",
+      "keyPlaceholders": 0,
+      "placeholders": 1,
+      "literals": 0,
+      "observed": null,
+      "rekey": null
+    },
+    {
+      "key": "<sprite name=sentence_blue> 個別の提供割合は、小数点第4位以上を表示しているためレアリティ別の合計値または全体の合計値が100％にならない場合があります。",
+      "value": "<sprite name=sentence_blue> Individual drop rates are displayed to 4 decimal places, so the rarity subtotals or the grand total may not equal 100%.",
+      "keyPlaceholders": 0,
+      "placeholders": 0,
+      "literals": 2,
+      "observed": null,
+      "rekey": null
+    },
+    {
+      "key": "<sprite name=wing_blue_left>Daily Missionsを達成しました！",
+      "value": "<sprite name=wing_blue_left>Daily Missions completed!",
+      "keyPlaceholders": 0,
+      "placeholders": 0,
+      "literals": 0,
+      "observed": null,
+      "rekey": null
+    },
+    {
+      "key": "<sprite name=wing_blue_left>ウィッシュリスト<sprite name=wing_blue_right>",
+      "value": "<sprite name=wing_blue_left>Wishlist<sprite name=wing_blue_right>",
+      "keyPlaceholders": 0,
+      "placeholders": 0,
+      "literals": 0,
+      "observed": null,
+      "rekey": null
+    },
+    {
+      "key": "<sprite name=wing_blue_left>ガチャ確率<sprite name=wing_blue_right>",
+      "value": "<sprite name=wing_blue_left>Gacha Rates<sprite name=wing_blue_right>",
+      "keyPlaceholders": 0,
+      "placeholders": 0,
+      "literals": 0,
+      "observed": null,
+      "rekey": null
+    },
+    {
+      "key": "<sprite name=wing_blue_left>クレバーウィッシュリスト<sprite name=wing_blue_right>",
+      "value": "<sprite name=wing_blue_left>Clever Wishlist<sprite name=wing_blue_right>",
+      "keyPlaceholders": 0,
+      "placeholders": 0,
+      "literals": 0,
+      "observed": null,
+      "rekey": null
+    },
+    {
+      "key": "<sprite name=wing_blue_left>ミッション一覧<sprite name=wing_blue_right>",
+      "value": "<sprite name=wing_blue_left>Mission List<sprite name=wing_blue_right>",
+      "keyPlaceholders": 0,
+      "placeholders": 0,
+      "literals": 0,
+      "observed": null,
+      "rekey": null
+    },
+    {
+      "key": "<sprite name=wing_blue_left>購入完了<sprite name=wing_blue_right>",
+      "value": "<sprite name=wing_blue_left>Purchase Complete<sprite name=wing_blue_right>",
+      "keyPlaceholders": 0,
+      "placeholders": 0,
+      "literals": 0,
+      "observed": null,
+      "rekey": null
+    },
+    {
+      "key": "10回<size=30>募集</size>",
+      "value": "Recruit<size=30> 10 times</size>",
+      "keyPlaceholders": 0,
+      "placeholders": 0,
+      "literals": 1,
+      "observed": null,
+      "rekey": null
+    },
+    {
+      "key": "1回<size=30>募集</size>",
+      "value": "Recruit<size=30> once</size>",
+      "keyPlaceholders": 0,
+      "placeholders": 0,
+      "literals": 1,
+      "observed": null,
+      "rekey": null
+    },
+    {
+      "key": "1回限定",
+      "value": "One-Time Only",
+      "keyPlaceholders": 0,
+      "placeholders": 0,
+      "literals": 1,
+      "observed": null,
+      "rekey": null
+    },
+    {
+      "key": "1日1回",
+      "value": "Once a Day",
+      "keyPlaceholders": 0,
+      "placeholders": 0,
+      "literals": 2,
+      "observed": null,
+      "rekey": null
+    },
+    {
+      "key": "30DAYジェムパス",
+      "value": "30-Day Gem Pass",
+      "keyPlaceholders": 0,
+      "placeholders": 0,
+      "literals": 1,
+      "observed": null,
+      "rekey": null
+    },
+    {
+      "key": "30DAY生徒成長パス",
+      "value": "30-Day Student Growth Pass",
+      "keyPlaceholders": 0,
+      "placeholders": 0,
+      "literals": 1,
+      "observed": null,
+      "rekey": null
+    },
+    {
+      "key": "有償 <color=#ff1c0b>1,500</color>",
+      "value": "Paid <color=#ff1c0b>1,500</color>",
+      "keyPlaceholders": 0,
+      "placeholders": 0,
+      "literals": 2,
+      "observed": null,
+      "rekey": null
+    }
+  ]
+}

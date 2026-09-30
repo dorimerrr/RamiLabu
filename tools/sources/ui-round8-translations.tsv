@@ -1,0 +1,16 @@
+# Round 8 interface translations: "<harvest index><TAB><english>".
+# Indices are one-based positions in tools/sources/ui-round8-harvest.json, so a key can never differ
+# from what the game rendered. The last six entries of the harvest that need a new value:
+#
+#   2   Meru answering the commander (the mail/affection line that follows the "assistant" exchange)
+#   3   end-of-period stamp; the value needs one '#' per digit run, which is five here
+#   5   shown instead of the event banner once the period is over
+#   39  present items handed out by the Random Present Box
+#   40  ...
+#   43  ...
+2	My habit of focusing so hard that I lose sight of everything around me... Now I can take it in a positive way. That's thanks to you, too.
+3	Until #/#/# #:#
+5	Outside the event period
+39	Strawberry Shortcake
+40	Mystery Novel
+43	Physical-Type Upgrade Kit
