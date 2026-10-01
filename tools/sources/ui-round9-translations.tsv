@@ -1,0 +1,262 @@
+# Round 9 interface translations: "<harvest index><TAB><english>".
+# Indices are one-based positions in tools/sources/ui-round9-harvest.json (frozen from the batch the user
+# pasted, saved as C:\Users\Andrew\Desktop\translatethis2.txt), so a key can never differ from what the
+# game rendered. Rows whose class is 'exists' are re-translated on purpose: the round replaces them.
+#
+# Escapes: <LF> is a real line break. A backslash-n typed as-is stays a literal backslash + n, which is
+# what the game's own text carries in a few entries. Markup (<size=..>, <color=..>, <sprite ..>,
+# <noparse>, <line-height=..>, <space=..>) is copied through untouched.
+1	If you answer the questionnaire, we will send you <color=#0096ff># Free Gems</color> as a reward at a later date!
+2	Until #/#/# #:#
+3	Piko-piko-piin!!<LF>You may already be aware, but this is important,<LF>so let me explain attributes, types, roles, and aptitudes!
+4	Every character has an attribute,<LF>and attributes have advantages and disadvantages!
+5	First, try pressing the Attribute button!
+6	To see which attributes a character is strong against,<LF>check this table and build your formation accordingly!
+7	<color=#6a8181>MAIN:</color>Comical
+8	<color=#6a8181>MAIN:</color>Strong against Clever.
+9	Characters are divided into # types,<LF>and each type has its own tendencies!
+10	Next, press the Type button!
+11	Physical types tend to fill attacker and tank roles,<LF>and many of them excel in the vanguard!
+12	EN types often fill EN attacker, support, and control roles,<LF>and many of them excel in the rearguard!
+13	Agile types, unlike EN types,<LF>more often fill physical attacker, support, and control roles,<LF>and many excel as both vanguard and rearguard!
+14	<size=40>Physical Type</size><LF>Often fills physical attacker and tank roles,<LF>and tends to have position aptitude for the vanguard.
+15	<size=40>EN Type</size><LF>Often fills EN attacker, support,<LF>and control roles,<LF>and tends to have position aptitude for the rearguard.
+16	<size=40>Agile Type</size><LF>Often fills physical attacker and support,<LF>and control roles,<LF>and tends to have position aptitude for both vanguard and rearguard.
+17	Type is only a tendency, so<LF>let's check the actual roles and position aptitudes!
+18	Character roles are divided into # roles,<LF>and each one has its own part to play!
+19	Next, press the Role button!
+20	Physical attackers excel at dealing damage with physical attacks!<LF>They say attack is the best defence, so work them into your formation!
+21	EN attackers excel at dealing damage with EN attacks!<LF>Pairing them with a physical attacker in front and rear<LF>for a damage-focused setup is another good plan!!
+22	Next, tanks have lots of HP and high defence,<LF>so they excel at holding the vanguard and shielding allies from enemy attacks!<LF>You always want one in your formation.
+23	Supports excel at buffing and healing allies,<LF>so pick the support your formation needs!
+24	Controls, on the other hand, inflict status ailments and interference on enemies!<LF>They are perfect for technical fights that raw damage cannot break through!
+25	<size=40>Physical Attacker</size><LF>A role specialising in physical attacks and dealing damage
+26	<size=40>EN Attacker</size><LF>A role specialising in EN attacks and dealing damage
+27	<size=40>Tank</size><LF>A role specialising in taking hits with high durability and protecting allies
+28	<size=40>Support</size><LF>A role specialising in assisting allies with buffs and healing
+29	<size=40>Control</size><LF>A role specialising in hindering enemies with status ailments and interference
+30	That was a lot at once, but you can check it any time,<LF>so come back whenever you forget!
+31	Some characters have positions they are bad at,<LF>so be a little careful when deciding placements in your formation!
+32	And finally, about position aptitude!
+33	Placing a character in a column they are bad at lowers their stats a little.<LF>It is only #%, so it is not a dramatic drop,<LF>but everyone has strengths and weaknesses, so keep it in mind!
+34	That covers attributes, types, roles, and aptitudes!<LF>Build your characters well and aim for the strongest unit!<LF>And leave anything else to me!
+35	<size=100>Front/Rear</size>
+36	No stat change wherever<LF>they are placed in the front or rear
+37	Use
+38	<size=36>Training Report (#h)</size><LF>An item that grants the training reports for #h of mining when used.
+39	You will obtain the following items
+40	Use Item Container
+41	<size=36>Technical Report (#h)</size><LF>An item that grants the technical reports for #h of mining when used.
+42	Technical Report
+43	<size=36>Funds (#h)</size><LF>An item that grants funds for #h of mining when used.
+44	Funds
+45	<line-height=2.000em>Spend the licenses earned by clearing stages to get characters.\nClearing stages also raises your Commander Rank and Mining Level.
+
+46	Exchange period #d #h left
+47	<sprite name=wing_blue_left>Formation List<sprite name=wing_blue_right>
+48	Formation #
+49	Formation #<ZWSP>
+50	Formation #
+51	Formation #<ZWSP>
+52	Formation #
+53	Formation #<ZWSP>
+54	Formation #
+55	Formation #<ZWSP>
+56	Formation #
+57	Formation #<ZWSP>
+58	Formation #
+59	Formation #<ZWSP>
+60	<sprite name=wing_blue_left> Unit formed automatically <sprite name=wing_blue_right>
+62	Extra Skill
+63	Points Cost
+64	Enemy
+65	Single
+66	Momozono Meru
+75	Time Left: #h #m #s
+76	Time Left: #h #m #s
+77	* All items other than Paid Gems are included as bonuses<LF>* Paid Gems are valid for # days from #:# on the morning after purchase
+78	Flash Sale
+79	We have prepared great deals you can only buy right now!
+80	Comes with a Standard Gacha Ticket as a bonus!
+81	Specified Commercial Transactions Act / Payment Services Act
+82	Time Left: #h #m #s
+83	Time Left: #h #m #s
+84	Time Left: #h #m #s
+85	Time Left: #h #m #s
+86	Extracurricular Activity unlock requirements met!
+87	Main Quest HARD unlock requirements met!
+88	[Extracurricular Activities] unlocked!
+89	Memory unlock requirements met!
+90	<line-height=2.000em>Each dive runs through randomly generated battles and events.\nYou can earn items that raise character skill levels.
+91	Event unlock requirements met!
+92	<noparse>Commander</noparse>
+93	<noparse>Easygoing</noparse>
+94	<noparse>Cool</noparse>
+95	<line-height=2.000em>Optimize your formation and aim for a high score.\nCollect Tactical Drill Records and trade them at the exchange for module enhancement materials.
+96	<line-height=2.000em>Use your spare time to earn all kinds of items.\nDon't forget to take part every day!
+97	<line-height=2.000em>A grand operation alongside the Academy's students.\nTeam up with commanders from every world to bring down boss after boss!
+98	Duration
+99	#min
+100	#min
+101	<sprite name=wing_blue_left>Extracurricular Activities<sprite name=wing_blue_right>
+102	Claim All
+103	Bulk Activity
+104	<sprite name=wing_blue_left>Bulk Extracurricular<sprite name=wing_blue_right>
+105	<sprite name=wing_blue_left> Extracurricular activity started <sprite name=wing_blue_right>
+106	Time Left
+
+107	Piko-piko-n! Master! Are you ready!?<LF>To "defeat" Izanami, we would like to strike the "Yatagarasu" itself, but...
+108	First, we need to stop the attacks of the "Amatsu Mikaboshi" that are raiding the mass driver!<LF>Which "Amatsu Mikaboshi" to target is up to you, Master!
+109	Note that while fighting a chosen "Amatsu Mikaboshi" you cannot fight the others!<LF>Once a set period passes and the phase changes, you will be able to fight the others again!
+110	Zartum All-Out War
+111	Participation: <size=40>#</size><size=32>%</size>
+112	Participation: <size=40>#</size><size=32>%</size>
+113	Total Rewards
+114	Now then, Master! In order to defeat Izanami...<LF>let's take on the "Amatsu Mikaboshi"!
+115	This event contains spoilers up to Chapter #.<LF>Are you sure you want to join the event?
+116	Reward period: until #/#/# #:#
+117	Mission<LF>Not Held
+118	Dorothea
+119	<color=#dddf9d>Pyxis Ma Soeur</color>
+120	<line-height=2.000em>We... were created from the very start as disposable,<LF>existing just to gather resources...?
+121	Kotoha
+122	Double-Headed Axe
+123	<line-height=2.000em>Earth? Descendants of humanity? Amatsukaze...?<LF>You mean we were born to be exploited by those incomprehensible people!?
+124	<line-height=2.000em>Surprisingly, just like Kotoha,<LF>Rami - the one most likely to lose her temper - said it in a calm voice.
+125	<line-height=2.000em>But you know, even if someone we have never met decides our future for us,<LF>we have no obligation to obey them. We just ignore it.
+126	<line-height=2.000em>Honestly, my answer is "so what". Whatever happened long before we were born<LF>doesn't change who Rami and the others are now.
+127	<line-height=2.000em>Rami and the others decide for Rami and the others! What we do from now on, we decide<LF>among ourselves! Nobody else interfere! That's all! ...or something like that?
+128	<line-height=2.000em>...Hmph. I suppose you're right. I never thought I would hear that<LF>from a brat like you.
+129	<line-height=2.000em>Huh!? Who are you calling a brat, huh!? I won't take that from<noparse>Andrew</noparse>'s<LF>tail-wagging, totally-smitten, pride-wrecked mutt of a dog!
+130	Claudia
+131	<color=#d5efd1>Unity Edge</color>
+132	<line-height=2.000em>Pride-wrecked mutt of a dog!? Who is a dog!?<LF>You are starting to annoy me more than Izanami!
+133	<line-height=2.000em>What a coincidence! Rami finds you more annoying than that damn AI too!<LF>How about we settle this before we take down Izanami!? Huh!?
+134	Farfalla
+135	Elena
+136	<color=#c1a3a3>Krasna</color>
+137	Nanairo
+138	<line-height=2.000em>But really, Rami is right. It is shocking,<LF>but I have not the slightest intention of letting Izanami have her way.
+139	Shirona
+140	Chiyuru
+141	<line-height=2.000em>Right. I have no intention of giving it to anyone. Izanami's goal is not<LF>the same as ours. Why we were created does not matter.
+142	Meru
+143	<line-height=2.000em>I think so too. But precisely for that reason, Izanami, who toys with our lives<LF>like a tool, is still someone we have to stop.
+144	<line-height=2.000em>That is right. I feel as though my resolve to settle things with Izanami<LF>has grown firmer.
+145	<line-height=2.000em>Or rather, "to gather resources" aside,<LF>this story has become far too grand for me to follow...
+146	<color=#89f4f3>Disciplinary Committee</color>
+147	<line-height=2.000em>So everything we learned at the Academy about evolution is a lie,<LF>and all our ancestors were created by Izanami?
+148	Karina
+150	<line-height=2.000em>Everyone's ancestors come from the frozen fertilised eggs and the gene data<LF>library that were loaded onto the Amatsukaze.
+152	<line-height=2.000em>Even an emigration ship has a limit to how many people it can carry. ...After settlement, if only the crew<LF>had children, genetic diversity could have run short.
+153	<line-height=2.000em>...To make up for that, the Amatsukaze carried something<LF>called a "Human Genetic Asset Library".
+155	Julie
+156	<color=#ffca96>Pre-Class A</color>
+157	Everyone Present
+158	<line-height=2.000em>...The moment I heard about that "ship" from Pico, everything came back.<LF>I still cannot take it in as my own experience, though...
+159	<line-height=2.000em>I was... a crew member of the interstellar emigration ship "Amatsukaze".
+160	<line-height=2.000em>I came from somewhere other than Zartum Island,<LF>together with Izanami and many of my comrades.
+161	<line-height=2.000em>But honestly, remembering it was not something to be glad about.<LF>Even though I finally remembered. Because--
+162	Suiran
+163	<color=#e4a8a5>Chaos Maiden</color>
+164	<line-height=2.000em>Wait. So <noparse>Andrew</noparse> is from<LF>that vessel...? From what you say, it is from 10,000 years ago, is it not?
+165	<color=#b6e5cc>Treble Quintet</color>
+166	<line-height=2.000em>Yes, yes! So that means <noparse>Andrew</noparse> is,<LF>seriously, an unbelievable age...!
+167	<line-height=2.000em>There is a technology called cold sleep that puts a body into a frozen sleep,<LF>preserving it long-term while preventing ageing.
+168	Flute
+169	<line-height=2.000em>...Hearing that, one thing fell into place for me.<LF>When I admitted him to the Academy, I investigated him thoroughly.
+170	<line-height=2.000em>So there is no doubt that we share a common ancestor -<LF>the "Earthlings" who were driven from their homeland.
+171	<line-height=2.000em>...But there was exactly one decisive difference<LF>between <noparse>Andrew</noparse> and the rest of us.
+172	<line-height=2.000em>The carbon atoms that make up the body - their radioactive isotope ratio.<LF>It was completely different.
+173	Miriam
+174	<line-height=2.000em>............Hey, Harry. Do you understand what they are talking about...?<LF>Amatsukaze...? What is that?
+175	Harriette
+176	<line-height=2.000em>No, is this not the kind of thing that needs explaining from the very beginning...<LF>Well, I am about half lost myself, though.
+177	Lucy
+178	Kate
+179	<line-height=2.000em>The carbon isotope ratio is passed down through the food chain in an ecosystem.<LF>So if you grow up on Zartum Island, the value stays within a set range.
+180	<line-height=2.000em>That is why, for example, the brat over there and I live lives<LF>that are completely different, yet our numbers do not differ much.
+181	<line-height=2.000em>Um, in short... an ecosystem's carbon isotope ratio,<LF>in the end, reflects the carbon isotope ratio contained in the land itself.
+182	<line-height=2.000em>But only <noparse>Andrew</noparse>,<LF>that value was clearly outside our range.
+183	<line-height=2.000em>We know no world but Zartum Island. And in a place like that,<LF>we found a person who seemed to have lived in an environment unlike the island.
+184	<line-height=2.000em>That is why Kotoha and I thought this:<LF>that this person came from "outside this world"--
+185	Xiaohua
+186	<line-height=2.000em>So... the genes are the same, but the material forming your body is different.<LF>The environment you were born and raised in really was different from here.
+
+187	<line-height=2.000em>It does not feel real, somehow... Even when we first met,<LF>I could not tell at all that you were "different" from us.
+188	<line-height=2.000em>"Different" or not, it is only the environment you were raised in.<LF>As living beings we are the same. It is no wonder you could not tell.
+189	<line-height=2.000em>There is one thing that bothers me. When we first met,<LF><noparse>Andrew</noparse> said something.
+190	<line-height=2.000em>In the end, did that mean Izanami taking the resources will leave our society<LF>unable to function... was that the right reading?
+191	<line-height=2.000em>Because it is true that resource depletion from Izanami's plundering<LF>would lead to the extreme decline of Zartum civilisation.
+192	<line-height=2.000em>Humanity surely cannot keep its current numbers and will decline.<LF>A very harsh, sad future awaits.
+193	<line-height=2.000em>But, to take it to an extreme... if civilisation fell back to the Stone Age,<LF>I think mere survival might still be possible.
+194	<line-height=2.000em>Yes. Though it is also possible that <noparse>Andrew</noparse><LF>deliberately chose that wording...
+195	Rosie
+196	<line-height=2.000em>Maybe it is related to the "calamity"<LF>Pico mentioned earlier... was that it?
+197	<line-height=2.000em>"I do not recommend my destruction."<LF>"Rather, it would become irreversible for this world," she said.
+198	Tatiana
+199	Anise
+200	<line-height=2.000em>Oh my... does that mean there is a crisis in the world we have not noticed yet--<LF>not just resource depletion, but something else as well?
+201	Noelle
+202	<line-height=2.000em>"Disposable"--does that mean it is not simply about civilisation collapsing,<LF>but contains something even worse?
+203	Senka
+204	<color=#d2c6ed>Colorful Bouquet</color>
+205	<line-height=2.000em>If <noparse>Andrew</noparse> has his memories back,<LF>surely he knows something...?
+206	<line-height=2.000em><noparse>Andrew</noparse>...<LF>When the Amatsukaze is repaired, what will become of us?
+207	<line-height=2.000em>To start with, the words I said before, the "calamity",<LF>and Izanami's "irreversible thing" are all separate matters.
+208	Aoi
+209	Uruu
+210	<line-height=2.000em>Sorry for the confusion, everyone.<LF>First, "defeating" Izanami means--
+211	Energy Cartridge
+212	Boost Cartridge
+213	Currency used for gacha, the exchange, and more.
+214	Momozono Meru [Clumsy and Pure Future Ace]'s Style Card
+215	<size=36>Skip?
+216	Event<LF>Daily
+217	Event Exchange
+218	Pickup Gacha Ticket
+219	An item that lets you pull the pickup gacha.\nYou can scout # student.
+220	#d #h left
+221	Episode Release Event
+222	Pickup Gacha Ticket<space=1.5em>Pickup Gacha Ticket
+223	Left: #/#
+224	Clever Skill Report II
+225	Shy Skill Report II
+226	Aggressive Skill Report II<space=1.5em>Aggressive Skill Report II
+227	Owned: #
+228	Exchanges: #/#
+229	<sprite name=wing_blue_left>Confirm Exchange<sprite name=wing_blue_right>
+230	Exchange
+231	Owned: #
+232	Smart Skill Report II
+233	Owned: #
+234	Owned: #
+235	EN Attacker
+236	Piko-n!! Master!!<LF>The Wishlist has been unlocked, so let us take a look right away!
+237	Wishlist unlock requirements met!
+238	The Wishlist lets you narrow down which students come out of the gacha!
+239	The # attributes Aggressive, Smart, Shy, and Cute can each have students set in # slots!
+240	The # attributes Comical and Clever can each have students set in # slot!<LF>Set the students you are aiming for!
+241	Left: #/#
+242	Cute Skill Report II
+243	Left: #/#
+244	Physical-Type Upgrade Kit<space=1.5em>Physical-Type Upgrade Kit
+245	Left: #/#
+246	EN-Type Upgrade Kit<space=1.5em>EN-Type Upgrade Kit
+247	Left: #/#
+248	Left: #/#
+249	Agile-Type Upgrade Kit<space=1.5em>Agile-Type Upgrade Kit
+250	Aggressive Upgrade Kit<space=1.5em>Aggressive Upgrade Kit
+251	Smart Upgrade Kit<space=1.5em>Smart Upgrade Kit
+252	Shy Upgrade Kit<space=1.5em>Shy Upgrade Kit
+253	Cute Upgrade Kit<space=1.5em>Cute Upgrade Kit
+254	Comical Upgrade Kit<space=1.5em>Comical Upgrade Kit
+255	Clever Upgrade Kit<space=1.5em>Clever Upgrade Kit
+256	Technical Report (#h)<space=1.5em>Technical Report (#h)
+257	Left: #/#
+258	Physical-Type Module Blueprint<space=1.5em>Physical-Type Module Blueprint
+259	EN-Type Module Blueprint<space=1.5em>EN-Type Module Blueprint
+260	Agile-Type Module Blueprint<space=1.5em>Agile-Type Module Blueprint
+261	No Exchange Limit
+262	Left: #/#
+
