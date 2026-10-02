@@ -1,0 +1,127 @@
+# Scene 10280101 translations: "<dump index><TAB><english>". Indices are zero-based positions in the
+# scene dump (C:\Users\Andrew\muv_luv_girlsgardenx_cl\BepInEx\plugins\MuvluvMod\translation\scene-dump\
+# 10280101.json, 118 keys), so a key can never differ from what the game rendered. The keys are taken from
+# the dump, never retyped, and the player name stays the %usernameusernameuserna% placeholder.
+#
+# The scene had no en.json at all ("Scenario translation load failed: 10280101"), so every line is new.
+# Escapes: <LF> is a real line break. Sentences that also reach the interface table (the UI log reports
+# scenario text too) keep the same wording there and here.
+0	...Right. Ah, that's right.
+1	I--
+2	I set out on a journey.
+3	Together with my precious comrades.
+4	Into that vast, vast space--
+5	And then, I--
+6	I committed a sin.
+7	We... were created from the very start as disposable,<LF>existing just to gather resources...?
+8	Don't be ridiculous!!
+9	Earth?　Descendants of humanity?　Amatsukaze...?<LF>You mean we were born to be exploited by those incomprehensible people!?
+10	Come on, calm down.
+11	Surprisingly, just like Kotoha,<LF>Rami - the one most likely to lose her temper - said it in a calm voice.
+12	Huh?　Aren't you angry!?
+13	Obviously. I'm pissed as hell.
+14	Then how about--
+15	But you know, even if someone we have never met decides our future for us,<LF>we have no obligation to obey them. We just ignore it.
+16	Honestly, my answer is "so what". Whatever happened long before we were born<LF>doesn't change who Rami and the others are now.
+17	Rami and the others decide for Rami and the others! What we do from now on, we decide<LF>among ourselves! Nobody else interfere! That's all! ...or something like that?
+18	............
+19	...Hmph. I suppose you're right. I never thought I would hear that<LF>from a brat like you.
+20	Huh!?　Who are you calling a brat, huh!? I won't take that from %usernameusernameuserna%'s<LF>tail-wagging, totally-smitten, pride-wrecked mutt of a dog!
+21	Tail...!
+22	Pride-wrecked mutt of a dog!?　Who is a dog!?<LF>You are starting to annoy me more than Izanami!
+23	What a coincidence!　Rami finds you more annoying than that damn AI too!<LF>How about we settle this before we take down Izanami!?　Huh!?
+24	...Honestly, could you two not fight even at a time like this?
+25	Kotoha, I see you have no complaints about the smitten part...
+26	Elena, I'll bite you!!
+27	She really is a dog after all!?
+28	But really, Rami is right. It is shocking,<LF>but I have not the slightest intention of letting Izanami have her way.
+29	Our lives, our souls, our will--they are ours.
+30	Right. I have no intention of giving it to anyone. Izanami's goal is not<LF>the same as ours. Why we were created does not matter.
+31	I think so too. But precisely for that reason, Izanami, who toys with our lives<LF>like a tool, is still someone we have to stop.
+32	That is right. I feel as though my resolve to settle things with Izanami<LF>has grown firmer.
+33	Or rather, "to gather resources" aside,<LF>this story has become far too grand for me to follow...
+34	So everything we learned at the Academy about evolution is a lie,<LF>and all our ancestors were created by Izanami?
+35	..."Created" might be putting it a little inaccurately.
+36	%usernameusernameuserna%...?
+37	Everyone's ancestors come from the frozen fertilised eggs and the gene data<LF>library that were loaded onto the Amatsukaze.
+38	%usernameusernameuserna%...?　What's this all of a sudden...
+39	Even an emigration ship has a limit to how many people it can carry. ...After settlement, if only the crew<LF>had children, genetic diversity could have run short.
+40	...To make up for that, the Amatsukaze carried something<LF>called a "Human Genetic Asset Library".
+41	From there, the beings that are the ancestors of today's Zartum people were made.
+42	%usernameusernameuserna%, was that just now--
+43	Ah!　Master!　Does that mean you have "come back"!?
+44	...Yeah.
+45	Y-you came back...?
+46	No way--
+47	Yes!　Your me-mo-ries!　They are back!
+48	!!
+49	Really!?
+50	...The moment I heard about that "ship" from Pico, everything came back.<LF>I still cannot take it in as my own experience, though...
+51	I was... a crew member<LF>of the interstellar emigration ship "Amatsukaze".
+52	...!?
+53	I came from somewhere other than Zartum Island,<LF>together with Izanami and many of my comrades.
+54	But honestly, remembering it was not something to be glad about.<LF>Even though I finally remembered. Because--
+55	Wait. So %usernameusernameuserna% is from<LF>that vessel...?　From what you say, it is from 10,000 years ago, is it not?
+56	Yes, yes!　So that means %usernameusernameuserna% is,<LF>seriously, an unbelievable age...!
+57	I did not actually spend 10,000 years awake.
+58	There is a technology called cold sleep that puts a body into a frozen sleep,<LF>preserving it long-term while preventing ageing.
+59	That is how I slept until quite recently. Along with the other crew members.
+60	...Hearing that, one thing fell into place for me.<LF>When I admitted him to the Academy, I investigated him thoroughly.
+
+61	...But in the end, there was no difference at all between our genetic structure and yours.
+62	So there is no doubt that we share a common ancestor -<LF>the "Earthlings" who were driven from their homeland.
+63	...But there was exactly one decisive difference<LF>between %usernameusernameuserna% and the rest of us.
+64	The carbon atoms that make up the body--their radioactive isotope ratio.<LF>It was completely different.
+65	Naturally, that would be the case.
+66	............Hey, Harry. Do you understand what they are talking about...?<LF>Amatsukaze...?　What is that?
+67	No, is this not the kind of thing that needs explaining from the very beginning...<LF>Well, I am about half lost myself, though.
+68	...Same here. Times like this, it is inconvenient to be uneducated.
+69	I will explain the gist of it later.
+70	Thank you...!
+71	The carbon isotope ratio is passed down through the food chain in an ecosystem.<LF>So if you grow up on Zartum Island, the value stays within a set range.
+72	That is why, for example, the brat over there and I live lives<LF>that are completely different, yet our numbers do not differ much.
+73	Oh, picking a fight again?　Because I'll take it.
+74	Please do not start something at every opening in the middle of an important discussion...
+75	Um, in short... an ecosystem's carbon isotope ratio,<LF>in the end, reflects the carbon isotope ratio contained in the land itself.
+76	But only %usernameusernameuserna%,<LF>that value was clearly outside our range.
+77	We know no world but Zartum Island. And in a place like that,<LF>we found a person who seemed to have lived in an environment unlike the island.
+78	That is why Kotoha and I thought this:<LF>that this person came from "outside this world"--
+79	Outside... the world...
+80	So... the genes are the same, but the material forming your body is different.<LF>The environment you were born and raised in really was different from here.
+81	That is right.
+82	It does not feel real, somehow... Even when we first met,<LF>I could not tell at all that you were "different" from us.
+83	First met...
+84	"Different" or not, it is only the environment you were raised in.<LF>As living beings we are the same. It is no wonder you could not tell.
+85	...Um, excuse me. May I have a moment?
+86	What is it?
+87	I am sorry to derail the conversation, but...
+88	There is one thing that bothers me. When we first met,<LF>%usernameusernameuserna% said something.
+89	"This world is about to be destroyed"...
+90	In the end, did that mean Izanami taking the resources will leave our society<LF>unable to function... was that the right reading?
+91	It just stayed with me, somehow...
+92	Because it is true that resource depletion from Izanami's plundering<LF>would lead to the extreme decline of Zartum civilisation.
+93	Humanity surely cannot keep its current numbers and will decline.<LF>A very harsh, sad future awaits.
+94	But, to take it to an extreme... if civilisation fell back to the Stone Age,<LF>I think mere survival might still be possible.
+95	...So "destruction" sounds like an exaggeration, then.
+96	Yes. Though it is also possible that %usernameusernameuserna%<LF>deliberately chose that wording...
+97	Maybe it is related to the "calamity"<LF>Pico mentioned earlier... was that it?
+98	Now that you mention it, Izanami said something strange too.
+99	"I do not recommend my destruction."<LF>"Rather, it would become irreversible for this world," she said.
+100	Mm. At the time I thought it was just a threat... a bluff...
+101	Oh my... does that mean there is a crisis in the world we have not noticed yet--<LF>not just resource depletion, but something else as well?
+102	What!?　There is more!?
+103	"Disposable"--does this mean it is not simply about civilisation collapsing,<LF>but contains something even worse?
+104	If %usernameusernameuserna% has his memories back,<LF>surely he knows something...?
+105	%usernameusernameuserna%...<LF>When the Amatsukaze is repaired, what will become of us?
+106	...Let me explain in order.
+107	To start with, the words I said before, the "calamity",<LF>and Izanami's "irreversible thing" are all separate matters.
+108	Separate... matters?
+109	I-I give up, I cannot follow any of this...
+110	Hm...?　Oh...?
+111	Sorry for the confusion, everyone.<LF>First, "defeating" Izanami means--
+112	Piko-piko-piin!　Everyone, this is serious!
+113	What is it!?　We are in the middle of something important...!
+114	Izanami's main server has vanished!!
+115	!?
+116	What did you say!?
+117	The vault we are heading for is already empty!!

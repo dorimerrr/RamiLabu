@@ -46,14 +46,22 @@ client never reads this folder: it downloads `translation/**` from a CDN, verifi
 | `BepInEx\LogOutput.log`, `…\translation\scene-dump\` *(outside the repo)* | harvest output of the running game |
 | `C:\Users\Andrew\Desktop\Airi` *(outside the repo)* | clone of the mod's source (`anosu/MuvluvMod`): **read-only reference** — `src\MuvluvMod\Services\UiTextResolver.cs`, `TranslationHash.cs`, `TranslationCache.cs`, and `artifacts\ui-coverage\` (a `net8.0` harness that runs the real resolver). `artifacts\` is gitignored scratch. **Never translate there.** |
 
-Live counts at the time of writing (`hash=e36d5fb03fe178e2cb69b601be95d2db`):
+Live counts at the time of writing (`hash=23508e383a4112f98340aab60d7031fd`):
 
 | category | file | contents |
 | --- | --- | --- |
-| `ui` | `ui/en.json` | 1,093 strings + 296 templates |
+| `ui` | `ui/en.json` | 1,147 strings + 294 templates |
 | `names` | `names/en.json` | 655 speaker names + 41 team names |
 | `static` | `static/en.json` | 67 MasterData classes, 101 property paths, 21,092 entries (many still identity) |
-| `scenes` | `scenes/<id>/en.json` | 627 English scene files out of 1,120 scene directories |
+| `scenes` | `scenes/<id>/en.json` | 628 English scene files out of 1,120 scene directories |
+
+Round 9 (the batch saved as `C:\Users\Andrew\Desktop\translatethis2.txt`, 478 log lines / 321 unique) added
+`tools/sources/ui-round9-*.{json,tsv}` plus `tools/scripts/{build,check}-round9.js`, re-translating every
+entry it named - including 92 strings and 18 templates that already had a value - and completed
+`translation/scenes/10280101/en.json` (118 dump lines) after the log reported
+`Scenario translation load failed: 10280101`. Its records are
+`tools/reports/round9-scene-keys.json` (the lines that belong to that scene rather than the interface
+table) and `tools/snapshots/ui-en-pre-round9.json`.
 
 ## 2. What the client does with the data (the rules your entries must satisfy)
 
@@ -247,7 +255,8 @@ reproduced and reviewed later.
    * `scene-<id>-translations.tsv` — `<dump index><TAB>translation`, plus one
      `@@choice<TAB><japanese label><TAB>translation` row per choice the scene renders (the dump never
      records those, so they are keyed by their source text)
-   * Escapes: `<LF>` → real line break, `<CRLF>` → `\r\n`, and a literal backslash-n is written `\\n`
+   * Escapes: `<LF>` → real line break, `<ZWSP>` → U+200B (a few of the game's own labels carry it),
+     `<CRLF>` → `\r\n` **rejected** — the engine never renders a CR — and a literal backslash-n is written `\\n`
      and stays literal. A key written with a doubled backslash can never match a rendered string.
 4. **Build.** Start from the newest builder: `node tools\scripts\build-round7.js` for an interface-only
    round (the harvest JSON, the TSV), or `node tools\scripts\build-scenes-round7.js` for the scenario
@@ -318,7 +327,14 @@ checkout is the real thing. When the two disagree, the harness wins.
 * `manifest.js` only catalogues `translation/<category>/<language>.json`. Nothing under `tools/`, and
   not the scripts or docs, is hashed — editing tooling can never move a hash or reach the game.
 * An entry whose value equals its key, or whose value is empty, is dropped by the client; adding such a
-  placeholder does nothing at all.
+  placeholder does nothing at all. A harvest entry that is *already* English is the same trap in disguise:
+  the UI log reports scenario text it renders too, and translating an English sentence can only produce
+  the identical value.
+* `Scenario translation load failed: <id>` in the log means no `translation/scenes/<id>/en.json` exists:
+  build it from that scene's dump (round 9 did this for `10280101` with
+  `node tools/scripts/build-scenes-round9.js`), not from the log text, whose scenario lines carry the
+  substituted player name and the `<line-height=…>` prefix the key must not have. `node
+  tools/scripts/check-round9.js` fails if a reported scene line is missing from that table.
 * Template entries are all-or-nothing. If a value has the wrong number of `#`, the entry is ignored and
   the game keeps showing Japanese — no error, no partial translation.
 * CR-bearing keys can never match (audit: `node tools/scripts/audit-scene-newlines.js` and
