@@ -143,3 +143,6 @@ translation/scenes/fix_italics.py
 translation/static/key_updater.py
 translation/scenes/key_updater.py
 translation/key_updater.py
+
+# Prepared workflow previews; frozen batches are kept in tools/batches/
+tools/builds/

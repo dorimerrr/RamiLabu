@@ -226,6 +226,16 @@ Do **not** hand-edit the cache instead. With `PreferLocalFiles = false`, a cache
 does not match the manifest is rejected and re-downloaded on the next launch (the classic symptom is a
 `JSON resource validation failed` warning in the log followed by the edit vanishing).
 
+## 3.1 Reusable workflow for new batches
+
+Use [WORKFLOW.md](WORKFLOW.md) and tools/workflow/cli.js for new authoring work.
+The generic workflow freezes source keys separately, imports service results as drafts, requires review,
+checks protected tokens and formatting, builds a preview, and applies English output with its manifest.
+Historical round scripts remain for reproducibility. Run npm run check:staged before committing;
+the new pre-commit hook validates staged English files and their manifest without rewriting files.
+Enable it in a new checkout with npm run workflow:install-hook. npm run manifest now runs en only.
+Inherited validation problems are audited separately; changed entries must pass the stricter checks.
+
 ## 4. The round workflow (translating a batch of new strings)
 
 Rounds 4 and 5 established the pattern; every round keeps its sources of record in `tools/` so it can be
@@ -314,11 +324,7 @@ checkout is the real thing. When the two disagree, the harness wins.
 
 * `manifest.js` defaults to **`zh_Hans`**. `node manifest.js` without arguments rewrites the wrong
   manifest; always pass `en`.
-* `npm install` runs `prepare: husky`, and `.husky/pre-commit` runs `npm run manifest`
-  (`node manifest.js zh_Hans en`) after refusing to commit when translation files are unstaged or
-  untracked. So the hook regenerates the **`zh_Hans`** manifest, not `en`. `core.hooksPath` is unset on
-  this machine, so no hook runs here — do not rely on it for `en`, and expect the checks on a machine
-  where Husky is active.
+* `npm install` runs `prepare: husky`. The rebuilt `.husky/pre-commit` runs the read-only staged validator, not a manifest generator. Enable it with `npm run workflow:install-hook`; generate and stage the English manifest yourself before committing.
 * `core.autocrlf=true`: the worktree holds CRLF, the repository stores LF, and the generator writes
   `os.EOL` (CRLF). Line-ending warnings on `git add` are expected and harmless.
 * `translation/scene-dump/` is excluded through `.git/info/exclude` (not the shared `.gitignore`), so
@@ -356,8 +362,7 @@ checkout is the real thing. When the two disagree, the harness wins.
   from a scene dump.
 * Raw GitHub can serve a stale manifest for a minute or two after a push. If the in-game hash is the old
   one, restart the client before debugging anything else.
-* `zh_Hans` files are upstream's data. The generator rewrites both languages if you run
-  `npm run manifest`, which will produce a large unrelated diff — never commit that.
+* `zh_Hans` files are upstream's data. `npm run manifest` now generates **en only**; never pass `zh_Hans` during English work.
 
 ## 8. Pointers
 

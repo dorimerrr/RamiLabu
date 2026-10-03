@@ -3,8 +3,14 @@
   "private": false,
   "scripts": {
     "start": "node app.js",
-    "manifest": "node manifest.js zh_Hans en",
-    "prepare": "husky"
+    "manifest": "node manifest.js en",
+    "prepare": "husky",
+    "workflow": "node tools/workflow/cli.js",
+    "check": "node tools/workflow/cli.js check",
+    "check:staged": "node tools/workflow/cli.js check --staged",
+    "audit": "node tools/workflow/cli.js audit",
+    "test": "node --test tools/workflow/test/workflow.test.js",
+    "workflow:install-hook": "git config core.hooksPath .husky"
   },
   "devDependencies": {
     "husky": "^9.1.7"

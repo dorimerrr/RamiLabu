@@ -1,5 +1,8 @@
 # tools — English translation working material
 
+> **New batches:** use the reusable CLI documented in [WORKFLOW.md](../WORKFLOW.md).
+> The round scripts and snapshots below are retained as historical records.
+
 Repository: `C:\Users\Andrew\Desktop\RamiLabu`, published as `dorimerrr/RamiLabu` (branch `main`) and
 served to the game through `CdnURL`.
 Live game cache: `C:\Users\Andrew\muv_luv_girlsgardenx_cl\BepInEx\plugins\MuvluvMod\translation`.
